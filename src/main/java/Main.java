@@ -1,13 +1,20 @@
 import com.alibaba.fastjson.JSON;
+import com.jfoenix.assets.JFoenixResources;
+import com.jfoenix.controls.JFXDecorator;
+import com.jfoenix.svg.SVGGlyph;
+import io.datafx.controller.flow.Flow;
+import io.datafx.controller.flow.container.DefaultFlowContainer;
+import io.datafx.controller.flow.context.FXMLViewFlowContext;
+import io.datafx.controller.flow.context.ViewFlowContext;
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.event.EventHandler;
-import javafx.fxml.FXMLLoader;
+import javafx.collections.ObservableList;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuItem;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -23,8 +30,11 @@ public class Main extends Application {
 
     static MyContentMenu contextMenu;
     static HashMap<String, Client> clientMap = new HashMap<>(); //<ID,Client>
-    static HashMap<String, Parent> UIMap = new HashMap<>(); //<ID,Parent>
+    public static HashMap<String, Parent> UIMap = new HashMap<>(); //<ID,Parent>
     static List<Client> clientList;
+
+    @FXMLViewFlowContext
+    private ViewFlowContext flowContext;
 
     public static void main(String[] args) {
         launch(args);
@@ -32,30 +42,51 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("AutoServer.fxml"));
-        Scene scene = new Scene(root, 1500, 800);
-        stage.setTitle("FXML Welcome");
-        stage.setScene(scene);
-        stage.show();
+        //方式1
+        //Parent root = FXMLLoader.load(getClass().getResource("AutoServer.fxml"));
+        //FXMLLoader loader = FXMLLoader.load(getClass().getResource("AutoServer.fxml"));
+
+        //方式2
+        Flow flow = new Flow(MainController.class);
+        DefaultFlowContainer container = new DefaultFlowContainer();
+        flowContext = new ViewFlowContext();
+        flowContext.register("Stage", stage);
+        flow.createHandler(flowContext).start(container);
+
+        JFXDecorator decorator = new JFXDecorator(stage, container.getView());
+        decorator.setCustomMaximize(true);
+        decorator.setGraphic(new SVGGlyph(""));
+
+
+        stage.setTitle("Auto Server");
+
+        double width = 800;
+        double height = 600;
+        try {
+            Rectangle2D bounds = Screen.getScreens().get(0).getBounds();
+            width = bounds.getWidth() / 2.5;
+            height = bounds.getHeight() / 1.35;
+        } catch (Exception e) {
+        }
+
+        //Scene scene = new Scene(root, 1500, 800);
+        //Scene scene = new Scene(root, width, height);
+        Scene scene = new Scene(decorator, width, height);
 
         stage.setOnCloseRequest(t -> {
             Platform.exit();
             System.exit(0);
         });
 
-        contextMenu = new MyContentMenu();
-        MenuItem cut = new MenuItem("Cut");
-        MenuItem copy = new MenuItem("Copy");
-        MenuItem paste = new MenuItem("Paste");
-        contextMenu.getItems().addAll(cut, copy, paste);
+        final ObservableList<String> stylesheets = scene.getStylesheets();
+        stylesheets.addAll(JFoenixResources.load("css/jfoenix-fonts.css").toExternalForm(),
+                JFoenixResources.load("css/jfoenix-design.css").toExternalForm(),
+                Main.class.getResource("/css/jfoenix-main-demo.css").toExternalForm());
+        stage.setScene(scene);
+        stage.show();
 
-        cut.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-            clientMap.get(source.getId()).queryStatus();
-        });
-        copy.setOnAction(event -> System.out.println("Copy..."));
-        paste.setOnAction(event -> System.out.println("Paste..."));
+
+
     }
 
 
@@ -69,7 +100,7 @@ public class Main extends Application {
             clients1.forEach(client -> {
                 clientMap.put(client.getID(), client);
             });
-            System.out.println(clients1);
+            //System.out.println(clients1);
 
             //获取本机ip
             try (final DatagramSocket socket = new DatagramSocket()) {

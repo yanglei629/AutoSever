@@ -1,6 +1,19 @@
-import org.apache.http.conn.ConnectTimeoutException;
+import com.alibaba.fastjson.JSON;
+import dto.Status;
+import javafx.application.Platform;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.BorderPane;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpConnectTimeoutException;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.time.Duration;
+import java.util.concurrent.CompletionException;
 
 public class Client {
     public static final Logger logger = LogManager.getLogger(Client.class);
@@ -10,17 +23,127 @@ public class Client {
     private String ip;
     private int port = 9000;
     private String group;
-    private Status status = Status.OFFLINE;
+    private State state = State.OFFLINE;
 
+    //client
+    HttpClient httpClient = HttpClient.newBuilder()
+            .version(HttpClient.Version.HTTP_1_1)
+            .followRedirects(HttpClient.Redirect.NORMAL)
+            .connectTimeout(Duration.ofSeconds(10))
+            .build();
+
+
+    //状态
     public void queryStatus() {
         try {
-            //http://localhost:8080/status
-            HttpClientUtil.doGet("http://" + this.ip + ":" + (0 == this.port ? "8080" : this.port) + "/" + "status");
-        } catch (ConnectTimeoutException e) {
-            logger.warn(e.getMessage());
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create("http://" + getIp() + ":9000/" + "client/status"))
+                    .timeout(Duration.ofSeconds(5))
+                    .header("Content-Type", "application / json")
+                    .build();
+
+            httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                    .whenComplete((resp, err) -> {
+                        //请求失败
+                        //logger.warn(err.getMessage());
+                        if (this.getState() == State.OFFLINE) return;
+                        this.setState(State.OFFLINE);
+                        if (null != err) {
+                            if (err instanceof CompletionException) {
+                                System.out.println("err");
+                            }
+                            if (err instanceof HttpConnectTimeoutException) {
+                                System.out.println("time out");
+                            }
+                            Platform.runLater(() -> {
+                                BorderPane pane = (BorderPane) Main.UIMap.get(getID());
+                                Image image = new Image("client_offline3.png", true);
+                                pane.setTop(new ImageView(image));
+                            });
+                        }
+                    }).thenApply(HttpResponse::body)
+                    .thenAccept(response -> {
+                        //请求成功
+                        Status status = JSON.parseObject(String.valueOf(response), Status.class);
+                        System.out.println(status);
+                        Platform.runLater(() -> {
+                            BorderPane pane = (BorderPane) Main.UIMap.get(getID());
+                            Image image;
+                            if (!status.message.equals("OFFLINE")) {
+                                if (this.getState() == State.ONLINE) return;
+                                this.setState(State.ONLINE);
+                                image = new Image("client_offline2.png", true);
+                            } else {
+                                if (this.getState() == State.OK) return;
+                                this.setState(State.OK);
+                                image = new Image("client_online2.png", true);
+                            }
+                            pane.setTop(new ImageView(image));
+                        });
+                    });
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }
+    }
+
+
+    //关闭
+    public boolean close() {
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("http://" + getIp() + ":9000/" + "client/close"))
+                .timeout(Duration.ofSeconds(5))
+                .build();
+
+        httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                .whenComplete((resp, err) -> {
+                    //请求失败
+                    logger.warn(err.getMessage());
+                    if (null != err) {
+
+                    }
+                }).thenApply(HttpResponse::body)
+                .thenAccept(response -> {
+                    //请求成功
+                });
+        return true;
+    }
+
+    public boolean deleteFile() {
+
+        System.out.println("delete");
+        return false;
+    }
+
+    public boolean executeScript() {
+
+        return true;
+    }
+
+    //启动程序
+    public boolean startProcess() {
+        return false;
+    }
+
+
+    //更新
+    public boolean update() {
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("http://" + getIp() + ":9000/" + "client/update"))
+                .timeout(Duration.ofSeconds(10))
+                .build();
+
+        httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                .whenComplete((resp, err) -> {
+                    //请求失败
+                    logger.warn(err.getMessage());
+                    if (null != err) {
+
+                    }
+                }).thenApply(HttpResponse::body)
+                .thenAccept(response -> {
+                    //请求成功
+                });
+        return true;
     }
 
     public String getID() {
@@ -63,12 +186,12 @@ public class Client {
         this.group = group;
     }
 
-    public Status getStatus() {
-        return status;
+    public State getState() {
+        return state;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setState(State state) {
+        this.state = state;
     }
 
     @Override
@@ -79,7 +202,7 @@ public class Client {
                 ", ip='" + ip + '\'' +
                 ", port=" + port +
                 ", group='" + group + '\'' +
-                ", status=" + status +
+                ", state=" + state +
                 '}';
     }
 }
