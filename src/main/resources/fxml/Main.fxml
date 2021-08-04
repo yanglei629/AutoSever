@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.layout.FlowPane?>
-
-<?import javafx.scene.layout.StackPane?>
-<?import com.jfoenix.controls.JFXRippler?>
-<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.*?>
 <?import com.jfoenix.transitions.hamburger.HamburgerBackArrowBasicTransition?>
-<?import com.jfoenix.controls.JFXToolbar?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.VBox?>
-<?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXDialogLayout?>
-<?import com.jfoenix.controls.JFXDialog?>
-<StackPane fx:id="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<?import javafx.scene.layout.*?>
+<StackPane fx:id="root" xmlns:fx="http://javafx.com/fxml/1"
+           xmlns="http://javafx.com/javafx/2.2">
     <BorderPane>
         <top>
             <VBox>
@@ -41,15 +32,26 @@
                 </JFXToolbar>
             </VBox>
         </top>
+        <left>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"
+                  style="-fx-background-color: #AAB2BD">
+                <children>
+                    <VBox layoutY="32.0" prefHeight="225.0" prefWidth="200.0">
+                        <JFXButton onAction="#home" prefHeight="38.0" prefWidth="200.0" text="HOME"></JFXButton>
+                        <JFXButton onAction="#page2" prefHeight="38.0" prefWidth="200.0" text="PAGE 2"></JFXButton>
+                    </VBox>
+                </children>
+            </Pane>
+        </left>
         <center>
-            <!--客户端-->
-            <ScrollPane fitToHeight="true" fitToWidth="true" minHeight="-Infinity"
-                        minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
-                <content>
-                    <FlowPane fx:id="flowPane" prefHeight="469.0" prefWidth="581.0">
-                    </FlowPane>
-                </content>
-            </ScrollPane>
+            <AnchorPane BorderPane.alignment="CENTER">
+                <children>
+                    <StackPane fx:id="contentArea" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                               AnchorPane.rightAnchor="0.0">
+                    </StackPane>
+                </children>
+            </AnchorPane>
+
         </center>
     </BorderPane>
 

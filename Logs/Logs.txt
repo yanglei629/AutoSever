@@ -8301,3 +8301,466 @@ WARN  2021/07/30 18:04:05 [100 ] Client          - java.net.http.HttpConnectTime
 WARN  2021/07/30 18:04:10 [100 ] Client          - java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 WARN  2021/07/30 18:04:16 [100 ] Client          - java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 WARN  2021/07/30 18:04:23 [100 ] Client          - java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+INFO  2021/08/03 22:06:30 [46  ] HttpClientUtil  - http://172.20.10.2:9000/
+INFO  2021/08/03 22:06:51 [46  ] HttpClientUtil  - http://172.20.10.2:9000/
+INFO  2021/08/03 22:22:58 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/03 22:22:59 [67  ] MainController  - check client state
+INFO  2021/08/04 09:41:42 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:41:42 [68  ] MainController  - check client state
+INFO  2021/08/04 09:42:03 [68  ] MainController  - check client state
+INFO  2021/08/04 09:42:23 [68  ] MainController  - check client state
+INFO  2021/08/04 09:42:43 [68  ] MainController  - check client state
+INFO  2021/08/04 09:43:03 [68  ] MainController  - check client state
+INFO  2021/08/04 09:43:23 [68  ] MainController  - check client state
+INFO  2021/08/04 09:43:36 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:43:36 [68  ] MainController  - check client state
+INFO  2021/08/04 09:44:41 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:44:41 [68  ] MainController  - check client state
+INFO  2021/08/04 09:45:11 [68  ] MainController  - check client state
+INFO  2021/08/04 09:45:41 [68  ] MainController  - check client state
+INFO  2021/08/04 09:46:13 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:46:13 [68  ] MainController  - check client state
+INFO  2021/08/04 09:46:43 [68  ] MainController  - check client state
+INFO  2021/08/04 09:47:37 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:47:38 [68  ] MainController  - check client state
+INFO  2021/08/04 09:48:08 [68  ] MainController  - check client state
+INFO  2021/08/04 09:49:30 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:49:30 [68  ] MainController  - check client state
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+WARN  2021/08/04 09:49:35 [70  ] Client          - err
+INFO  2021/08/04 09:56:56 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 09:56:56 [68  ] MainController  - check client state
+INFO  2021/08/04 09:57:27 [68  ] MainController  - check client state
+INFO  2021/08/04 09:57:57 [68  ] MainController  - check client state
+INFO  2021/08/04 09:58:27 [68  ] MainController  - check client state
+INFO  2021/08/04 09:58:57 [68  ] MainController  - check client state
+INFO  2021/08/04 09:59:27 [68  ] MainController  - check client state
+INFO  2021/08/04 09:59:57 [68  ] MainController  - check client state
+INFO  2021/08/04 10:00:27 [68  ] MainController  - check client state
+INFO  2021/08/04 12:07:57 [89  ] Client          - request status success
+INFO  2021/08/04 12:07:57 [91  ] Client          - dto.Status@7c0c3f29
+INFO  2021/08/04 12:08:55 [89  ] Client          - request status success
+INFO  2021/08/04 12:08:55 [91  ] Client          - dto.Status@6578f0b5
+INFO  2021/08/04 12:09:37 [89  ] Client          - request status success
+INFO  2021/08/04 12:09:37 [91  ] Client          - dto.Status@223b998
+INFO  2021/08/04 14:26:41 [89  ] Client          - request status success
+INFO  2021/08/04 14:26:41 [90  ] Client          - {"errorCode":-1,"status":"OFFLINE"}
+INFO  2021/08/04 14:31:44 [89  ] Client          - request status success
+INFO  2021/08/04 14:31:44 [90  ] Client          - {"errorCode":-1,"status":"OFFLINE"}
+INFO  2021/08/04 15:34:28 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:34:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:34:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:35:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:35:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:36:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:36:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:37:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:37:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:38:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:38:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:39:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:39:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:40:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:40:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:41:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:41:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:42:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:42:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:43:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:43:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:44:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:44:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:45:29 [68  ] MainController  - check client state
+INFO  2021/08/04 15:45:59 [68  ] MainController  - check client state
+INFO  2021/08/04 15:46:30 [68  ] MainController  - check client state
+INFO  2021/08/04 15:47:00 [68  ] MainController  - check client state
+INFO  2021/08/04 15:47:30 [68  ] MainController  - check client state
+INFO  2021/08/04 15:48:00 [68  ] MainController  - check client state
+INFO  2021/08/04 15:48:30 [68  ] MainController  - check client state
+INFO  2021/08/04 15:49:04 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:49:05 [68  ] MainController  - check client state
+INFO  2021/08/04 15:49:35 [68  ] MainController  - check client state
+INFO  2021/08/04 15:50:05 [68  ] MainController  - check client state
+INFO  2021/08/04 15:50:38 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:50:39 [68  ] MainController  - check client state
+INFO  2021/08/04 15:51:08 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:51:09 [68  ] MainController  - check client state
+INFO  2021/08/04 15:51:39 [68  ] MainController  - check client state
+INFO  2021/08/04 15:51:47 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:51:48 [68  ] MainController  - check client state
+INFO  2021/08/04 15:52:16 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:52:16 [68  ] MainController  - check client state
+INFO  2021/08/04 15:52:46 [68  ] MainController  - check client state
+INFO  2021/08/04 15:53:16 [108 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 15:53:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:53:47 [68  ] MainController  - check client state
+INFO  2021/08/04 15:54:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:54:47 [68  ] MainController  - check client state
+INFO  2021/08/04 15:55:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:55:47 [68  ] MainController  - check client state
+INFO  2021/08/04 15:56:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:56:47 [68  ] MainController  - check client state
+INFO  2021/08/04 15:57:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:57:47 [68  ] MainController  - check client state
+INFO  2021/08/04 15:58:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:58:47 [68  ] MainController  - check client state
+INFO  2021/08/04 15:59:17 [68  ] MainController  - check client state
+INFO  2021/08/04 15:59:47 [68  ] MainController  - check client state
+INFO  2021/08/04 16:00:17 [68  ] MainController  - check client state
+INFO  2021/08/04 16:00:47 [68  ] MainController  - check client state
+INFO  2021/08/04 16:01:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:01:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:02:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:02:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:03:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:03:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:04:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:04:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:05:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:05:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:06:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:06:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:07:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:07:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:08:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:08:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:09:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:09:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:10:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:10:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:11:18 [68  ] MainController  - check client state
+INFO  2021/08/04 16:11:48 [68  ] MainController  - check client state
+INFO  2021/08/04 16:12:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:12:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:13:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:13:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:14:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:14:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:15:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:15:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:16:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:16:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:17:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:17:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:18:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:18:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:19:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:19:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:20:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:20:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:21:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:21:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:22:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:22:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:23:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:23:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:24:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:24:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:25:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:25:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:26:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:26:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:27:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:27:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:28:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:28:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:29:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:29:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:30:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:30:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:31:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:31:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:32:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:32:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:33:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:33:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:34:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:34:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:35:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:35:49 [68  ] MainController  - check client state
+INFO  2021/08/04 16:36:19 [68  ] MainController  - check client state
+INFO  2021/08/04 16:36:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:37:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:37:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:38:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:38:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:39:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:39:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:40:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:40:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:41:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:41:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:42:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:42:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:43:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:43:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:44:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:44:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:45:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:45:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:46:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:46:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:47:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:47:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:48:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:48:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:49:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:49:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:50:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:50:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:51:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:51:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:52:20 [68  ] MainController  - check client state
+INFO  2021/08/04 16:52:50 [68  ] MainController  - check client state
+INFO  2021/08/04 16:53:11 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 16:53:50 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 16:53:50 [80  ] MainController  - check client state
+INFO  2021/08/04 16:54:20 [80  ] MainController  - check client state
+INFO  2021/08/04 16:54:50 [80  ] MainController  - check client state
+INFO  2021/08/04 16:55:21 [80  ] MainController  - check client state
+INFO  2021/08/04 16:55:45 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 16:55:45 [80  ] MainController  - check client state
+INFO  2021/08/04 16:56:15 [80  ] MainController  - check client state
+INFO  2021/08/04 16:56:45 [80  ] MainController  - check client state
+INFO  2021/08/04 16:56:57 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 16:56:57 [80  ] MainController  - check client state
+INFO  2021/08/04 16:57:27 [80  ] MainController  - check client state
+INFO  2021/08/04 16:57:41 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 16:57:42 [80  ] MainController  - check client state
+INFO  2021/08/04 16:58:12 [80  ] MainController  - check client state
+INFO  2021/08/04 16:58:16 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 16:58:17 [80  ] MainController  - check client state
+INFO  2021/08/04 16:58:47 [80  ] MainController  - check client state
+INFO  2021/08/04 16:59:17 [80  ] MainController  - check client state
+INFO  2021/08/04 16:59:47 [80  ] MainController  - check client state
+INFO  2021/08/04 17:00:17 [80  ] MainController  - check client state
+INFO  2021/08/04 17:00:47 [80  ] MainController  - check client state
+INFO  2021/08/04 17:01:12 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:01:12 [80  ] MainController  - check client state
+INFO  2021/08/04 17:01:42 [80  ] MainController  - check client state
+INFO  2021/08/04 17:02:01 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:02:01 [81  ] MainController  - check client state
+INFO  2021/08/04 17:02:01 [81  ] MainController  - check client state
+INFO  2021/08/04 17:02:31 [81  ] MainController  - check client state
+INFO  2021/08/04 17:02:32 [81  ] MainController  - check client state
+INFO  2021/08/04 17:03:01 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:03:01 [80  ] MainController  - check client state
+INFO  2021/08/04 17:03:31 [80  ] MainController  - check client state
+INFO  2021/08/04 17:04:01 [80  ] MainController  - check client state
+INFO  2021/08/04 17:04:31 [80  ] MainController  - check client state
+INFO  2021/08/04 17:05:07 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:05:29 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:05:45 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:06:13 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:06:14 [80  ] MainController  - check client state
+INFO  2021/08/04 17:06:44 [80  ] MainController  - check client state
+INFO  2021/08/04 17:07:14 [80  ] MainController  - check client state
+INFO  2021/08/04 17:07:38 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:07:39 [27  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:07:39 [80  ] MainController  - check client state
+INFO  2021/08/04 17:08:09 [80  ] MainController  - check client state
+INFO  2021/08/04 17:08:43 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:08:44 [80  ] MainController  - check client state
+INFO  2021/08/04 17:09:14 [80  ] MainController  - check client state
+INFO  2021/08/04 17:09:36 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:09:50 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:09:50 [80  ] MainController  - check client state
+INFO  2021/08/04 17:10:03 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:10:04 [33  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:10:04 [80  ] MainController  - check client state
+INFO  2021/08/04 17:10:34 [80  ] MainController  - check client state
+INFO  2021/08/04 17:11:05 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:11:05 [80  ] MainController  - check client state
+INFO  2021/08/04 17:11:28 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:11:29 [80  ] MainController  - check client state
+INFO  2021/08/04 17:12:01 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:12:02 [80  ] MainController  - check client state
+INFO  2021/08/04 17:12:32 [80  ] MainController  - check client state
+INFO  2021/08/04 17:12:46 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:12:47 [80  ] MainController  - check client state
+INFO  2021/08/04 17:13:03 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:13:04 [33  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:13:04 [80  ] MainController  - check client state
+INFO  2021/08/04 17:13:34 [80  ] MainController  - check client state
+INFO  2021/08/04 17:13:57 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:13:57 [26  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:13:57 [80  ] MainController  - check client state
+INFO  2021/08/04 17:14:27 [80  ] MainController  - check client state
+INFO  2021/08/04 17:14:58 [80  ] MainController  - check client state
+INFO  2021/08/04 17:15:28 [80  ] MainController  - check client state
+INFO  2021/08/04 17:15:58 [80  ] MainController  - check client state
+INFO  2021/08/04 17:16:28 [80  ] MainController  - check client state
+INFO  2021/08/04 17:16:58 [80  ] MainController  - check client state
+INFO  2021/08/04 17:17:28 [105 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:18:16 [104 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:18:42 [104 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:18:56 [104 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:18:57 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:18:57 [80  ] MainController  - check client state
+INFO  2021/08/04 17:19:22 [104 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:19:22 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:19:22 [80  ] MainController  - check client state
+INFO  2021/08/04 17:19:33 [104 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:19:33 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:19:33 [80  ] MainController  - check client state
+INFO  2021/08/04 17:19:36 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:19:40 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:20:03 [80  ] MainController  - check client state
+INFO  2021/08/04 17:20:33 [80  ] MainController  - check client state
+INFO  2021/08/04 17:21:03 [80  ] MainController  - check client state
+INFO  2021/08/04 17:21:33 [80  ] MainController  - check client state
+INFO  2021/08/04 17:21:53 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:22:01 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:22:03 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:22:03 [80  ] MainController  - check client state
+INFO  2021/08/04 17:22:33 [80  ] MainController  - check client state
+INFO  2021/08/04 17:22:54 [104 ] Main            - IP:192.168.0.104
+INFO  2021/08/04 17:22:55 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:22:55 [80  ] MainController  - check client state
+INFO  2021/08/04 17:23:02 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:23:06 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:23:08 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:23:09 [24  ] Main            - 生成客户端UI
+INFO  2021/08/04 17:23:25 [80  ] MainController  - check client state

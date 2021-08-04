@@ -6,6 +6,7 @@ import io.datafx.controller.ViewController;
 import io.datafx.controller.flow.context.FXMLViewFlowContext;
 import io.datafx.controller.flow.context.ViewFlowContext;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.control.Label;
@@ -24,6 +25,9 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import javax.annotation.PostConstruct;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
 
 
 @ViewController(value = "/fxml/Main.fxml", title = "Material Design Example")
@@ -37,7 +41,7 @@ public final class MainController extends Main {
     private StackPane root;
 
     @FXML
-    private FlowPane flowPane;
+    private JButton ss;
 
     @FXML
     private JFXDialog dialog;
@@ -47,6 +51,8 @@ public final class MainController extends Main {
     @FXML
     private JFXButton acceptButton;
 
+    @FXML
+    private StackPane contentArea;
 
     public MainController() {
     }
@@ -56,26 +62,44 @@ public final class MainController extends Main {
     private void initialize() {
         context = new ViewFlowContext();
 
-        clientList.forEach(client -> {
-            generateClient(client);
-        });
+        //*****
+        try {
+            Parent fxml = FXMLLoader.load(getClass().getResource("/fxml/home.fxml"));
+            contentArea.getChildren().removeAll();
+            contentArea.getChildren().setAll(fxml);
+        } catch (IOException exception) {
+            logger.warn(exception.getMessage(), exception);
+        }
+
 
         //检测客户端状态
         new Thread(
                 () -> {
                     try {
-                        logger.info("check client state");
                         while (true) {
+                            logger.info("check client state");
                             clientList.forEach(client -> {
                                 client.queryStatus();
                             });
-                            Thread.sleep(20000);
+                            Thread.sleep(30000);
                         }
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
+                    } catch (Throwable e) {
+                        logger.warn(e.getMessage(), e);
                     }
                 }
         ).start();
+    }
+
+    public void home(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent fxml = FXMLLoader.load(getClass().getResource("fxml/home.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
+    }
+
+    public void page2(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent fxml = FXMLLoader.load(getClass().getResource("fxml/page2.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
     }
 
 
@@ -147,34 +171,5 @@ public final class MainController extends Main {
 
             clientMap.get(source.getId()).executeScript();
         });
-    }
-
-
-    public void generateClient(Client client) {
-        BorderPane pane = new BorderPane();
-
-        Image image = new Image("client_offline3.png", true);
-        ImageView imageView = new ImageView(image);
-        BorderPane.setAlignment(imageView, Pos.CENTER);
-        pane.setTop(imageView);
-        Label label = new Label();
-        label.setText(client.getName() == null ? "" : client.getName());
-        label.setAlignment(Pos.CENTER);
-        label.setStyle("-fx-background-color: transparent");
-        label.setTextFill(Paint.valueOf("black"));
-        BorderPane.setAlignment(label, Pos.CENTER);
-        pane.setBottom(label);
-        pane.setStyle("-fx-background-color: blanchedalmond");
-        pane.setStyle("-fx-background-color: transparent");
-        pane.setPrefSize(100, 100);
-        pane.setId(client.getID() == null ? "" : client.getID());
-        pane.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
-            if (event.getButton() == MouseButton.SECONDARY) {
-                contextMenu.show(pane, event.getScreenX(), event.getScreenY(), (Parent) event.getSource());
-            }
-        });
-
-        flowPane.getChildren().add(pane);
-        UIMap.put(pane.getId(), pane);
     }
 }

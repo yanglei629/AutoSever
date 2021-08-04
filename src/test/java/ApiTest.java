@@ -105,7 +105,7 @@ public class ApiTest {
 
 
     public static void main(String[] args) throws InterruptedException {
-        Thread thread = new Thread();
+        /*Thread thread = new Thread();
         thread.setDaemon(true);
         ApiTest api = new ApiTest();
 
@@ -113,7 +113,14 @@ public class ApiTest {
         api.status();
 
         //close
-        //api.close();
+        //api.close();*/
+
+        Client client = new Client();
+        client.setID("test");
+        client.setName("test");
+        client.setGroup("ni");
+        client.setIp("192.168.0.104");
+        client.queryStatus();
 
         Thread.sleep(10000);
     }

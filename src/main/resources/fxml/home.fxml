@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.ScrollPane?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="Home"
+      prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <!--客户端页面-->
+        <ScrollPane fitToHeight="true" fitToWidth="true" minHeight="-Infinity"
+                    minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+            <content>
+                <FlowPane fx:id="flowPane" prefHeight="469.0" prefWidth="581.0">
+                </FlowPane>
+            </content>
+        </ScrollPane>
+    </children>
+</Pane>

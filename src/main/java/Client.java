@@ -1,3 +1,8 @@
+import com.alibaba.excel.annotation.ExcelIgnore;
+import com.alibaba.excel.annotation.ExcelProperty;
+import com.alibaba.excel.annotation.write.style.ColumnWidth;
+import com.alibaba.excel.annotation.write.style.ContentStyle;
+import com.alibaba.excel.annotation.write.style.HeadStyle;
 import com.alibaba.fastjson.JSON;
 import dto.Status;
 import javafx.application.Platform;
@@ -6,6 +11,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.poi.ss.usermodel.VerticalAlignment;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -15,17 +22,31 @@ import java.net.http.HttpResponse;
 import java.time.Duration;
 import java.util.concurrent.CompletionException;
 
+@ContentStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
+@HeadStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
 public class Client {
+    @ExcelIgnore
     public static final Logger logger = LogManager.getLogger(Client.class);
 
+    @ExcelIgnore
     private String ID;
+    @ExcelProperty("机台名")
+    @ColumnWidth(15)
     private String name;
+    @ExcelProperty("IP地址")
+    @ContentStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
+    @ColumnWidth(20)
     private String ip;
+    @ExcelIgnore
     private int port = 9000;
+    @ExcelProperty("机型")
+    @ColumnWidth(10)
     private String group;
+    @ExcelIgnore
     private State state = State.OFFLINE;
 
     //client
+    @ExcelIgnore
     HttpClient httpClient = HttpClient.newBuilder()
             .version(HttpClient.Version.HTTP_1_1)
             .followRedirects(HttpClient.Redirect.NORMAL)
@@ -36,25 +57,26 @@ public class Client {
     //状态
     public void queryStatus() {
         try {
+            String uri = "http://" + getIp() + ":9000/" + "client/status";
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("http://" + getIp() + ":9000/" + "client/status"))
+                    .uri(URI.create(uri))
                     .timeout(Duration.ofSeconds(5))
-                    .header("Content-Type", "application / json")
                     .build();
 
             httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
                     .whenComplete((resp, err) -> {
-                        //请求失败
-                        //logger.warn(err.getMessage());
-                        if (this.getState() == State.OFFLINE) return;
-                        this.setState(State.OFFLINE);
                         if (null != err) {
+                            //请求失败
                             if (err instanceof CompletionException) {
-                                System.out.println("err");
+                                //logger.warn("err");
                             }
                             if (err instanceof HttpConnectTimeoutException) {
-                                System.out.println("time out");
+                                //logger.warn("time out");
                             }
+
+                            if (this.getState() == State.OFFLINE) return;
+                            this.setState(State.OFFLINE);
+
                             Platform.runLater(() -> {
                                 BorderPane pane = (BorderPane) Main.UIMap.get(getID());
                                 Image image = new Image("client_offline3.png", true);
@@ -64,12 +86,13 @@ public class Client {
                     }).thenApply(HttpResponse::body)
                     .thenAccept(response -> {
                         //请求成功
+                        logger.info("request status success");
+                        logger.info(response);
                         Status status = JSON.parseObject(String.valueOf(response), Status.class);
-                        System.out.println(status);
                         Platform.runLater(() -> {
                             BorderPane pane = (BorderPane) Main.UIMap.get(getID());
                             Image image;
-                            if (!status.message.equals("OFFLINE")) {
+                            if (!status.status.equals("OFFLINE")) {
                                 if (this.getState() == State.ONLINE) return;
                                 this.setState(State.ONLINE);
                                 image = new Image("client_offline2.png", true);

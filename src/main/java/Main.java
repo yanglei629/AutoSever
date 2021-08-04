@@ -12,7 +12,6 @@ import javafx.collections.ObservableList;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.MenuItem;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import org.apache.commons.io.IOUtils;
@@ -57,7 +56,6 @@ public class Main extends Application {
         decorator.setCustomMaximize(true);
         decorator.setGraphic(new SVGGlyph(""));
 
-
         stage.setTitle("Auto Server");
 
         double width = 800;
@@ -84,9 +82,6 @@ public class Main extends Application {
                 Main.class.getResource("/css/jfoenix-main-demo.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
-
-
-
     }
 
 

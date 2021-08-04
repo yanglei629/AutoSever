@@ -270,10 +270,10 @@
     "group": "ni"
   },
   {
-    "ID": "TET-45",
-    "Name": "TET-45",
+    "ID": "TNI-45",
+    "Name": "TNI-45",
     "IP": "10.65.52.119",
-    "group": "eagle"
+    "group": "ni"
   },
   {
     "ID": "TNI-46",
