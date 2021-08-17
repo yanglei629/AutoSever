@@ -1,866 +1,1258 @@
 [
   {
-    "ID": "TNI-02",
-    "Name": "TET-02",
-    "IP": "10.65.42.11",
-    "group": "ni"
+    "id": "TNI-02",
+    "name": "TNI-02",
+    "group": "ni",
+    "ip": "10.65.42.11",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-05",
+    "name": "TNI-05",
+    "group": "ni",
+    "ip": "10.65.93.173",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-06",
+    "name": "TNI-06",
+    "group": "ni",
+    "ip": "10.65.93.157",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-09",
+    "name": "TNI-09",
+    "group": "ni",
+    "ip": "10.65.93.186",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-12",
+    "name": "TNI-12",
+    "group": "ni",
+    "ip": "10.65.93.111",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-13",
+    "name": "TNI-13",
+    "group": "ni",
+    "ip": "10.65.93.192",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-14",
+    "name": "TNI-14",
+    "group": "ni",
+    "ip": "10.65.93.135",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-15",
+    "name": "TNI-15",
+    "group": "ni",
+    "ip": "10.65.93.145",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-17",
+    "name": "TNI-17",
+    "group": "ni",
+    "ip": "10.65.93.170",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-18",
+    "name": "TNI-18",
+    "group": "ni",
+    "ip": "10.65.93.217",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-20",
+    "name": "TNI-20",
+    "group": "ni",
+    "ip": "10.65.93.147",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-21",
+    "name": "TNI-21",
+    "group": "ni",
+    "ip": "10.65.93.194",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-24",
+    "name": "TNI-24",
+    "group": "ni",
+    "ip": "10.65.93.240",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-33",
-    "Name": "TET-33",
-    "IP": "10.65.42.127",
-    "group": "ni"
+    "id": "TNI-25",
+    "name": "TNI-25",
+    "group": "ni",
+    "ip": "10.65.93.152",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-34",
-    "Name": "TET-34",
-    "IP": "10.65.42.128",
-    "group": "ni"
+    "id": "TNI-26",
+    "name": "TNI-26",
+    "group": "ni",
+    "ip": "10.65.93.123",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-35",
-    "Name": "TET-35",
-    "IP": "10.65.42.129",
-    "group": "ni"
+    "id": "TNI-27",
+    "name": "TNI-27",
+    "group": "ni",
+    "ip": "10.65.93.178",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-36",
-    "Name": "TET-36",
-    "IP": "10.65.42.130",
-    "group": "ni"
+    "id": "TNI-28",
+    "name": "TNI-28",
+    "group": "ni",
+    "ip": "10.65.93.101",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-37",
-    "Name": "TET-37",
-    "IP": "10.65.42.131",
-    "group": "ni"
+    "id": "TNI-29",
+    "name": "TNI-29",
+    "group": "ni",
+    "ip": "10.65.93.102",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-38",
-    "Name": "TET-38",
-    "IP": "10.65.42.230",
-    "group": "ni"
+    "id": "TNI-30",
+    "name": "TNI-30",
+    "group": "ni",
+    "ip": "10.65.93.227",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-39",
-    "Name": "TET-39",
-    "IP": "10.65.42.231",
-    "group": "ni"
+    "id": "TNI-31",
+    "name": "TNI-31",
+    "group": "ni",
+    "ip": "10.65.93.199",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-40",
-    "Name": "TET-40",
-    "IP": "10.65.42.232",
-    "group": "ni"
+    "id": "TNI-33",
+    "name": "TNI-33",
+    "group": "ni",
+    "ip": "10.65.130.142",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-41",
-    "Name": "TET-41",
-    "IP": "10.65.42.233",
-    "group": "ni"
+    "id": "TNI-34",
+    "name": "TNI-34",
+    "group": "ni",
+    "ip": "10.65.130.143",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-42",
-    "Name": "TET-42",
-    "IP": "10.65.42.234",
-    "group": "ni"
+    "id": "TNI-36",
+    "name": "TNI-36",
+    "group": "ni",
+    "ip": "10.65.130.145",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-43",
-    "Name": "TET-43",
-    "IP": "10.65.42.236",
-    "group": "ni"
+    "id": "TNI-38",
+    "name": "TNI-38",
+    "group": "ni",
+    "ip": "10.65.130.147",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-60",
-    "Name": "TET-60",
-    "IP": "10.65.99.35",
-    "group": "ni"
+    "id": "TNI-41",
+    "name": "TNI-41",
+    "group": "ni",
+    "ip": "10.65.42.233",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-61",
-    "Name": "TET-61",
-    "IP": "10.65.42.237",
-    "group": "ni"
+    "id": "TNI-43",
+    "name": "TNI-43",
+    "group": "ni",
+    "ip": "10.65.42.236",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-62",
-    "Name": "TET-62",
-    "IP": "10.65.42.238",
-    "group": "ni"
+    "id": "TNI-45",
+    "name": "TNI-45",
+    "group": "ni",
+    "ip": "10.65.93.119",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-63",
-    "Name": "TET-63",
-    "IP": "10.65.42.239",
-    "group": "ni"
+    "id": "TNI-46",
+    "name": "TNI-46",
+    "group": "ni",
+    "ip": "10.65.93.159",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-64",
-    "Name": "TET-64",
-    "IP": "10.65.42.70",
-    "group": "ni"
+    "id": "TNI-47",
+    "name": "TNI-47",
+    "group": "ni",
+    "ip": "10.65.93.151",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-79",
-    "Name": "TET-79",
-    "IP": "10.65.42.67",
-    "group": "ni"
+    "id": "TNI-48",
+    "name": "TNI-48",
+    "group": "ni",
+    "ip": "10.65.93.206",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-88",
-    "Name": "TET-88",
-    "IP": "10.65.42.35",
-    "group": "ni"
+    "id": "TNI-50",
+    "name": "TNI-50",
+    "group": "ni",
+    "ip": "10.65.93.238",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-DNX-3",
-    "Name": "TNI-DNX-3",
-    "IP": "10.65.42.68",
-    "group": "ni"
+    "id": "TNI-51",
+    "name": "TNI-51",
+    "group": "ni",
+    "ip": "10.65.93.103",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-94",
-    "Name": "TNI-94",
-    "IP": "10.65.42.65",
-    "group": "ni"
+    "id": "TNI-52",
+    "name": "TNI-52",
+    "group": "ni",
+    "ip": "10.65.93.117",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-95",
-    "Name": "TNI-95",
-    "IP": "10.65.42.18",
-    "group": "ni"
+    "id": "TNI-53",
+    "name": "TNI-53",
+    "group": "ni",
+    "ip": "10.65.93.166",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-96",
-    "Name": "TNI-96",
-    "IP": "10.65.42.180",
-    "group": "ni"
+    "id": "TNI-54",
+    "name": "TNI-54",
+    "group": "ni",
+    "ip": "10.65.93.221",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-04",
-    "Name": "TNI-04",
-    "IP": "10.65.93.162",
-    "group": "ni"
+    "id": "TNI-55",
+    "name": "TNI-55",
+    "group": "ni",
+    "ip": "10.65.93.216",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-05",
-    "Name": "TNI-05",
-    "IP": "10.65.93.173",
-    "group": "ni"
+    "id": "TNI-56",
+    "name": "TNI-56",
+    "group": "ni",
+    "ip": "10.65.93.149",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-06",
-    "Name": "TNI-06",
-    "IP": "10.65.93.157",
-    "group": "ni"
+    "id": "TNI-57",
+    "name": "TNI-57",
+    "group": "ni",
+    "ip": "10.65.93.204",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-07",
-    "Name": "TNI-07",
-    "IP": "10.65.93.153",
-    "group": "ni"
+    "id": "TNI-58",
+    "name": "TNI-58",
+    "group": "ni",
+    "ip": "10.65.93.177",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-09",
-    "Name": "TNI-09",
-    "IP": "10.65.93.153",
-    "group": "ni"
+    "id": "TNI-59",
+    "name": "TNI-59",
+    "group": "ni",
+    "ip": "10.65.93.116",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-12",
-    "Name": "TNI-12",
-    "IP": "10.65.93.111",
-    "group": "ni"
+    "id": "TNI-60",
+    "name": "TNI-60",
+    "group": "ni",
+    "ip": "10.65.130.156",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-13",
-    "Name": "TNI-13",
-    "IP": "10.65.93.192",
-    "group": "ni"
+    "id": "TNI-64",
+    "name": "TNI-64",
+    "group": "ni",
+    "ip": "10.65.130.153",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-14",
-    "Name": "TNI-14",
-    "IP": "10.65.93.135",
-    "group": "ni"
+    "id": "TNI-65",
+    "name": "TNI-65",
+    "group": "ni",
+    "ip": "10.65.93.196",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-15",
-    "Name": "TNI-15",
-    "IP": "10.65.93.145",
-    "group": "ni"
+    "id": "TNI-66",
+    "name": "TNI-66",
+    "group": "ni",
+    "ip": "10.65.93.209",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-17",
-    "Name": "TNI-17",
-    "IP": "10.65.93.170",
-    "group": "ni"
+    "id": "TNI-68",
+    "name": "TNI-68",
+    "group": "ni",
+    "ip": "10.65.93.144",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-18",
-    "Name": "TNI-18",
-    "IP": "10.65.93.217",
-    "group": "ni"
+    "id": "TNI-69",
+    "name": "TNI-69",
+    "group": "ni",
+    "ip": "10.65.93.219",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-20",
-    "Name": "TNI-20",
-    "IP": "10.65.93.147",
-    "group": "ni"
+    "id": "TNI-71",
+    "name": "TNI-71",
+    "group": "ni",
+    "ip": "10.65.93.225",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-21",
-    "Name": "TNI-21",
-    "IP": "10.65.93.194",
-    "group": "ni"
+    "id": "TNI-72",
+    "name": "TNI-72",
+    "group": "ni",
+    "ip": "10.65.93.245",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-22",
-    "Name": "TNI-22",
-    "IP": "10.65.93.109",
-    "group": "ni"
+    "id": "TNI-73",
+    "name": "TNI-73",
+    "group": "ni",
+    "ip": "10.65.93.195",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-24",
-    "Name": "TNI-24",
-    "IP": "10.65.93.240",
-    "group": "ni"
+    "id": "TNI-74",
+    "name": "TNI-74",
+    "group": "ni",
+    "ip": "10.65.93.247",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-25",
-    "Name": "TNI-25",
-    "IP": "10.65.93.152",
-    "group": "ni"
+    "id": "TNI-75",
+    "name": "TNI-75",
+    "group": "ni",
+    "ip": "10.65.93.120",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-26",
-    "Name": "TNI-26",
-    "IP": "10.65.93.123",
-    "group": "ni"
+    "id": "TNI-77",
+    "name": "TNI-77",
+    "group": "ni",
+    "ip": "10.65.93.218",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-27",
-    "Name": "TNI-27",
-    "IP": "10.65.93.178",
-    "group": "ni"
+    "id": "TNI-79",
+    "name": "TNI-79",
+    "group": "ni",
+    "ip": "10.65.93.157",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-28",
-    "Name": "TNI-28",
-    "IP": "10.65.93.101",
-    "group": "ni"
+    "id": "TNI-80",
+    "name": "TNI-80",
+    "group": "ni",
+    "ip": "10.65.93.58",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-29",
-    "Name": "TNI-29",
-    "IP": "10.65.93.102",
-    "group": "ni"
+    "id": "TNI-81",
+    "name": "TNI-81",
+    "group": "ni",
+    "ip": "10.65.93.200",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-30",
-    "Name": "TNI-30",
-    "IP": "10.65.93.227",
-    "group": "ni"
+    "id": "TNI-82",
+    "name": "TNI-82",
+    "group": "ni",
+    "ip": "10.65.93.197",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-31",
-    "Name": "TNI-31",
-    "IP": "10.65.93.199",
-    "group": "ni"
+    "id": "TNI-83",
+    "name": "TNI-83",
+    "group": "ni",
+    "ip": "10.65.93.118",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-45",
-    "Name": "TNI-45",
-    "IP": "10.65.52.119",
-    "group": "ni"
+    "id": "TNI-85",
+    "name": "TNI-85",
+    "group": "ni",
+    "ip": "10.65.93.108",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-46",
-    "Name": "TNI-46",
-    "IP": "10.65.93.159",
-    "group": "ni"
+    "id": "TNI-86",
+    "name": "TNI-86",
+    "group": "ni",
+    "ip": "10.65.93.134",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-47",
-    "Name": "TNI-47",
-    "IP": "10.65.93.151",
-    "group": "ni"
+    "id": "TNI-87",
+    "name": "TNI-87",
+    "group": "ni",
+    "ip": "10.65.93.171",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-48",
-    "Name": "TNI-48",
-    "IP": "10.65.93.206",
-    "group": "ni"
+    "id": "TNI-89",
+    "name": "TNI-89",
+    "group": "ni",
+    "ip": "10.65.93.91",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-49",
-    "Name": "TNI-49",
-    "IP": "10.65.93.174",
-    "group": "ni"
+    "id": "TNI-90",
+    "name": "TNI-90",
+    "group": "ni",
+    "ip": "10.65.93.131",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-50",
-    "Name": "TNI-50",
-    "IP": "10.65.93.238",
-    "group": "ni"
+    "id": "TNI-91",
+    "name": "TNI-91",
+    "group": "ni",
+    "ip": "10.65.93.224",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-51",
-    "Name": "TNI-51",
-    "IP": "10.65.93.103",
-    "group": "ni"
+    "id": "TNI-92",
+    "name": "TNI-92",
+    "group": "ni",
+    "ip": "10.65.93.163",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-52",
-    "Name": "TNI-52",
-    "IP": "10.65.93.117",
-    "group": "ni"
+    "id": "TNI-93",
+    "name": "TNI-93",
+    "group": "ni",
+    "ip": "10.65.93.243",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-53",
-    "Name": "TNI-53",
-    "IP": "10.65.93.166",
-    "group": "ni"
+    "id": "TNI-95",
+    "name": "TNI-95",
+    "group": "ni",
+    "ip": "10.65.42.18",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-54",
-    "Name": "TNI-54",
-    "IP": "10.65.93.221",
-    "group": "ni"
+    "id": "TNI-96",
+    "name": "TNI-96",
+    "group": "ni",
+    "ip": "10.65.42.180",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-55",
-    "Name": "TNI-55",
-    "IP": "10.65.93.216",
-    "group": "ni"
+    "id": "TNI-97",
+    "name": "TNI-97",
+    "group": "ni",
+    "ip": "10.65.93.143",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-56",
-    "Name": "TNI-56",
-    "IP": "10.65.93.149",
-    "group": "ni"
+    "id": "TNI-98",
+    "name": "TNI-98",
+    "group": "ni",
+    "ip": "10.65.93.96",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-57",
-    "Name": "TNI-57",
-    "IP": "10.65.93.204",
-    "group": "ni"
+    "id": "TNI-100",
+    "name": "TNI-100",
+    "group": "ni",
+    "ip": "10.65.93.176",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-58",
-    "Name": "TNI-58",
-    "IP": "10.65.93.177",
-    "group": "ni"
+    "id": "TNI-250",
+    "name": "TNI-250",
+    "group": "ni",
+    "ip": "10.65.93.250",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-59",
-    "Name": "TNI-59",
-    "IP": "10.65.93.116",
-    "group": "ni"
+    "id": "TNI-302",
+    "name": "TNI-302",
+    "group": "ni",
+    "ip": "10.65.93.126",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-65",
-    "Name": "TNI-65",
-    "IP": "10.65.93.196",
-    "group": "ni"
+    "id": "TNI-303",
+    "name": "TNI-303",
+    "group": "ni",
+    "ip": "10.65.93.125",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-66",
-    "Name": "TNI-66",
-    "IP": "10.65.93.209",
-    "group": "ni"
+    "id": "TNI-304",
+    "name": "TNI-304",
+    "group": "ni",
+    "ip": "10.65.93.127",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-68",
-    "Name": "TNI-68",
-    "IP": "10.65.93.144",
-    "group": "ni"
+    "id": "TNI-305",
+    "name": "TNI-305",
+    "group": "ni",
+    "ip": "10.65.93.113",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-69",
-    "Name": "TNI-69",
-    "IP": "10.65.93.219",
-    "group": "ni"
+    "id": "TNI-306",
+    "name": "TNI-306",
+    "group": "ni",
+    "ip": "10.65.93.148",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-71",
-    "Name": "TNI-71",
-    "IP": "10.65.93.225",
-    "group": "ni"
+    "id": "TNI-307",
+    "name": "TNI-307",
+    "group": "ni",
+    "ip": "10.65.93.112",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-72",
-    "Name": "TNI-72",
-    "IP": "10.65.93.245",
-    "group": "ni"
+    "id": "TNI-308",
+    "name": "TNI-308",
+    "group": "ni",
+    "ip": "10.65.93.175",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-73",
-    "Name": "TNI-73",
-    "IP": "10.65.93.195",
-    "group": "ni"
+    "id": "TNI-309",
+    "name": "TNI-309",
+    "group": "ni",
+    "ip": "10.65.93.107",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-74",
-    "Name": "TNI-74",
-    "IP": "10.65.93.247",
-    "group": "ni"
+    "id": "TNI-310",
+    "name": "TNI-310",
+    "group": "ni",
+    "ip": "10.65.93.95",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-77",
-    "Name": "TNI-77",
-    "IP": "10.65.93.218",
-    "group": "ni"
+    "id": "TNI-311",
+    "name": "TNI-311",
+    "group": "ni",
+    "ip": "10.65.93.104",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-80",
-    "Name": "TNI-80",
-    "IP": "10.65.93.58",
-    "group": "ni"
+    "id": "TNI-312",
+    "name": "TNI-312",
+    "group": "ni",
+    "ip": "10.65.93.128",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-81",
-    "Name": "TNI-81",
-    "IP": "10.65.93.200",
-    "group": "ni"
+    "id": "TNI-313",
+    "name": "TNI-313",
+    "group": "ni",
+    "ip": "10.65.93.139",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-82",
-    "Name": "TNI-82",
-    "IP": "10.65.93.197",
-    "group": "ni"
+    "id": "TNI-314",
+    "name": "TNI-314",
+    "group": "ni",
+    "ip": "10.65.93.185",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-83",
-    "Name": "TNI-83",
-    "IP": "10.65.93.118",
-    "group": "ni"
+    "id": "TNI-315",
+    "name": "TNI-315",
+    "group": "ni",
+    "ip": "10.65.93.212",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-85",
-    "Name": "TNI-85",
-    "IP": "10.65.93.108",
-    "group": "ni"
+    "id": "TNI-316",
+    "name": "TNI-316",
+    "group": "ni",
+    "ip": "10.65.93.106",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-86",
-    "Name": "TNI-86",
-    "IP": "10.65.93.134",
-    "group": "ni"
+    "id": "TNI-317",
+    "name": "TNI-317",
+    "group": "ni",
+    "ip": "10.65.93.99",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-87",
-    "Name": "TNI-87",
-    "IP": "10.65.93.171",
-    "group": "ni"
+    "id": "TNI-318",
+    "name": "TNI-318",
+    "group": "ni",
+    "ip": "10.65.93.165",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-89",
-    "Name": "TNI-89",
-    "IP": "10.65.93.91",
-    "group": "ni"
+    "id": "TNI-319",
+    "name": "TNI-319",
+    "group": "ni",
+    "ip": "10.65.93.90",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-90",
-    "Name": "TNI-90",
-    "IP": "10.65.93.131",
-    "group": "ni"
+    "id": "TNI-320",
+    "name": "TNI-320",
+    "group": "ni",
+    "ip": "10.65.93.132",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-91",
-    "Name": "TNI-91",
-    "IP": "10.65.93.224",
-    "group": "ni"
+    "id": "TNI-321",
+    "name": "TNI-321",
+    "group": "ni",
+    "ip": "10.65.93.184",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-92",
-    "Name": "TNI-92",
-    "IP": "10.65.93.163",
-    "group": "ni"
+    "id": "TNI-322",
+    "name": "TNI-322",
+    "group": "ni",
+    "ip": "10.65.93.187",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-93",
-    "Name": "TNI-93",
-    "IP": "10.65.93.243",
-    "group": "ni"
+    "id": "TNI-323",
+    "name": "TNI-323",
+    "group": "ni",
+    "ip": "10.65.93.156",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-97",
-    "Name": "TNI-97",
-    "IP": "10.65.93.143",
-    "group": "ni"
+    "id": "TNI-324",
+    "name": "TNI-324",
+    "group": "ni",
+    "ip": "10.65.93.138",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-98",
-    "Name": "TNI-98",
-    "IP": "10.65.93.96",
-    "group": "ni"
+    "id": "TNI-325",
+    "name": "TNI-325",
+    "group": "ni",
+    "ip": "10.65.93.233",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-100",
-    "Name": "TNI-100",
-    "IP": "10.65.93.176",
-    "group": "ni"
+    "id": "TNI-326",
+    "name": "TNI-326",
+    "group": "ni",
+    "ip": "10.65.93.158",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-75",
-    "Name": "TNI-75",
-    "IP": "10.65.93.120",
-    "group": "ni"
+    "id": "TNI-327",
+    "name": "TNI-327",
+    "group": "ni",
+    "ip": "10.65.93.188",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-101",
-    "Name": "TNI-101",
-    "IP": "10.65.93.11",
-    "group": "ni"
+    "id": "TNI-328",
+    "name": "TNI-328",
+    "group": "ni",
+    "ip": "10.65.93.154",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-102",
-    "Name": "TNI-102",
-    "IP": "10.65.93.12",
-    "group": "ni"
+    "id": "TNI-329",
+    "name": "TNI-329",
+    "group": "ni",
+    "ip": "10.65.93.160",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-301",
-    "Name": "TNI-301",
-    "IP": "10.65.93.250",
-    "group": "ni"
+    "id": "TNI-330",
+    "name": "TNI-330",
+    "group": "ni",
+    "ip": "10.65.93.235",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-302",
-    "Name": "TNI-302",
-    "IP": "10.65.93.126",
-    "group": "ni"
+    "id": "TNI-331",
+    "name": "TNI-331",
+    "group": "ni",
+    "ip": "10.65.93.155",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-303",
-    "Name": "TNI-303",
-    "IP": "10.65.93.125",
-    "group": "ni"
+    "id": "TNI-332",
+    "name": "TNI-332",
+    "group": "ni",
+    "ip": "10.65.93.133",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-304",
-    "Name": "TNI-304",
-    "IP": "10.65.93.127",
-    "group": "ni"
+    "id": "TNI-333",
+    "name": "TNI-333",
+    "group": "ni",
+    "ip": "10.65.93.208",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-305",
-    "Name": "TNI-305",
-    "IP": "10.65.93.113",
-    "group": "ni"
+    "id": "TNI-335",
+    "name": "TNI-335",
+    "group": "ni",
+    "ip": "10.65.93.210",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-306",
-    "Name": "TNI-306",
-    "IP": "10.65.93.148",
-    "group": "ni"
+    "id": "TNI-338",
+    "name": "TNI-338",
+    "group": "ni",
+    "ip": "10.65.93.162",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-307",
-    "Name": "TNI-307",
-    "IP": "10.65.93.112",
-    "group": "ni"
+    "id": "TNI-339",
+    "name": "TNI-339",
+    "group": "ni",
+    "ip": "10.65.93.174",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-308",
-    "Name": "TNI-308",
-    "IP": "10.65.93.175",
-    "group": "ni"
+    "id": "TET-05",
+    "name": "TET-05",
+    "group": "eagle",
+    "ip": "10.65.52.72",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-309",
-    "Name": "TNI-309",
-    "IP": "10.65.93.107",
-    "group": "ni"
+    "id": "TET-06",
+    "name": "TET-06",
+    "group": "eagle",
+    "ip": "10.65.52.73",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-310",
-    "Name": "TNI-310",
-    "IP": "10.65.93.95",
-    "group": "ni"
+    "id": "TET-07",
+    "name": "TET-07",
+    "group": "eagle",
+    "ip": "10.65.52.74",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-311",
-    "Name": "TNI-311",
-    "IP": "10.65.93.104",
-    "group": "ni"
+    "id": "TET-08",
+    "name": "TET-08",
+    "group": "eagle",
+    "ip": "10.65.52.75",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-312",
-    "Name": "TNI-312",
-    "IP": "10.65.93.128",
-    "group": "ni"
+    "id": "TET-09",
+    "name": "TET-09",
+    "group": "eagle",
+    "ip": "10.65.52.176",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-313",
-    "Name": "TNI-313",
-    "IP": "10.65.93.138",
-    "group": "ni"
+    "id": "TET-10",
+    "name": "TET-10",
+    "group": "eagle",
+    "ip": "10.65.52.77",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-314",
-    "Name": "TNI-314",
-    "IP": "10.65.93.185",
-    "group": "ni"
+    "id": "TET-11",
+    "name": "TET-11",
+    "group": "eagle",
+    "ip": "10.65.52.78",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-315",
-    "Name": "TNI-315",
-    "IP": "10.65.93.212",
-    "group": "ni"
+    "id": "TET-12",
+    "name": "TET-12",
+    "group": "eagle",
+    "ip": "10.65.52.79",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-316",
-    "Name": "TNI-316",
-    "IP": "10.65.93.106",
-    "group": "ni"
+    "id": "TET-13",
+    "name": "TET-13",
+    "group": "eagle",
+    "ip": "10.65.52.70",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-317",
-    "Name": "TNI-317",
-    "IP": "10.65.93.99",
-    "group": "ni"
+    "id": "TET-14",
+    "name": "TET-14",
+    "group": "eagle",
+    "ip": "10.65.52.71",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-318",
-    "Name": "TNI-318",
-    "IP": "10.65.93.165",
-    "group": "ni"
+    "id": "TET-15",
+    "name": "TET-15",
+    "group": "eagle",
+    "ip": "10.65.52.80",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-319",
-    "Name": "TNI-319",
-    "IP": "10.65.93.90",
-    "group": "ni"
+    "id": "TET-16",
+    "name": "TET-16",
+    "group": "eagle",
+    "ip": "10.65.52.81",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-320",
-    "Name": "TNI-320",
-    "IP": "10.65.93.132",
-    "group": "ni"
+    "id": "TET-17",
+    "name": "TET-17",
+    "group": "eagle",
+    "ip": "10.65.52.82",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-322",
-    "Name": "TNI-322",
-    "IP": "10.65.93.187",
-    "group": "ni"
+    "id": "TET-18",
+    "name": "TET-18",
+    "group": "eagle",
+    "ip": "10.65.52.83",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-323",
-    "Name": "TNI-323",
-    "IP": "10.65.93.188",
-    "group": "ni"
+    "id": "TET-19",
+    "name": "TET-19",
+    "group": "eagle",
+    "ip": "10.65.52.84",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-324",
-    "Name": "TNI-324",
-    "IP": "10.65.93.138",
-    "group": "ni"
+    "id": "TET-20",
+    "name": "TET-20",
+    "group": "eagle",
+    "ip": "10.65.52.85",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-325",
-    "Name": "TNI-325",
-    "IP": "10.65.93.233",
-    "group": "ni"
+    "id": "TET-21",
+    "name": "TET-21",
+    "group": "eagle",
+    "ip": "10.65.52.86",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-326",
-    "Name": "TNI-326",
-    "IP": "10.65.93.158",
-    "group": "ni"
+    "id": "TET-22",
+    "name": "TET-22",
+    "group": "eagle",
+    "ip": "10.65.52.87",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-327",
-    "Name": "TNI-327",
-    "IP": "10.65.93.188",
-    "group": "ni"
+    "id": "TET-25",
+    "name": "TET-25",
+    "group": "eagle",
+    "ip": "10.65.52.210",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-328",
-    "Name": "TNI-328",
-    "IP": "10.65.93.154",
-    "group": "ni"
+    "id": "TET-26",
+    "name": "TET-26",
+    "group": "eagle",
+    "ip": "10.65.52.211",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-329",
-    "Name": "TNI-329",
-    "IP": "10.65.93.160",
-    "group": "ni"
+    "id": "TET-27",
+    "name": "TET-27",
+    "group": "eagle",
+    "ip": "10.65.52.212",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-331",
-    "Name": "TNI-331",
-    "IP": "10.65.93.155",
-    "group": "ni"
+    "id": "TET-28",
+    "name": "TET-28",
+    "group": "eagle",
+    "ip": "10.65.52.213",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-332",
-    "Name": "TNI-332",
-    "IP": "10.65.93.133",
-    "group": "ni"
+    "id": "TET-29",
+    "name": "TET-29",
+    "group": "eagle",
+    "ip": "10.65.52.214",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-333",
-    "Name": "TNI-333",
-    "IP": "10.65.93.208",
-    "group": "ni"
+    "id": "TET-30",
+    "name": "TET-30",
+    "group": "eagle",
+    "ip": "10.65.52.215",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-334",
-    "Name": "TNI-334",
-    "IP": "10.65.93.236",
-    "group": "ni"
+    "id": "TET-31",
+    "name": "TET-31",
+    "group": "eagle",
+    "ip": "10.65.52.216",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TNI-334",
-    "Name": "TNI-334",
-    "IP": "10.65.93.210",
-    "group": "ni"
+    "id": "TET-32",
+    "name": "TET-32",
+    "group": "eagle",
+    "ip": "10.65.52.217",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-05",
-    "Name": "TET-05",
-    "IP": "10.65.52.72",
-    "group": "eagle"
+    "id": "TET-33",
+    "name": "TET-33",
+    "group": "eagle",
+    "ip": "10.65.52.218",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-06",
-    "Name": "TET-06",
-    "IP": "10.65.52.73",
-    "group": "eagle"
+    "id": "TET-34",
+    "name": "TET-34",
+    "group": "eagle",
+    "ip": "10.65.52.219",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-07",
-    "Name": "TET-07",
-    "IP": "10.65.52.74",
-    "group": "eagle"
+    "id": "TET-35",
+    "name": "TET-35",
+    "group": "eagle",
+    "ip": "10.65.52.220",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-08",
-    "Name": "TET-08",
-    "IP": "10.65.52.75",
-    "group": "eagle"
+    "id": "psslag05",
+    "name": "psslag05",
+    "group": "ag93k",
+    "ip": "10.65.42.133",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-09",
-    "Name": "TET-09",
-    "IP": "10.65.52.76",
-    "group": "eagle"
+    "id": "psslag06",
+    "name": "psslag06",
+    "group": "ag93k",
+    "ip": "10.65.42.134",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-10",
-    "Name": "TET-10",
-    "IP": "10.65.52.77",
-    "group": "eagle"
+    "id": "psslag07",
+    "name": "psslag07",
+    "group": "ag93k",
+    "ip": "10.65.42.135",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-11",
-    "Name": "TET-11",
-    "IP": "10.65.52.78",
-    "group": "eagle"
+    "id": "psslag08",
+    "name": "psslag08",
+    "group": "ag93k",
+    "ip": "10.65.42.136",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-12",
-    "Name": "TET-12",
-    "IP": "10.65.52.79",
-    "group": "eagle"
+    "id": "psslag10",
+    "name": "psslag10",
+    "group": "ag93k",
+    "ip": "10.65.42.132",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-13",
-    "Name": "TET-13",
-    "IP": "10.65.52.70",
-    "group": "eagle"
+    "id": "psslag12",
+    "name": "psslag12",
+    "group": "ag93k",
+    "ip": "10.65.42.137",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-14",
-    "Name": "TET-14",
-    "IP": "10.65.52.71",
-    "group": "eagle"
+    "id": "psslag13",
+    "name": "psslag13",
+    "group": "ag93k",
+    "ip": "10.65.42.138",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-15",
-    "Name": "TET-15",
-    "IP": "10.65.52.80",
-    "group": "eagle"
+    "id": "psslag16",
+    "name": "psslag16",
+    "group": "ag93k",
+    "ip": "10.65.42.140",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-16",
-    "Name": "TET-16",
-    "IP": "10.65.52.81",
-    "group": "eagle"
+    "id": "psslag17",
+    "name": "psslag17",
+    "group": "ag93k",
+    "ip": "10.65.42.141",
+    "port": 9000,
+    "state": "OK"
   },
   {
-    "ID": "TET-17",
-    "Name": "TET-17",
-    "IP": "10.65.52.82",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-18",
-    "Name": "TET-18",
-    "IP": "10.65.52.83",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-19",
-    "Name": "TET-19",
-    "IP": "10.65.52.84",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-20",
-    "Name": "TET-20",
-    "IP": "10.65.52.85",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-21",
-    "Name": "TET-21",
-    "IP": "10.65.52.86",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-22",
-    "Name": "TET-22",
-    "IP": "10.65.52.87",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-25",
-    "Name": "TET-25",
-    "IP": "10.65.52.210",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-26",
-    "Name": "TET-26",
-    "IP": "10.65.52.211",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-27",
-    "Name": "TET-27",
-    "IP": "10.65.52.212",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-28",
-    "Name": "TET-28",
-    "IP": "10.65.52.213",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-29",
-    "Name": "TET-29",
-    "IP": "10.65.52.214",
-    "group": "eagle"
-  },
-  {
-    "ID": "TET-30",
-    "Name": "TET-30",
-    "IP": "10.65.52.215",
-    "group": "eagle"
+    "id": "psslag18",
+    "name": "psslag18",
+    "group": "ag93k",
+    "ip": "10.65.42.142",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag19",
+    "name": "psslag19",
+    "group": "ag93k",
+    "ip": "10.65.42.143",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag20",
+    "name": "psslag20",
+    "group": "ag93k",
+    "ip": "10.65.42.144",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag22",
+    "name": "psslag22",
+    "group": "ag93k",
+    "ip": "10.65.42.145",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag24",
+    "name": "psslag24",
+    "group": "ag93k",
+    "ip": "10.65.42.146",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag25",
+    "name": "psslag25",
+    "group": "ag93k",
+    "ip": "10.65.42.147",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag26",
+    "name": "psslag26",
+    "group": "ag93k",
+    "ip": "10.65.42.148",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag27",
+    "name": "psslag27",
+    "group": "ag93k",
+    "ip": "10.65.42.149",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag29",
+    "name": "psslag29",
+    "group": "ag93k",
+    "ip": "10.65.42.150",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag30",
+    "name": "psslag30",
+    "group": "ag93k",
+    "ip": "10.65.42.151",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag31",
+    "name": "psslag31",
+    "group": "ag93k",
+    "ip": "10.65.42.152",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag34",
+    "name": "psslag34",
+    "group": "ag93k",
+    "ip": "10.65.42.155",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "psslag35",
+    "name": "psslag35",
+    "group": "ag93k",
+    "ip": "10.65.42.156",
+    "port": 9000,
+    "state": "OK"
   }
 ]

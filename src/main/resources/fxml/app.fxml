@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<StackPane style="-fx-background-color: #D63333" fx:id="app" xmlns:fx="http://javafx.com/fxml/1"
+           xmlns="http://javafx.com/javafx/2.2" fx:controller="application.App">
+
+    <BorderPane style="-fx-background-color:#2A1C42">
+        <left>
+            <AnchorPane fx:id="side_pane">
+                <VBox alignment="CENTER" AnchorPane.topAnchor="50" prefWidth="200.0"
+                      style="-fx-background-color:transparent;">
+                    <children>
+                        <JFXButton onAction="#home" prefHeight="38.0" prefWidth="150.0" textAlignment="CENTER"
+                                   text="HOME" textFill="white"></JFXButton>
+                        <JFXButton onAction="#page2" prefHeight="38.0" prefWidth="150.0" textAlignment="CENTER"
+                                   text="PAGE 2" textFill="white"></JFXButton>
+                    </children>
+                </VBox>
+            </AnchorPane>
+        </left>
+        <center>
+            <StackPane prefHeight="0.0" prefWidth="793.0" style="-fx-background-color: #02030A;">
+                <StackPane fx:id="contentArea">
+                </StackPane>
+            </StackPane>
+        </center>
+        <JFXDialog fx:id="dialog">
+            <JFXDialogLayout>
+                <heading>
+                    <Label>Execute Script</Label>
+                </heading>
+                <body>
+                    <VBox prefWidth="300" spacing="20" maxWidth="400">
+                        <children>
+                            <Label fx:id="label_1">请输入脚本路径</Label>
+                            <JFXTextField fx:id="input_1"></JFXTextField>
+                        </children>
+                    </VBox>
+                </body>
+                <actions>
+                    <JFXButton fx:id="cancelButton" styleClass="dialog-accept">Cancel</JFXButton>
+                    <JFXButton fx:id="acceptButton" styleClass="dialog-accept">OK</JFXButton>
+                </actions>
+            </JFXDialogLayout>
+        </JFXDialog>
+    </BorderPane>
+</StackPane>

@@ -5,8 +5,8 @@
 <?import javafx.scene.text.Font?>
 <Pane xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="Page2"
-      prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4FC1E9">
+      fx:controller="controllers.Page2"
+      prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #4FC1E9">
 
     <children>
         <Label layoutX="229.0" layoutY="210.0" text="PAGE 2" textFill="#fffdfd">

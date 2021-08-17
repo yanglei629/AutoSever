@@ -1,4 +1,5 @@
 import com.alibaba.fastjson.JSON;
+import model.Client;
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 

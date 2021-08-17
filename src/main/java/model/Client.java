@@ -1,14 +1,19 @@
+package model;
+
+import application.App;
 import com.alibaba.excel.annotation.ExcelIgnore;
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.annotation.write.style.ColumnWidth;
 import com.alibaba.excel.annotation.write.style.ContentStyle;
 import com.alibaba.excel.annotation.write.style.HeadStyle;
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.annotation.JSONField;
 import dto.Status;
 import javafx.application.Platform;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
@@ -16,11 +21,9 @@ import org.apache.poi.ss.usermodel.VerticalAlignment;
 
 import java.net.URI;
 import java.net.http.HttpClient;
-import java.net.http.HttpConnectTimeoutException;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
-import java.util.concurrent.CompletionException;
 
 @ContentStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
 @HeadStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
@@ -29,21 +32,27 @@ public class Client {
     public static final Logger logger = LogManager.getLogger(Client.class);
 
     @ExcelIgnore
-    private String ID;
+    @JSONField(ordinal = 1)
+    private String id;
     @ExcelProperty("机台名")
     @ColumnWidth(15)
+    @JSONField(ordinal = 2)
     private String name;
     @ExcelProperty("IP地址")
     @ContentStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
     @ColumnWidth(20)
+    @JSONField(ordinal = 4)
     private String ip;
     @ExcelIgnore
+    @JSONField(ordinal = 5)
     private int port = 9000;
     @ExcelProperty("机型")
     @ColumnWidth(10)
+    @JSONField(ordinal = 3)
     private String group;
     @ExcelIgnore
-    private State state = State.OFFLINE;
+    @JSONField(ordinal = 6)
+    private State state = State.OK;
 
     //client
     @ExcelIgnore
@@ -67,46 +76,35 @@ public class Client {
                     .whenComplete((resp, err) -> {
                         if (null != err) {
                             //请求失败
-                            if (err instanceof CompletionException) {
-                                //logger.warn("err");
-                            }
-                            if (err instanceof HttpConnectTimeoutException) {
-                                //logger.warn("time out");
-                            }
-
                             if (this.getState() == State.OFFLINE) return;
-                            this.setState(State.OFFLINE);
+                            //变为OFFLINE
 
-                            Platform.runLater(() -> {
-                                BorderPane pane = (BorderPane) Main.UIMap.get(getID());
-                                Image image = new Image("client_offline3.png", true);
-                                pane.setTop(new ImageView(image));
-                            });
+                            this.changeState(State.OFFLINE);
                         }
                     }).thenApply(HttpResponse::body)
                     .thenAccept(response -> {
                         //请求成功
-                        logger.info("request status success");
                         logger.info(response);
                         Status status = JSON.parseObject(String.valueOf(response), Status.class);
-                        Platform.runLater(() -> {
-                            BorderPane pane = (BorderPane) Main.UIMap.get(getID());
-                            Image image;
-                            if (!status.status.equals("OFFLINE")) {
-                                if (this.getState() == State.ONLINE) return;
-                                this.setState(State.ONLINE);
-                                image = new Image("client_offline2.png", true);
-                            } else {
-                                if (this.getState() == State.OK) return;
-                                this.setState(State.OK);
-                                image = new Image("client_online2.png", true);
-                            }
-                            pane.setTop(new ImageView(image));
-                        });
+
+                        if (status.status.equals("OFFLINE")) {
+                            if (this.getState() == State.OFFLINE) return;
+                            //变为OFFLINE
+                            this.setState(State.OFFLINE);
+                            this.changeState(State.OFFLINE);
+                        }
+                        if (status.status.equals("ONLINE")) {
+                            if (this.getState() == State.OK) return;
+                            //变为OK
+                            this.setState(State.OK);
+                            this.changeState(State.OK);
+                        }
                     });
-        } catch (Exception e) {
+        } catch (
+                Exception e) {
             logger.error(e.getMessage(), e);
         }
+
     }
 
 
@@ -129,6 +127,59 @@ public class Client {
                     //请求成功
                 });
         return true;
+    }
+
+    //开启
+    public boolean start() {
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("http://" + getIp() + ":9000/" + "client/start"))
+                .timeout(Duration.ofSeconds(5))
+                .build();
+
+        httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                .whenComplete((resp, err) -> {
+                    //请求失败
+                    logger.warn(err.getMessage());
+                    if (null != err) {
+
+                    }
+                }).thenApply(HttpResponse::body)
+                .thenAccept(response -> {
+                    //请求成功
+                });
+        return true;
+    }
+
+    public void changeState(State state) {
+        //更改客户端状态和UI
+
+        Platform.runLater(() -> {
+            Pane pane = (Pane) App.UIMap.get(getId());
+            StackPane pic = (StackPane) pane.lookup("#pic");
+            pic.getChildren().clear();
+
+            if (state.equals(State.OFFLINE)) {
+                this.setState(State.OFFLINE);
+
+                Image image = new Image("client_offline3.png", true);
+                ImageView imageView = new ImageView(image);
+                pic.getChildren().add(imageView);
+            }
+            if (state.equals(State.ONLINE)) {
+                this.setState(State.ONLINE);
+
+                Image image = new Image("client_offline2.png", true);
+                ImageView imageView = new ImageView(image);
+                pic.getChildren().add(imageView);
+            }
+            if (state.equals(State.OK)) {
+                this.setState(State.OK);
+
+                Image image = new Image("client_online2.png", true);
+                ImageView imageView = new ImageView(image);
+                pic.getChildren().add(imageView);
+            }
+        });
     }
 
     public boolean deleteFile() {
@@ -169,12 +220,12 @@ public class Client {
         return true;
     }
 
-    public String getID() {
-        return ID;
+    public String getId() {
+        return id;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -219,8 +270,8 @@ public class Client {
 
     @Override
     public String toString() {
-        return "Client{" +
-                "ID='" + ID + '\'' +
+        return "model.Client{" +
+                "ID='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", ip='" + ip + '\'' +
                 ", port=" + port +

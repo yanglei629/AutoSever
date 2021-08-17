@@ -1,13 +1,17 @@
 import com.alibaba.fastjson.JSON;
 import dto.Status;
 import org.apache.commons.io.input.ReaderInputStream;
+import org.apache.http.client.utils.URIBuilder;
 import org.junit.Test;
 
+import java.io.FileNotFoundException;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpConnectTimeoutException;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.concurrent.CompletionException;
 import java.util.function.Consumer;
@@ -104,23 +108,59 @@ public class ApiTest {
     }
 
 
-    public static void main(String[] args) throws InterruptedException {
-        /*Thread thread = new Thread();
+    public void upload() {
+        String uri = "http://192.168.0.104:9000/client/upload";
+        String fileName = "b.png";
+        URI build = null;
+        try {
+            build = new URIBuilder(uri).addParameter("fileName", fileName).build();
+
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(build)
+                    .timeout(Duration.ofSeconds(5))
+                    .header("Content-Type", "image/png")
+                    //.POST(HttpRequest.BodyPublishers.ofFile(Paths.get("C:\\Users\\allen\\Pictures\\Screenshots\\snap.png")))
+                    //.POST(HttpRequest.BodyPublishers.ofString(""))
+                    .PUT(HttpRequest.BodyPublishers.ofFile(Paths.get("C:\\Users\\allen\\Pictures\\Screenshots\\snap.png")))
+                    .build();
+
+            client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                    .whenComplete((res, err) -> {
+                        if (null != err) {
+                            System.out.println(err);
+                        }
+                    }).thenApply(HttpResponse::body)
+                    .thenAccept(res -> {
+                        System.out.println(res);
+                        Status status = JSON.parseObject(String.valueOf(res), Status.class);
+                        System.out.println(status.message);
+                    });
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public static void main(String[] args) throws InterruptedException, FileNotFoundException {
+        Thread thread = new Thread();
         thread.setDaemon(true);
         ApiTest api = new ApiTest();
 
         //status
-        api.status();
+        //api.status();
 
         //close
-        //api.close();*/
+        //api.close();
 
-        Client client = new Client();
+        //upload
+        api.upload();
+
+        /*model.Client client = new model.Client();
         client.setID("test");
         client.setName("test");
         client.setGroup("ni");
         client.setIp("192.168.0.104");
-        client.queryStatus();
+        client.queryStatus();*/
 
         Thread.sleep(10000);
     }
