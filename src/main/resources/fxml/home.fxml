@@ -3,13 +3,18 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.text.Font?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controllers.HomeController" style="-fx-background-color: #FE774D">
+            fx:controller="controllers.HomeController" style="-fx-background-color: transparent">
     <top>
         <VBox>
             <AnchorPane style="-fx-background-color:#ffffff" prefHeight="50">
                 <HBox spacing="2" AnchorPane.rightAnchor="0">
+                    <!--方式1:代码多，但是可以调整大小-->
                     <!--<Button>
                         <graphic>
                             <ImageView>
@@ -20,19 +25,64 @@
                         </graphic>
                     </Button>-->
 
+                    <!--方式2:加载FontAwesome库,简单并且可以调整大小-->
                     <!--<Button>
                         <graphic>
                             <FontAwesomeIconView fill="#2d75e8" glyphName="CLOSE" size="15"/>
                         </graphic>
                     </Button>-->
-                    <Button fx:id="minimum" style="-fx-graphic: url('/images/minimal.png')"/>
-                    <Button fx:id="maximum" style="-fx-graphic: url('/images/full_screen.png')"/>
-                    <Button fx:id="exit" style="-fx-graphic: url('/images/exit.png')"/>
+                    <!--方式3:代码最简洁,但是不能调整大小-->
+                    <!--<Button fx:id="exit" style="-fx-graphic: url('/images/exit.png')"/>-->
+                    <Button fx:id="minimum">
+                        <graphic>
+                            <ImageView fitWidth="16" fitHeight="16">
+                                <image>
+                                    <Image url="/images/minimum.png"></Image>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="maximum">
+                        <graphic>
+                            <ImageView fitWidth="16" fitHeight="16">
+                                <image>
+                                    <Image url="/images/maximum.png"></Image>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="exit">
+                        <graphic>
+                            <ImageView fitWidth="16" fitHeight="16">
+                                <image>
+                                    <Image url="/images/exit.png"></Image>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
                 </HBox>
             </AnchorPane>
-            <Pane prefHeight="90" style="-fx-background-color: #3f51b5">
-                <HBox prefHeight="90" style="-fx-background-color:#FE774D;-fx-alignment: center-left">
-                    <Button style="-fx-graphic: url('/images/exit.png')"/>
+            <Pane prefHeight="90" style="-fx-background-color:#d0d0d0;">
+                <HBox prefHeight="90" prefWidth="500"
+                      style="-fx-background-color:#d0d0d0;-fx-alignment: center-left;-fx-spacing: 5;">
+                    <Button fx:id="notify">
+                        <graphic>
+                            <ImageView fitWidth="32" fitHeight="32">
+                                <image>
+                                    <Image url="/images/notify.png"></Image>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button fx:id="distribute_file">
+                        <graphic>
+                            <ImageView fitWidth="32" fitHeight="32">
+                                <image>
+                                    <Image url="/images/file_distribution.png"></Image>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
                 </HBox>
             </Pane>
         </VBox>

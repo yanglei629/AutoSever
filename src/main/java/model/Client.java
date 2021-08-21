@@ -8,7 +8,9 @@ import com.alibaba.excel.annotation.write.style.ContentStyle;
 import com.alibaba.excel.annotation.write.style.HeadStyle;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.annotation.JSONField;
+import com.sun.media.jfxmedia.events.NewFrameEvent;
 import dto.Status;
+import enums.State;
 import javafx.application.Platform;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -24,6 +26,9 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 @ContentStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
 @HeadStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
@@ -64,7 +69,8 @@ public class Client {
 
 
     //状态
-    public void queryStatus() {
+    public CompletableFuture<Status> queryStatus() {
+        CompletableFuture<Status> future = new CompletableFuture<>();
         try {
             String uri = "http://" + getIp() + ":9000/" + "client/status";
             HttpRequest request = HttpRequest.newBuilder()
@@ -76,35 +82,37 @@ public class Client {
                     .whenComplete((resp, err) -> {
                         if (null != err) {
                             //请求失败
-                            if (this.getState() == State.OFFLINE) return;
-                            //变为OFFLINE
+                            future.complete(new Status(0, "客户端离线"));
 
+                            if (this.getState() == State.OFFLINE) return;
+
+                            //变为OFFLINE
                             this.changeState(State.OFFLINE);
+                            return;
                         }
                     }).thenApply(HttpResponse::body)
                     .thenAccept(response -> {
                         //请求成功
                         logger.info(response);
                         Status status = JSON.parseObject(String.valueOf(response), Status.class);
+                        future.complete(status);
+
 
                         if (status.status.equals("OFFLINE")) {
-                            if (this.getState() == State.OFFLINE) return;
-                            //变为OFFLINE
-                            this.setState(State.OFFLINE);
-                            this.changeState(State.OFFLINE);
+                            if (this.getState() == State.ONLINE) return;
+                            //变为ONLINE
+                            this.changeState(State.ONLINE);
                         }
                         if (status.status.equals("ONLINE")) {
                             if (this.getState() == State.OK) return;
                             //变为OK
-                            this.setState(State.OK);
                             this.changeState(State.OK);
                         }
                     });
-        } catch (
-                Exception e) {
+        } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }
-
+        return future;
     }
 
 
@@ -152,7 +160,6 @@ public class Client {
 
     public void changeState(State state) {
         //更改客户端状态和UI
-
         Platform.runLater(() -> {
             Pane pane = (Pane) App.UIMap.get(getId());
             StackPane pic = (StackPane) pane.lookup("#pic");
@@ -270,6 +277,8 @@ public class Client {
 
     @Override
     public String toString() {
+        ArrayList<Object> objects = new ArrayList<>();
+        objects.stream().findFirst().orElse("");
         return "model.Client{" +
                 "ID='" + id + '\'' +
                 ", name='" + name + '\'' +

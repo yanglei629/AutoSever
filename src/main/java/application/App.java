@@ -3,9 +3,11 @@ package application;
 import com.alibaba.fastjson.JSON;
 import com.jfoenix.assets.JFoenixResources;
 import com.jfoenix.controls.*;
+import dto.Status;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
@@ -15,10 +17,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
-import javafx.stage.Modality;
-import javafx.stage.Screen;
-import javafx.stage.Stage;
-import javafx.stage.StageStyle;
+import javafx.stage.*;
+import javafx.util.Duration;
 import model.Client;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.LogManager;
@@ -30,6 +30,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 
 public class App extends Application {
@@ -52,9 +53,6 @@ public class App extends Application {
     private Parent root;
 
     @FXML
-    private StackPane stackPane;
-
-    @FXML
     private JFXDialog dialog;
 
     @FXML
@@ -68,6 +66,9 @@ public class App extends Application {
 
     @FXML
     private StackPane contentArea;
+
+    @FXML
+    private JFXSnackbar snackbar;
 
     private static double xOffset = 0;
     private static double yOffset = 0;
@@ -86,24 +87,6 @@ public class App extends Application {
         } catch (IOException exception) {
             logger.warn(exception.getMessage(), exception);
         }
-
-
-        //检测客户端状态
-        new Thread(
-                () -> {
-                    try {
-                        while (true) {
-                            logger.info("check client state");
-                            clientList.forEach(client -> {
-                                client.queryStatus();
-                            });
-                            Thread.sleep(30000);
-                        }
-                    } catch (Throwable e) {
-                        logger.warn(e.getMessage(), e);
-                    }
-                }
-        ).start();
 
         app.getChildren().remove(dialog);
 
@@ -128,25 +111,61 @@ public class App extends Application {
         status.setOnAction(event -> {
             contextMenu.hide();
             Parent source = MyContentMenu.source;
-            clientMap.get(source.getId()).queryStatus();
+            Client client = clientMap.get(source.getId());
+            CompletableFuture<Status> future = client.queryStatus();
+            future.whenComplete((resp, err) -> {
+                Platform.runLater(() -> {
+                    //弹出提示结果
+                    snackbar = new JFXSnackbar(app);
+                    snackbar.setPrefWidth(300);
+
+                    snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
+                            new JFXSnackbarLayout(client.getName() + ":" + resp.message, "CLOSE", action -> snackbar.close()),
+                            Duration.INDEFINITE, null));
+                });
+            });
         });
 
         close.setOnAction(event -> {
             contextMenu.hide();
             Parent source = MyContentMenu.source;
             clientMap.get(source.getId()).close();
+
+            //弹出提示结果
+            snackbar = new JFXSnackbar(app);
+            snackbar.setPrefWidth(300);
+
+            snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
+                    new JFXSnackbarLayout("Snackbar Message Persistent " + "hello", "CLOSE", action -> snackbar.close()),
+                    Duration.INDEFINITE, null));
         });
 
         start.setOnAction(event -> {
             contextMenu.hide();
             Parent source = MyContentMenu.source;
             clientMap.get(source.getId()).start();
+
+            //弹出提示结果
+            snackbar = new JFXSnackbar(app);
+            snackbar.setPrefWidth(300);
+
+            snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
+                    new JFXSnackbarLayout("Snackbar Message Persistent " + "hello", "CLOSE", action -> snackbar.close()),
+                    Duration.INDEFINITE, null));
         });
 
         update.setOnAction(event -> {
             contextMenu.hide();
             Parent source = MyContentMenu.source;
             clientMap.get(source.getId()).update();
+
+            //弹出提示结果
+            snackbar = new JFXSnackbar(app);
+            snackbar.setPrefWidth(300);
+
+            snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
+                    new JFXSnackbarLayout("Snackbar Message Persistent " + "hello", "CLOSE", action -> snackbar.close()),
+                    Duration.INDEFINITE, null));
         });
 
         closeProcess.setOnAction(event -> {
@@ -159,9 +178,7 @@ public class App extends Application {
             JFXDialogLayout layout = new JFXDialogLayout();
             layout.setHeading(new Label("Modal Dialog using JFXAlert"));
             layout.setBody(new Label("Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-                    + " sed do eiusmod tempor incididunt ut labore et dolore magna"
-                    + " aliqua. Utenim ad minim veniam, quis nostrud exercitation"
-                    + " ullamco laboris nisi ut aliquip ex ea commodo consequat."));
+                    + " sed do eiusmod tempor incididunt ut labore et dolore magna"));
             JFXButton closeButton = new JFXButton("ACCEPT");
             closeButton.getStyleClass().add("dialog-accept");
             closeButton.setOnAction(event1 -> alert.hideWithAnimation());
@@ -214,6 +231,12 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
         //setPrimaryStage(stage);
         primaryStage = stage;
+       /* primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent windowEvent) {
+                System.out.println("hello");
+            }
+        });*/
 
         root = FXMLLoader.load(getClass().getResource("/fxml/app.fxml"));
 
@@ -249,6 +272,23 @@ public class App extends Application {
         ResizeHelper.addResizeListener(stage);
 
         stage.show();
+
+        //检测客户端状态
+        new Thread(
+                () -> {
+                    try {
+                        while (true) {
+                            logger.info("check client state");
+                            clientList.forEach(client -> {
+                                client.queryStatus();
+                            });
+                            Thread.sleep(30000);
+                        }
+                    } catch (Throwable e) {
+                        logger.warn(e.getMessage(), e);
+                    }
+                }
+        ).start();
     }
 
     private void setPrimaryStage(Stage stage) {
