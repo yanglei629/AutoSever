@@ -26,24 +26,5 @@
                 </StackPane>
             </StackPane>
         </center>
-        <JFXDialog fx:id="dialog">
-            <JFXDialogLayout>
-                <heading>
-                    <Label>Execute Script</Label>
-                </heading>
-                <body>
-                    <VBox prefWidth="300" spacing="20" maxWidth="400">
-                        <children>
-                            <Label fx:id="label_1">请输入脚本路径</Label>
-                            <JFXTextField fx:id="input_1"></JFXTextField>
-                        </children>
-                    </VBox>
-                </body>
-                <actions>
-                    <JFXButton fx:id="cancelButton" styleClass="dialog-accept">Cancel</JFXButton>
-                    <JFXButton fx:id="acceptButton" styleClass="dialog-accept">OK</JFXButton>
-                </actions>
-            </JFXDialogLayout>
-        </JFXDialog>
     </BorderPane>
 </StackPane>

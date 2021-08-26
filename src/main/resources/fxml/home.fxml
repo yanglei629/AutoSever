@@ -1,101 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ScrollPane?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.scene.text.Font?>
-<BorderPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controllers.HomeController" style="-fx-background-color: transparent">
-    <top>
-        <VBox>
-            <AnchorPane style="-fx-background-color:#ffffff" prefHeight="50">
-                <HBox spacing="2" AnchorPane.rightAnchor="0">
-                    <!--方式1:代码多，但是可以调整大小-->
-                    <!--<Button>
-                        <graphic>
-                            <ImageView>
-                                <image>
-                                    <Image url="/images/minimal.png"></Image>
-                                </image>
-                            </ImageView>
-                        </graphic>
-                    </Button>-->
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml" fx:id="root"
+           fx:controller="controllers.HomeController" style="-fx-background-color: transparent">
+    <BorderPane>
+        <top>
+            <VBox>
+                <AnchorPane style="-fx-background-color:#ffffff" prefHeight="50">
+                    <HBox spacing="2" AnchorPane.rightAnchor="0">
+                        <!--方式1:代码多，但是可以调整大小-->
+                        <!--<Button>
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="/images/minimal.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>-->
 
-                    <!--方式2:加载FontAwesome库,简单并且可以调整大小-->
-                    <!--<Button>
-                        <graphic>
-                            <FontAwesomeIconView fill="#2d75e8" glyphName="CLOSE" size="15"/>
-                        </graphic>
-                    </Button>-->
-                    <!--方式3:代码最简洁,但是不能调整大小-->
-                    <!--<Button fx:id="exit" style="-fx-graphic: url('/images/exit.png')"/>-->
-                    <Button fx:id="minimum">
-                        <graphic>
-                            <ImageView fitWidth="16" fitHeight="16">
-                                <image>
-                                    <Image url="/images/minimum.png"></Image>
-                                </image>
-                            </ImageView>
-                        </graphic>
-                    </Button>
-                    <Button fx:id="maximum">
-                        <graphic>
-                            <ImageView fitWidth="16" fitHeight="16">
-                                <image>
-                                    <Image url="/images/maximum.png"></Image>
-                                </image>
-                            </ImageView>
-                        </graphic>
-                    </Button>
-                    <Button fx:id="exit">
-                        <graphic>
-                            <ImageView fitWidth="16" fitHeight="16">
-                                <image>
-                                    <Image url="/images/exit.png"></Image>
-                                </image>
-                            </ImageView>
-                        </graphic>
-                    </Button>
-                </HBox>
-            </AnchorPane>
-            <Pane prefHeight="90" style="-fx-background-color:#d0d0d0;">
-                <HBox prefHeight="90" prefWidth="500"
-                      style="-fx-background-color:#d0d0d0;-fx-alignment: center-left;-fx-spacing: 5;">
-                    <Button fx:id="notify">
-                        <graphic>
-                            <ImageView fitWidth="32" fitHeight="32">
-                                <image>
-                                    <Image url="/images/notify.png"></Image>
-                                </image>
-                            </ImageView>
-                        </graphic>
-                    </Button>
-                    <Button fx:id="distribute_file">
-                        <graphic>
-                            <ImageView fitWidth="32" fitHeight="32">
-                                <image>
-                                    <Image url="/images/file_distribution.png"></Image>
-                                </image>
-                            </ImageView>
-                        </graphic>
-                    </Button>
-                </HBox>
-            </Pane>
-        </VBox>
-    </top>
-    <!--客户端页面-->
-    <center>
-        <ScrollPane prefHeight="500" prefWidth="800" fitToHeight="true" fitToWidth="true">
-            <content>
-                <FlowPane fx:id="flowPane"
-                          style="-fx-hgap:5;-fx-vgap:5;-fx-background-color:#F4F4F4;-fx-padding: 10px 10px">
-                </FlowPane>
-            </content>
-        </ScrollPane>
-    </center>
-</BorderPane>
+                        <!--方式2:加载FontAwesome库,简单并且可以调整大小-->
+                        <!--<Button>
+                            <graphic>
+                                <FontAwesomeIconView fill="#2d75e8" glyphName="CLOSE" size="15"/>
+                            </graphic>
+                        </Button>-->
+                        <!--方式3:代码最简洁,但是不能调整大小-->
+                        <!--<Button fx:id="exit" style="-fx-graphic: url('/images/exit.png')"/>-->
+                        <Button fx:id="minimum">
+                            <graphic>
+                                <ImageView fitWidth="16" fitHeight="16">
+                                    <image>
+                                        <Image url="/images/minimum.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="maximum">
+                            <graphic>
+                                <ImageView fitWidth="16" fitHeight="16">
+                                    <image>
+                                        <Image url="/images/maximum.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="exit">
+                            <graphic>
+                                <ImageView fitWidth="16" fitHeight="16">
+                                    <image>
+                                        <Image url="/images/exit.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </HBox>
+                </AnchorPane>
+                <Pane prefHeight="90" style="-fx-background-color:#d0d0d0;">
+                    <HBox prefHeight="90" prefWidth="500"
+                          style="-fx-background-color:#d0d0d0;-fx-alignment: center-left;-fx-spacing: 5;">
+                        <Button fx:id="select_all" text="全选" onAction="#selectAll">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/un_select_all.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font size="32"></Font>
+                            </font>
+                        </Button>
+                        <Button fx:id="notify">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/notify.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="distribute_file">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/file_distribution.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="add_client" onAction="#add_client">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/add.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="delete_client">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/delete.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="import_client">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/import.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button fx:id="export_client">
+                            <graphic>
+                                <ImageView fitWidth="32" fitHeight="32">
+                                    <image>
+                                        <Image url="/images/export.png"></Image>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </HBox>
+                </Pane>
+            </VBox>
+        </top>
+        <!--客户端页面-->
+        <center>
+            <ScrollPane prefHeight="500" prefWidth="800" fitToHeight="true" fitToWidth="true">
+                <content>
+                    <FlowPane fx:id="flowPane"
+                              style="-fx-hgap:5;-fx-vgap:5;-fx-background-color:#F4F4F4;-fx-padding: 10px 10px">
+                    </FlowPane>
+                </content>
+            </ScrollPane>
+        </center>
+        <JFXDialog fx:id="dialog">
+            <JFXDialogLayout>
+                <heading>
+                    <Label>执行脚本</Label>
+                </heading>
+                <body>
+                    <VBox prefWidth="300" spacing="20" maxWidth="400">
+                        <children>
+                            <Label fx:id="label_1">请输入脚本路径</Label>
+                            <JFXTextField fx:id="input_1"></JFXTextField>
+                        </children>
+                    </VBox>
+                </body>
+                <actions>
+                    <JFXButton fx:id="cancelButton" styleClass="dialog-accept">Cancel</JFXButton>
+                    <JFXButton fx:id="acceptButton" styleClass="dialog-accept">OK</JFXButton>
+                </actions>
+            </JFXDialogLayout>
+        </JFXDialog>
 
+        <JFXDialog fx:id="add_dialog">
+            <JFXDialogLayout>
+                <heading>
+                    <Label>新增</Label>
+                </heading>
+                <Separator orientation="HORIZONTAL"></Separator>
+                <body>
+                    <VBox prefWidth="300" spacing="20" maxWidth="400">
+                        <children>
+                            <JFXTextField text="hello"></JFXTextField>
+                        </children>
+
+                    </VBox>
+                </body>
+                <actions>
+                    <JFXButton onAction="#add_dialog_cancel" styleClass="dialog-accept">Cancel</JFXButton>
+                    <JFXButton onAction="#add_dialog_submit" styleClass="dialog-accept">OK</JFXButton>
+                </actions>
+            </JFXDialogLayout>
+        </JFXDialog>
+
+        <JFXDialog fx:id="export_dialog">
+            <JFXDialogLayout>
+                <heading>
+                    <Label>导出</Label>
+                </heading>
+                <Separator orientation="HORIZONTAL"></Separator>
+                <body>
+                    <VBox prefWidth="300" spacing="20" maxWidth="400">
+                        <children>
+                            <Label styleClass="radio-button-title-label">导出方式</Label>
+
+                            <JFXRadioButton fx:id="export_to_excel" selected="true" text="Excel"
+                                            styleClass="custom-jfx-radio-button">
+                                <toggleGroup>
+                                    <ToggleGroup fx:id="exportGroup"/>
+                                </toggleGroup>
+                            </JFXRadioButton>
+                            <JFXRadioButton fx:id="export_to_json" selected="false"
+                                            text="Json" toggleGroup="$exportGroup"
+                                            styleClass="custom-jfx-radio-button"/>
+                        </children>
+                    </VBox>
+                </body>
+                <actions>
+                    <JFXButton onAction="#export_dialog_cancel" styleClass="dialog-accept">Cancel</JFXButton>
+                    <JFXButton onAction="#export_dialog_submit" styleClass="dialog-accept">OK</JFXButton>
+                </actions>
+            </JFXDialogLayout>
+        </JFXDialog>
+    </BorderPane>
+</StackPane>

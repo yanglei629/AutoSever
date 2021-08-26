@@ -111,7 +111,7 @@ public class ApiTest {
     public void upload() {
         String uri = "http://192.168.0.104:9000/client/upload";
         String fileName = "b.png";
-        URI build = null;
+        URI build;
         try {
             build = new URIBuilder(uri).addParameter("fileName", fileName).build();
 
@@ -163,5 +163,12 @@ public class ApiTest {
         client.queryStatus();*/
 
         Thread.sleep(10000);
+    }
+
+
+    @Test
+    public void testNull() {
+        String s = (String) null;
+        System.out.println(s);
     }
 }

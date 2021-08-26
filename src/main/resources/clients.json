@@ -8,6 +8,14 @@
     "state": "OK"
   },
   {
+    "id": "TNI-04",
+    "name": "TNI-04",
+    "group": "ni",
+    "ip": "10.65.99.77",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
     "id": "TNI-05",
     "name": "TNI-05",
     "group": "ni",
@@ -236,6 +244,14 @@
     "name": "TNI-48",
     "group": "ni",
     "ip": "10.65.93.206",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-49",
+    "name": "TNI-49",
+    "group": "ni",
+    "ip": "10.65.99.75",
     "port": 9000,
     "state": "OK"
   },
@@ -824,10 +840,34 @@
     "state": "OK"
   },
   {
+    "id": "TNI-334",
+    "name": "TNI-334",
+    "group": "ni",
+    "ip": "10.65.99.76",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
     "id": "TNI-335",
     "name": "TNI-335",
     "group": "ni",
     "ip": "10.65.93.210",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-336",
+    "name": "TNI-336",
+    "group": "ni",
+    "ip": "10.65.99.73",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-337",
+    "name": "TNI-337",
+    "group": "ni",
+    "ip": "10.65.99.74",
     "port": 9000,
     "state": "OK"
   },
@@ -844,6 +884,14 @@
     "name": "TNI-339",
     "group": "ni",
     "ip": "10.65.93.174",
+    "port": 9000,
+    "state": "OK"
+  },
+  {
+    "id": "TNI-340",
+    "name": "TNI-340",
+    "group": "ni",
+    "ip": "10.65.99.140",
     "port": 9000,
     "state": "OK"
   },

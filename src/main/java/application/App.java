@@ -2,41 +2,41 @@ package application;
 
 import com.alibaba.fastjson.JSON;
 import com.jfoenix.assets.JFoenixResources;
-import com.jfoenix.controls.*;
-import dto.Status;
+import com.jfoenix.controls.JFXSnackbar;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.MenuItem;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
-import javafx.stage.*;
-import javafx.util.Duration;
+import javafx.stage.DirectoryChooser;
+import javafx.stage.Screen;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import model.Client;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import utils.ResizeHelper;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
 
 public class App extends Application {
     private static final Logger logger = LogManager.getLogger(App.class);
+    public static final String HOME = System.getProperty("user.dir");
+    public static DirectoryChooser directoryChooser = new DirectoryChooser();
 
-    public static MyContentMenu contextMenu;
+
     public static HashMap<String, Client> clientMap = new HashMap<>(); //<ID,model.Client>
     public static HashMap<String, Parent> UIMap = new HashMap<>(); //<ID,Parent>
     public static List<Client> clientList;
@@ -44,7 +44,7 @@ public class App extends Application {
     public static Stage primaryStage; // **Declare static Stage**
 
     @FXML
-    private StackPane app;
+    public StackPane app;
 
     @FXML
     private AnchorPane side_pane;
@@ -52,17 +52,6 @@ public class App extends Application {
     @FXML
     private Parent root;
 
-    @FXML
-    private JFXDialog dialog;
-
-    @FXML
-    private JFXTextField input_1;
-
-    @FXML
-    private JFXButton cancelButton;
-
-    @FXML
-    private JFXButton acceptButton;
 
     @FXML
     private StackPane contentArea;
@@ -88,132 +77,10 @@ public class App extends Application {
             logger.warn(exception.getMessage(), exception);
         }
 
-        app.getChildren().remove(dialog);
+        //弹出提示结果
+        snackbar = new JFXSnackbar(app);
+        snackbar.setPrefWidth(300);
 
-        cancelButton.setOnAction(action -> dialog.close());
-        acceptButton.setOnAction(action -> {
-            String path = input_1.getText();
-            dialog.close();
-        });
-
-        //右键菜单
-        contextMenu = new MyContentMenu();
-        MenuItem status = new MenuItem("eap status");
-        MenuItem close = new MenuItem("close eap");
-        MenuItem start = new MenuItem("start eap");
-        MenuItem update = new MenuItem("update eap");
-        MenuItem closeProcess = new MenuItem("close process");
-        MenuItem startProcess = new MenuItem("start process");
-        MenuItem delete = new MenuItem("delete file");
-        MenuItem execute = new MenuItem("execute script");
-        contextMenu.getItems().addAll(status, close, start, update, closeProcess, startProcess, delete, execute);
-
-        status.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-            Client client = clientMap.get(source.getId());
-            CompletableFuture<Status> future = client.queryStatus();
-            future.whenComplete((resp, err) -> {
-                Platform.runLater(() -> {
-                    //弹出提示结果
-                    snackbar = new JFXSnackbar(app);
-                    snackbar.setPrefWidth(300);
-
-                    snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
-                            new JFXSnackbarLayout(client.getName() + ":" + resp.message, "CLOSE", action -> snackbar.close()),
-                            Duration.INDEFINITE, null));
-                });
-            });
-        });
-
-        close.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-            clientMap.get(source.getId()).close();
-
-            //弹出提示结果
-            snackbar = new JFXSnackbar(app);
-            snackbar.setPrefWidth(300);
-
-            snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
-                    new JFXSnackbarLayout("Snackbar Message Persistent " + "hello", "CLOSE", action -> snackbar.close()),
-                    Duration.INDEFINITE, null));
-        });
-
-        start.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-            clientMap.get(source.getId()).start();
-
-            //弹出提示结果
-            snackbar = new JFXSnackbar(app);
-            snackbar.setPrefWidth(300);
-
-            snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
-                    new JFXSnackbarLayout("Snackbar Message Persistent " + "hello", "CLOSE", action -> snackbar.close()),
-                    Duration.INDEFINITE, null));
-        });
-
-        update.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-            clientMap.get(source.getId()).update();
-
-            //弹出提示结果
-            snackbar = new JFXSnackbar(app);
-            snackbar.setPrefWidth(300);
-
-            snackbar.fireEvent(new JFXSnackbar.SnackbarEvent(
-                    new JFXSnackbarLayout("Snackbar Message Persistent " + "hello", "CLOSE", action -> snackbar.close()),
-                    Duration.INDEFINITE, null));
-        });
-
-        closeProcess.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-
-            JFXAlert alert = new JFXAlert((Stage) app.getScene().getWindow());
-            alert.initModality(Modality.APPLICATION_MODAL);
-            alert.setOverlayClose(false);
-            JFXDialogLayout layout = new JFXDialogLayout();
-            layout.setHeading(new Label("Modal Dialog using JFXAlert"));
-            layout.setBody(new Label("Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-                    + " sed do eiusmod tempor incididunt ut labore et dolore magna"));
-            JFXButton closeButton = new JFXButton("ACCEPT");
-            closeButton.getStyleClass().add("dialog-accept");
-            closeButton.setOnAction(event1 -> alert.hideWithAnimation());
-            layout.setActions(closeButton);
-            alert.setContent(layout);
-            alert.show();
-
-            clientMap.get(source.getId()).close();
-        });
-
-        startProcess.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-
-            clientMap.get(source.getId()).startProcess();
-        });
-
-
-        delete.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-            clientMap.get(source.getId()).deleteFile();
-        });
-
-        execute.setOnAction(event -> {
-            contextMenu.hide();
-            Parent source = MyContentMenu.source;
-
-            dialog.setTransitionType(JFXDialog.DialogTransition.CENTER);
-
-            dialog.show(app);
-
-
-            clientMap.get(source.getId()).executeScript();
-        });
 
         side_pane.setOnMousePressed(event -> {
             xOffset = event.getScreenX();
@@ -313,6 +180,10 @@ public class App extends Application {
 
 
     static {
+        directoryChooser.setTitle("Auto Server");
+        File defaultDirectory = new File(HOME);
+        directoryChooser.setInitialDirectory(defaultDirectory);
+
         //读取json配置文件
         try {
 

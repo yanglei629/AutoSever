@@ -3137,3 +3137,1755 @@ INFO  2021/08/19 20:57:43 [281 ] App             - check client state
 INFO  2021/08/19 20:58:13 [281 ] App             - check client state
 INFO  2021/08/19 20:58:43 [281 ] App             - check client state
 INFO  2021/08/19 20:59:13 [281 ] App             - check client state
+INFO  2021/08/21 16:31:30 [332 ] App             - IP:192.168.0.100
+INFO  2021/08/21 16:31:30 [62  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:31:32 [281 ] App             - check client state
+INFO  2021/08/21 16:31:36 [62  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:31:39 [62  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:32:02 [281 ] App             - check client state
+INFO  2021/08/21 16:32:09 [62  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:32:33 [281 ] App             - check client state
+INFO  2021/08/21 16:33:03 [281 ] App             - check client state
+INFO  2021/08/21 16:33:33 [281 ] App             - check client state
+INFO  2021/08/21 16:34:03 [281 ] App             - check client state
+INFO  2021/08/21 16:34:15 [62  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:34:33 [62  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:34:33 [281 ] App             - check client state
+INFO  2021/08/21 16:35:03 [281 ] App             - check client state
+INFO  2021/08/21 16:35:33 [281 ] App             - check client state
+INFO  2021/08/21 16:36:03 [281 ] App             - check client state
+INFO  2021/08/21 16:36:33 [281 ] App             - check client state
+INFO  2021/08/21 16:37:03 [281 ] App             - check client state
+INFO  2021/08/21 16:37:33 [281 ] App             - check client state
+INFO  2021/08/21 16:38:03 [281 ] App             - check client state
+INFO  2021/08/21 16:38:34 [281 ] App             - check client state
+INFO  2021/08/21 16:39:04 [281 ] App             - check client state
+INFO  2021/08/21 16:39:34 [281 ] App             - check client state
+INFO  2021/08/21 16:40:04 [281 ] App             - check client state
+INFO  2021/08/21 16:40:34 [281 ] App             - check client state
+INFO  2021/08/21 16:41:04 [281 ] App             - check client state
+INFO  2021/08/21 16:41:34 [281 ] App             - check client state
+INFO  2021/08/21 16:42:04 [281 ] App             - check client state
+INFO  2021/08/21 16:42:34 [281 ] App             - check client state
+INFO  2021/08/21 16:43:04 [281 ] App             - check client state
+INFO  2021/08/21 16:43:34 [281 ] App             - check client state
+INFO  2021/08/21 16:44:04 [281 ] App             - check client state
+INFO  2021/08/21 16:44:34 [281 ] App             - check client state
+INFO  2021/08/21 16:45:04 [281 ] App             - check client state
+INFO  2021/08/21 16:45:34 [281 ] App             - check client state
+INFO  2021/08/21 16:46:04 [281 ] App             - check client state
+INFO  2021/08/21 16:46:34 [281 ] App             - check client state
+INFO  2021/08/21 16:47:04 [281 ] App             - check client state
+INFO  2021/08/21 16:47:34 [281 ] App             - check client state
+INFO  2021/08/21 16:48:04 [281 ] App             - check client state
+INFO  2021/08/21 16:48:34 [281 ] App             - check client state
+INFO  2021/08/21 16:49:04 [281 ] App             - check client state
+INFO  2021/08/21 16:49:34 [281 ] App             - check client state
+INFO  2021/08/21 16:50:04 [281 ] App             - check client state
+INFO  2021/08/21 16:50:34 [281 ] App             - check client state
+INFO  2021/08/21 16:51:04 [281 ] App             - check client state
+INFO  2021/08/21 16:51:34 [281 ] App             - check client state
+INFO  2021/08/21 16:52:04 [281 ] App             - check client state
+INFO  2021/08/21 16:52:34 [281 ] App             - check client state
+INFO  2021/08/21 16:53:04 [281 ] App             - check client state
+INFO  2021/08/21 16:53:34 [281 ] App             - check client state
+INFO  2021/08/21 16:54:05 [281 ] App             - check client state
+INFO  2021/08/21 16:54:39 [332 ] App             - IP:192.168.0.100
+INFO  2021/08/21 16:54:40 [61  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:54:42 [281 ] App             - check client state
+INFO  2021/08/21 16:55:12 [281 ] App             - check client state
+INFO  2021/08/21 16:55:42 [281 ] App             - check client state
+INFO  2021/08/21 16:56:12 [281 ] App             - check client state
+INFO  2021/08/21 16:56:42 [281 ] App             - check client state
+INFO  2021/08/21 16:57:12 [281 ] App             - check client state
+INFO  2021/08/21 16:57:42 [281 ] App             - check client state
+INFO  2021/08/21 16:58:12 [281 ] App             - check client state
+INFO  2021/08/21 16:58:29 [332 ] App             - IP:192.168.0.100
+INFO  2021/08/21 16:58:29 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:58:30 [281 ] App             - check client state
+INFO  2021/08/21 16:59:01 [281 ] App             - check client state
+INFO  2021/08/21 16:59:34 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 16:59:34 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 16:59:35 [285 ] App             - check client state
+INFO  2021/08/21 17:00:06 [285 ] App             - check client state
+INFO  2021/08/21 17:00:36 [285 ] App             - check client state
+INFO  2021/08/21 17:01:06 [285 ] App             - check client state
+INFO  2021/08/21 17:01:36 [285 ] App             - check client state
+INFO  2021/08/21 17:02:06 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:02:07 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:02:08 [285 ] App             - check client state
+INFO  2021/08/21 17:02:38 [285 ] App             - check client state
+INFO  2021/08/21 17:03:08 [285 ] App             - check client state
+INFO  2021/08/21 17:03:38 [285 ] App             - check client state
+INFO  2021/08/21 17:03:48 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:03:49 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:03:50 [285 ] App             - check client state
+INFO  2021/08/21 17:04:20 [285 ] App             - check client state
+INFO  2021/08/21 17:04:51 [285 ] App             - check client state
+INFO  2021/08/21 17:05:11 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:05:11 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:05:13 [285 ] App             - check client state
+INFO  2021/08/21 17:05:42 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:05:43 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:05:44 [285 ] App             - check client state
+INFO  2021/08/21 17:06:14 [285 ] App             - check client state
+INFO  2021/08/21 17:06:44 [285 ] App             - check client state
+INFO  2021/08/21 17:07:14 [285 ] App             - check client state
+INFO  2021/08/21 17:07:29 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:07:30 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:07:31 [285 ] App             - check client state
+INFO  2021/08/21 17:08:02 [285 ] App             - check client state
+INFO  2021/08/21 17:08:32 [285 ] App             - check client state
+INFO  2021/08/21 17:09:02 [285 ] App             - check client state
+INFO  2021/08/21 17:09:32 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:09:33 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:09:34 [285 ] App             - check client state
+INFO  2021/08/21 17:10:04 [285 ] App             - check client state
+INFO  2021/08/21 17:10:34 [285 ] App             - check client state
+INFO  2021/08/21 17:11:04 [285 ] App             - check client state
+INFO  2021/08/21 17:11:34 [285 ] App             - check client state
+INFO  2021/08/21 17:12:04 [285 ] App             - check client state
+INFO  2021/08/21 17:12:34 [285 ] App             - check client state
+INFO  2021/08/21 17:13:04 [285 ] App             - check client state
+INFO  2021/08/21 17:13:34 [285 ] App             - check client state
+INFO  2021/08/21 17:14:04 [285 ] App             - check client state
+INFO  2021/08/21 17:14:34 [285 ] App             - check client state
+INFO  2021/08/21 17:15:04 [285 ] App             - check client state
+INFO  2021/08/21 17:15:31 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:15:32 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:15:33 [285 ] App             - check client state
+INFO  2021/08/21 17:15:37 [64  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:16:03 [285 ] App             - check client state
+INFO  2021/08/21 17:16:21 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:16:22 [67  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:16:23 [285 ] App             - check client state
+INFO  2021/08/21 17:16:53 [285 ] App             - check client state
+INFO  2021/08/21 17:17:17 [336 ] App             - IP:192.168.0.100
+INFO  2021/08/21 17:17:17 [67  ] HomeController  - 生成客户端UI
+INFO  2021/08/21 17:17:20 [285 ] App             - check client state
+INFO  2021/08/21 17:17:50 [285 ] App             - check client state
+INFO  2021/08/21 18:55:46 [285 ] App             - check client state
+INFO  2021/08/21 18:56:16 [285 ] App             - check client state
+INFO  2021/08/21 18:56:46 [285 ] App             - check client state
+INFO  2021/08/21 18:57:16 [285 ] App             - check client state
+INFO  2021/08/21 18:57:46 [285 ] App             - check client state
+INFO  2021/08/21 18:58:16 [285 ] App             - check client state
+INFO  2021/08/21 18:58:46 [285 ] App             - check client state
+INFO  2021/08/21 18:59:16 [285 ] App             - check client state
+INFO  2021/08/21 18:59:46 [285 ] App             - check client state
+INFO  2021/08/21 19:00:16 [285 ] App             - check client state
+INFO  2021/08/21 19:00:46 [285 ] App             - check client state
+INFO  2021/08/21 19:01:16 [285 ] App             - check client state
+INFO  2021/08/21 19:01:46 [285 ] App             - check client state
+INFO  2021/08/21 19:02:17 [285 ] App             - check client state
+INFO  2021/08/21 19:02:47 [285 ] App             - check client state
+INFO  2021/08/21 19:03:17 [285 ] App             - check client state
+INFO  2021/08/21 19:03:47 [285 ] App             - check client state
+INFO  2021/08/21 19:04:17 [285 ] App             - check client state
+INFO  2021/08/21 19:04:47 [285 ] App             - check client state
+INFO  2021/08/21 19:05:17 [285 ] App             - check client state
+INFO  2021/08/21 19:05:47 [285 ] App             - check client state
+INFO  2021/08/21 19:06:17 [285 ] App             - check client state
+INFO  2021/08/21 19:06:47 [285 ] App             - check client state
+INFO  2021/08/21 19:07:17 [285 ] App             - check client state
+INFO  2021/08/21 19:07:47 [285 ] App             - check client state
+INFO  2021/08/21 19:08:17 [285 ] App             - check client state
+INFO  2021/08/21 19:08:47 [285 ] App             - check client state
+INFO  2021/08/21 19:09:17 [285 ] App             - check client state
+INFO  2021/08/21 19:09:47 [285 ] App             - check client state
+INFO  2021/08/21 19:10:17 [285 ] App             - check client state
+INFO  2021/08/21 19:10:47 [285 ] App             - check client state
+INFO  2021/08/21 19:11:17 [285 ] App             - check client state
+INFO  2021/08/21 19:11:47 [285 ] App             - check client state
+INFO  2021/08/21 19:12:17 [285 ] App             - check client state
+INFO  2021/08/21 19:12:47 [285 ] App             - check client state
+INFO  2021/08/21 19:13:17 [285 ] App             - check client state
+INFO  2021/08/21 19:13:47 [285 ] App             - check client state
+INFO  2021/08/21 19:14:17 [285 ] App             - check client state
+INFO  2021/08/21 19:14:47 [285 ] App             - check client state
+INFO  2021/08/21 19:15:17 [285 ] App             - check client state
+INFO  2021/08/21 19:15:48 [285 ] App             - check client state
+INFO  2021/08/21 19:16:18 [285 ] App             - check client state
+INFO  2021/08/21 19:16:48 [285 ] App             - check client state
+INFO  2021/08/21 19:17:18 [285 ] App             - check client state
+INFO  2021/08/21 19:17:48 [285 ] App             - check client state
+INFO  2021/08/21 19:18:18 [285 ] App             - check client state
+INFO  2021/08/21 19:18:48 [285 ] App             - check client state
+INFO  2021/08/21 19:19:18 [285 ] App             - check client state
+INFO  2021/08/21 19:19:48 [285 ] App             - check client state
+INFO  2021/08/21 19:20:18 [285 ] App             - check client state
+INFO  2021/08/21 19:20:48 [285 ] App             - check client state
+INFO  2021/08/21 19:21:18 [285 ] App             - check client state
+INFO  2021/08/21 19:21:48 [285 ] App             - check client state
+INFO  2021/08/21 19:22:19 [285 ] App             - check client state
+INFO  2021/08/21 19:22:49 [285 ] App             - check client state
+INFO  2021/08/21 19:23:19 [285 ] App             - check client state
+INFO  2021/08/21 19:23:49 [285 ] App             - check client state
+INFO  2021/08/21 19:24:19 [285 ] App             - check client state
+INFO  2021/08/21 19:24:49 [285 ] App             - check client state
+INFO  2021/08/21 19:25:19 [285 ] App             - check client state
+INFO  2021/08/21 19:25:49 [285 ] App             - check client state
+INFO  2021/08/21 19:26:19 [285 ] App             - check client state
+INFO  2021/08/21 19:26:49 [285 ] App             - check client state
+INFO  2021/08/21 19:27:19 [285 ] App             - check client state
+INFO  2021/08/21 19:27:49 [285 ] App             - check client state
+INFO  2021/08/21 19:28:19 [285 ] App             - check client state
+INFO  2021/08/21 19:28:49 [285 ] App             - check client state
+INFO  2021/08/21 19:29:19 [285 ] App             - check client state
+INFO  2021/08/21 19:29:50 [285 ] App             - check client state
+INFO  2021/08/21 19:30:20 [285 ] App             - check client state
+INFO  2021/08/21 19:30:50 [285 ] App             - check client state
+INFO  2021/08/21 19:31:20 [285 ] App             - check client state
+INFO  2021/08/21 19:31:50 [285 ] App             - check client state
+INFO  2021/08/21 19:32:20 [285 ] App             - check client state
+INFO  2021/08/21 19:32:50 [285 ] App             - check client state
+INFO  2021/08/21 19:33:20 [285 ] App             - check client state
+INFO  2021/08/21 19:33:50 [285 ] App             - check client state
+INFO  2021/08/21 19:34:20 [285 ] App             - check client state
+INFO  2021/08/21 19:34:50 [285 ] App             - check client state
+INFO  2021/08/21 19:35:20 [285 ] App             - check client state
+INFO  2021/08/21 19:35:50 [285 ] App             - check client state
+INFO  2021/08/21 19:36:20 [285 ] App             - check client state
+INFO  2021/08/21 19:36:50 [285 ] App             - check client state
+INFO  2021/08/21 19:37:21 [285 ] App             - check client state
+INFO  2021/08/21 19:37:51 [285 ] App             - check client state
+INFO  2021/08/21 19:38:21 [285 ] App             - check client state
+INFO  2021/08/21 19:38:51 [285 ] App             - check client state
+INFO  2021/08/21 19:39:21 [285 ] App             - check client state
+INFO  2021/08/21 19:39:51 [285 ] App             - check client state
+INFO  2021/08/21 19:40:21 [285 ] App             - check client state
+INFO  2021/08/21 19:40:51 [285 ] App             - check client state
+INFO  2021/08/24 13:30:17 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/24 13:30:17 [67  ] HomeController  - 生成客户端UI
+INFO  2021/08/24 13:30:20 [285 ] App             - check client state
+INFO  2021/08/24 13:30:50 [285 ] App             - check client state
+INFO  2021/08/24 13:31:20 [285 ] App             - check client state
+INFO  2021/08/24 13:31:50 [285 ] App             - check client state
+INFO  2021/08/24 13:32:10 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/24 13:32:10 [67  ] HomeController  - 生成客户端UI
+INFO  2021/08/24 13:32:11 [285 ] App             - check client state
+INFO  2021/08/24 13:32:14 [67  ] HomeController  - 生成客户端UI
+INFO  2021/08/24 13:32:41 [285 ] App             - check client state
+INFO  2021/08/24 13:33:12 [285 ] App             - check client state
+INFO  2021/08/24 13:33:42 [285 ] App             - check client state
+INFO  2021/08/24 13:34:12 [285 ] App             - check client state
+INFO  2021/08/24 13:34:42 [285 ] App             - check client state
+INFO  2021/08/24 13:35:12 [285 ] App             - check client state
+INFO  2021/08/24 13:35:42 [285 ] App             - check client state
+INFO  2021/08/24 13:36:12 [285 ] App             - check client state
+INFO  2021/08/24 13:36:31 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/24 13:36:31 [69  ] HomeController  - 生成客户端UI
+INFO  2021/08/24 13:36:33 [285 ] App             - check client state
+INFO  2021/08/24 13:37:03 [285 ] App             - check client state
+INFO  2021/08/24 13:37:33 [285 ] App             - check client state
+INFO  2021/08/24 13:38:03 [285 ] App             - check client state
+INFO  2021/08/24 13:38:33 [285 ] App             - check client state
+INFO  2021/08/24 13:38:42 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/24 13:38:42 [69  ] HomeController  - 生成客户端UI
+INFO  2021/08/24 13:38:44 [285 ] App             - check client state
+INFO  2021/08/24 13:39:14 [285 ] App             - check client state
+INFO  2021/08/24 13:39:44 [285 ] App             - check client state
+INFO  2021/08/24 13:40:14 [285 ] App             - check client state
+INFO  2021/08/24 13:40:44 [285 ] App             - check client state
+INFO  2021/08/24 13:41:14 [285 ] App             - check client state
+INFO  2021/08/24 13:41:44 [285 ] App             - check client state
+INFO  2021/08/24 13:42:14 [285 ] App             - check client state
+INFO  2021/08/24 13:42:44 [285 ] App             - check client state
+INFO  2021/08/24 13:43:14 [285 ] App             - check client state
+INFO  2021/08/24 13:43:44 [285 ] App             - check client state
+INFO  2021/08/24 13:44:14 [285 ] App             - check client state
+INFO  2021/08/24 13:44:44 [285 ] App             - check client state
+INFO  2021/08/24 13:45:14 [285 ] App             - check client state
+INFO  2021/08/24 13:45:44 [285 ] App             - check client state
+INFO  2021/08/24 13:46:14 [285 ] App             - check client state
+INFO  2021/08/24 13:46:44 [285 ] App             - check client state
+INFO  2021/08/24 13:47:14 [285 ] App             - check client state
+INFO  2021/08/24 13:47:44 [285 ] App             - check client state
+INFO  2021/08/24 13:48:14 [285 ] App             - check client state
+INFO  2021/08/24 13:48:44 [285 ] App             - check client state
+INFO  2021/08/24 13:49:14 [285 ] App             - check client state
+INFO  2021/08/24 13:49:44 [285 ] App             - check client state
+INFO  2021/08/24 13:50:15 [285 ] App             - check client state
+INFO  2021/08/24 13:50:45 [285 ] App             - check client state
+INFO  2021/08/24 13:51:15 [285 ] App             - check client state
+INFO  2021/08/24 13:51:45 [285 ] App             - check client state
+INFO  2021/08/24 13:52:15 [285 ] App             - check client state
+INFO  2021/08/24 13:52:45 [285 ] App             - check client state
+INFO  2021/08/24 13:53:15 [285 ] App             - check client state
+INFO  2021/08/24 13:53:45 [285 ] App             - check client state
+INFO  2021/08/24 13:54:15 [285 ] App             - check client state
+INFO  2021/08/24 13:54:45 [285 ] App             - check client state
+INFO  2021/08/24 13:55:15 [285 ] App             - check client state
+INFO  2021/08/24 13:55:45 [285 ] App             - check client state
+INFO  2021/08/24 13:56:15 [285 ] App             - check client state
+INFO  2021/08/24 13:56:45 [285 ] App             - check client state
+INFO  2021/08/24 13:57:15 [285 ] App             - check client state
+INFO  2021/08/24 13:57:45 [285 ] App             - check client state
+INFO  2021/08/24 13:58:15 [285 ] App             - check client state
+INFO  2021/08/24 13:58:45 [285 ] App             - check client state
+INFO  2021/08/24 13:59:15 [285 ] App             - check client state
+INFO  2021/08/24 13:59:45 [285 ] App             - check client state
+INFO  2021/08/25 11:03:47 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 11:03:48 [75  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 11:03:50 [285 ] App             - check client state
+INFO  2021/08/25 11:04:20 [285 ] App             - check client state
+INFO  2021/08/25 11:04:50 [285 ] App             - check client state
+INFO  2021/08/25 11:05:20 [285 ] App             - check client state
+INFO  2021/08/25 11:05:50 [285 ] App             - check client state
+INFO  2021/08/25 11:06:20 [285 ] App             - check client state
+INFO  2021/08/25 11:06:50 [285 ] App             - check client state
+INFO  2021/08/25 11:07:20 [285 ] App             - check client state
+INFO  2021/08/25 11:07:50 [285 ] App             - check client state
+INFO  2021/08/25 11:08:20 [285 ] App             - check client state
+INFO  2021/08/25 11:08:50 [285 ] App             - check client state
+INFO  2021/08/25 11:09:20 [285 ] App             - check client state
+INFO  2021/08/25 11:09:50 [285 ] App             - check client state
+INFO  2021/08/25 11:10:03 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 11:10:04 [75  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 11:10:05 [285 ] App             - check client state
+INFO  2021/08/25 11:10:35 [285 ] App             - check client state
+INFO  2021/08/25 11:11:05 [285 ] App             - check client state
+INFO  2021/08/25 11:11:34 [336 ] App             - IP:192.168.0.103
+WARN  2021/08/25 11:11:35 [88  ] App             - com.sun.javafx.fxml.builder.JavaFXFontBuilder does not have a default property.
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:77
+
+javafx.fxml.LoadException: com.sun.javafx.fxml.builder.JavaFXFontBuilder does not have a default property.
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:77
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2621)
+	at javafx.fxml/javafx.fxml.FXMLLoader.access$100(FXMLLoader.java:105)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ValueElement.processCharacters(FXMLLoader.java:892)
+	at javafx.fxml/javafx.fxml.FXMLLoader.processCharacters(FXMLLoader.java:2851)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2562)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.initialize(App.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2591)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.start(App.java:245)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  2021/08/25 11:11:35 [285 ] App             - check client state
+INFO  2021/08/25 11:12:05 [285 ] App             - check client state
+INFO  2021/08/25 11:12:35 [285 ] App             - check client state
+INFO  2021/08/25 11:13:06 [285 ] App             - check client state
+INFO  2021/08/25 11:13:36 [285 ] App             - check client state
+INFO  2021/08/25 11:14:06 [285 ] App             - check client state
+INFO  2021/08/25 11:14:25 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 11:14:25 [75  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 11:14:26 [285 ] App             - check client state
+INFO  2021/08/25 11:14:57 [285 ] App             - check client state
+INFO  2021/08/25 11:15:27 [285 ] App             - check client state
+INFO  2021/08/25 11:15:57 [285 ] App             - check client state
+INFO  2021/08/25 11:16:27 [285 ] App             - check client state
+INFO  2021/08/25 11:16:57 [285 ] App             - check client state
+INFO  2021/08/25 11:17:27 [285 ] App             - check client state
+INFO  2021/08/25 11:17:57 [285 ] App             - check client state
+INFO  2021/08/25 11:18:27 [285 ] App             - check client state
+INFO  2021/08/25 11:18:57 [285 ] App             - check client state
+INFO  2021/08/25 11:19:27 [285 ] App             - check client state
+INFO  2021/08/25 11:19:57 [285 ] App             - check client state
+INFO  2021/08/25 11:20:27 [285 ] App             - check client state
+INFO  2021/08/25 11:20:57 [285 ] App             - check client state
+INFO  2021/08/25 11:21:27 [285 ] App             - check client state
+INFO  2021/08/25 11:21:57 [285 ] App             - check client state
+INFO  2021/08/25 11:22:27 [285 ] App             - check client state
+INFO  2021/08/25 11:22:57 [285 ] App             - check client state
+INFO  2021/08/25 11:23:27 [285 ] App             - check client state
+INFO  2021/08/25 11:23:45 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 11:23:45 [75  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 11:23:47 [285 ] App             - check client state
+INFO  2021/08/25 11:24:17 [285 ] App             - check client state
+INFO  2021/08/25 11:24:47 [285 ] App             - check client state
+INFO  2021/08/25 11:25:17 [285 ] App             - check client state
+INFO  2021/08/25 11:25:47 [285 ] App             - check client state
+INFO  2021/08/25 11:26:17 [285 ] App             - check client state
+INFO  2021/08/25 11:26:47 [285 ] App             - check client state
+INFO  2021/08/25 11:27:17 [285 ] App             - check client state
+INFO  2021/08/25 11:27:47 [285 ] App             - check client state
+INFO  2021/08/25 11:28:17 [285 ] App             - check client state
+INFO  2021/08/25 11:28:47 [285 ] App             - check client state
+INFO  2021/08/25 11:29:17 [285 ] App             - check client state
+INFO  2021/08/25 11:29:47 [285 ] App             - check client state
+INFO  2021/08/25 11:30:17 [285 ] App             - check client state
+INFO  2021/08/25 11:30:47 [285 ] App             - check client state
+INFO  2021/08/25 11:31:17 [285 ] App             - check client state
+INFO  2021/08/25 11:31:47 [285 ] App             - check client state
+INFO  2021/08/25 11:32:17 [285 ] App             - check client state
+INFO  2021/08/25 11:32:47 [285 ] App             - check client state
+INFO  2021/08/25 11:33:17 [285 ] App             - check client state
+INFO  2021/08/25 11:33:47 [285 ] App             - check client state
+INFO  2021/08/25 11:34:18 [285 ] App             - check client state
+INFO  2021/08/25 11:34:48 [285 ] App             - check client state
+INFO  2021/08/25 11:35:18 [285 ] App             - check client state
+INFO  2021/08/25 11:35:48 [285 ] App             - check client state
+INFO  2021/08/25 11:36:18 [285 ] App             - check client state
+INFO  2021/08/25 11:36:48 [285 ] App             - check client state
+INFO  2021/08/25 11:37:18 [285 ] App             - check client state
+INFO  2021/08/25 11:37:48 [285 ] App             - check client state
+INFO  2021/08/25 11:38:18 [285 ] App             - check client state
+INFO  2021/08/25 11:38:30 [336 ] App             - IP:192.168.0.103
+WARN  2021/08/25 11:38:31 [88  ] App             - 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:102
+
+javafx.fxml.LoadException: 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:102
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2625)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2603)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.initialize(App.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2591)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.start(App.java:245)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Invalid URL: Invalid URL or resource not found
+	at javafx.graphics/javafx.scene.image.Image.validateUrl(Image.java:1107)
+	at javafx.graphics/javafx.scene.image.Image.<init>(Image.java:688)
+	at javafx.fxml/com.sun.javafx.fxml.builder.JavaFXImageBuilder.build(JavaFXImageBuilder.java:47)
+	at javafx.fxml/com.sun.javafx.fxml.builder.JavaFXImageBuilder.build(JavaFXImageBuilder.java:37)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ValueElement.processEndElement(FXMLLoader.java:771)
+	at javafx.fxml/javafx.fxml.FXMLLoader.processEndElement(FXMLLoader.java:2838)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2557)
+	... 36 more
+Caused by: java.lang.IllegalArgumentException: Invalid URL or resource not found
+	at javafx.graphics/javafx.scene.image.Image.validateUrl(Image.java:1099)
+	... 42 more
+INFO  2021/08/25 11:38:32 [285 ] App             - check client state
+INFO  2021/08/25 11:38:45 [336 ] App             - IP:192.168.0.103
+WARN  2021/08/25 11:38:45 [88  ] App             - 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:102
+
+javafx.fxml.LoadException: 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:102
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2625)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2603)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.initialize(App.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2591)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.start(App.java:245)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Invalid URL: Invalid URL or resource not found
+	at javafx.graphics/javafx.scene.image.Image.validateUrl(Image.java:1107)
+	at javafx.graphics/javafx.scene.image.Image.<init>(Image.java:688)
+	at javafx.fxml/com.sun.javafx.fxml.builder.JavaFXImageBuilder.build(JavaFXImageBuilder.java:47)
+	at javafx.fxml/com.sun.javafx.fxml.builder.JavaFXImageBuilder.build(JavaFXImageBuilder.java:37)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ValueElement.processEndElement(FXMLLoader.java:771)
+	at javafx.fxml/javafx.fxml.FXMLLoader.processEndElement(FXMLLoader.java:2838)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2557)
+	... 36 more
+Caused by: java.lang.IllegalArgumentException: Invalid URL or resource not found
+	at javafx.graphics/javafx.scene.image.Image.validateUrl(Image.java:1099)
+	... 42 more
+INFO  2021/08/25 11:38:46 [285 ] App             - check client state
+INFO  2021/08/25 11:39:11 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 11:39:11 [76  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 11:39:13 [285 ] App             - check client state
+INFO  2021/08/25 11:39:43 [285 ] App             - check client state
+INFO  2021/08/25 11:40:13 [285 ] App             - check client state
+INFO  2021/08/25 11:40:43 [285 ] App             - check client state
+INFO  2021/08/25 11:41:13 [285 ] App             - check client state
+INFO  2021/08/25 11:41:43 [285 ] App             - check client state
+INFO  2021/08/25 11:42:13 [285 ] App             - check client state
+INFO  2021/08/25 11:42:43 [285 ] App             - check client state
+INFO  2021/08/25 11:43:07 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 11:43:07 [76  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 11:43:09 [285 ] App             - check client state
+INFO  2021/08/25 11:43:39 [285 ] App             - check client state
+INFO  2021/08/25 11:44:09 [285 ] App             - check client state
+INFO  2021/08/25 11:44:39 [285 ] App             - check client state
+INFO  2021/08/25 11:45:09 [285 ] App             - check client state
+INFO  2021/08/25 11:45:39 [285 ] App             - check client state
+INFO  2021/08/25 11:46:09 [285 ] App             - check client state
+INFO  2021/08/25 11:46:39 [285 ] App             - check client state
+INFO  2021/08/25 11:47:10 [285 ] App             - check client state
+INFO  2021/08/25 11:47:40 [285 ] App             - check client state
+INFO  2021/08/25 11:48:10 [285 ] App             - check client state
+INFO  2021/08/25 11:48:40 [285 ] App             - check client state
+INFO  2021/08/25 11:49:10 [285 ] App             - check client state
+INFO  2021/08/25 11:49:40 [285 ] App             - check client state
+INFO  2021/08/25 11:50:10 [285 ] App             - check client state
+INFO  2021/08/25 11:50:40 [285 ] App             - check client state
+INFO  2021/08/25 11:51:10 [285 ] App             - check client state
+INFO  2021/08/25 11:51:40 [285 ] App             - check client state
+INFO  2021/08/25 11:52:10 [285 ] App             - check client state
+INFO  2021/08/25 11:52:40 [285 ] App             - check client state
+INFO  2021/08/25 11:53:10 [285 ] App             - check client state
+INFO  2021/08/25 11:53:40 [285 ] App             - check client state
+INFO  2021/08/25 11:54:10 [285 ] App             - check client state
+INFO  2021/08/25 11:54:40 [285 ] App             - check client state
+INFO  2021/08/25 11:55:10 [285 ] App             - check client state
+INFO  2021/08/25 11:55:41 [285 ] App             - check client state
+INFO  2021/08/25 11:56:11 [285 ] App             - check client state
+INFO  2021/08/25 11:56:41 [285 ] App             - check client state
+INFO  2021/08/25 11:57:11 [285 ] App             - check client state
+INFO  2021/08/25 11:57:41 [285 ] App             - check client state
+INFO  2021/08/25 11:58:11 [285 ] App             - check client state
+INFO  2021/08/25 11:58:41 [285 ] App             - check client state
+INFO  2021/08/25 11:59:11 [285 ] App             - check client state
+INFO  2021/08/25 11:59:41 [285 ] App             - check client state
+INFO  2021/08/25 12:00:11 [285 ] App             - check client state
+INFO  2021/08/25 12:00:41 [285 ] App             - check client state
+INFO  2021/08/25 12:01:11 [285 ] App             - check client state
+INFO  2021/08/25 12:01:41 [285 ] App             - check client state
+INFO  2021/08/25 12:02:11 [285 ] App             - check client state
+INFO  2021/08/25 12:02:41 [285 ] App             - check client state
+INFO  2021/08/25 12:03:11 [285 ] App             - check client state
+INFO  2021/08/25 12:03:41 [285 ] App             - check client state
+INFO  2021/08/25 12:04:11 [285 ] App             - check client state
+INFO  2021/08/25 12:04:41 [285 ] App             - check client state
+INFO  2021/08/25 12:05:11 [285 ] App             - check client state
+INFO  2021/08/25 12:05:41 [285 ] App             - check client state
+INFO  2021/08/25 12:06:11 [285 ] App             - check client state
+INFO  2021/08/25 12:06:41 [285 ] App             - check client state
+INFO  2021/08/25 12:07:11 [285 ] App             - check client state
+INFO  2021/08/25 12:07:41 [285 ] App             - check client state
+INFO  2021/08/25 12:08:11 [285 ] App             - check client state
+INFO  2021/08/25 12:08:41 [285 ] App             - check client state
+INFO  2021/08/25 12:09:11 [285 ] App             - check client state
+INFO  2021/08/25 12:09:41 [285 ] App             - check client state
+INFO  2021/08/25 12:10:11 [285 ] App             - check client state
+INFO  2021/08/25 12:10:41 [285 ] App             - check client state
+INFO  2021/08/25 12:11:11 [285 ] App             - check client state
+INFO  2021/08/25 12:11:41 [285 ] App             - check client state
+INFO  2021/08/25 12:12:11 [285 ] App             - check client state
+INFO  2021/08/25 12:12:41 [285 ] App             - check client state
+INFO  2021/08/25 12:13:11 [285 ] App             - check client state
+INFO  2021/08/25 12:13:41 [285 ] App             - check client state
+INFO  2021/08/25 12:14:11 [285 ] App             - check client state
+INFO  2021/08/25 12:14:41 [285 ] App             - check client state
+INFO  2021/08/25 12:15:11 [285 ] App             - check client state
+INFO  2021/08/25 12:15:42 [285 ] App             - check client state
+INFO  2021/08/25 12:16:12 [285 ] App             - check client state
+INFO  2021/08/25 12:16:42 [285 ] App             - check client state
+INFO  2021/08/25 12:17:12 [285 ] App             - check client state
+INFO  2021/08/25 12:17:42 [285 ] App             - check client state
+INFO  2021/08/25 12:18:12 [285 ] App             - check client state
+INFO  2021/08/25 12:18:42 [285 ] App             - check client state
+INFO  2021/08/25 12:19:12 [285 ] App             - check client state
+INFO  2021/08/25 12:19:42 [285 ] App             - check client state
+INFO  2021/08/25 12:20:12 [285 ] App             - check client state
+INFO  2021/08/25 12:20:42 [285 ] App             - check client state
+INFO  2021/08/25 12:21:12 [285 ] App             - check client state
+INFO  2021/08/25 12:21:42 [285 ] App             - check client state
+INFO  2021/08/25 12:22:12 [285 ] App             - check client state
+INFO  2021/08/25 12:22:42 [285 ] App             - check client state
+INFO  2021/08/25 12:23:12 [285 ] App             - check client state
+INFO  2021/08/25 12:23:42 [285 ] App             - check client state
+INFO  2021/08/25 12:24:12 [285 ] App             - check client state
+INFO  2021/08/25 12:24:42 [285 ] App             - check client state
+INFO  2021/08/25 12:25:12 [285 ] App             - check client state
+INFO  2021/08/25 12:25:42 [285 ] App             - check client state
+INFO  2021/08/25 12:26:12 [285 ] App             - check client state
+INFO  2021/08/25 12:26:42 [285 ] App             - check client state
+INFO  2021/08/25 12:27:12 [285 ] App             - check client state
+INFO  2021/08/25 12:27:42 [285 ] App             - check client state
+INFO  2021/08/25 12:28:12 [285 ] App             - check client state
+INFO  2021/08/25 12:28:42 [285 ] App             - check client state
+INFO  2021/08/25 12:29:12 [285 ] App             - check client state
+INFO  2021/08/25 12:29:42 [285 ] App             - check client state
+INFO  2021/08/25 12:30:12 [285 ] App             - check client state
+INFO  2021/08/25 12:30:42 [285 ] App             - check client state
+INFO  2021/08/25 12:31:12 [285 ] App             - check client state
+INFO  2021/08/25 12:31:42 [285 ] App             - check client state
+INFO  2021/08/25 12:32:12 [285 ] App             - check client state
+INFO  2021/08/25 12:32:42 [285 ] App             - check client state
+INFO  2021/08/25 12:33:12 [285 ] App             - check client state
+INFO  2021/08/25 12:33:42 [285 ] App             - check client state
+INFO  2021/08/25 12:34:12 [285 ] App             - check client state
+INFO  2021/08/25 12:34:42 [285 ] App             - check client state
+INFO  2021/08/25 12:35:12 [285 ] App             - check client state
+INFO  2021/08/25 12:35:42 [285 ] App             - check client state
+INFO  2021/08/25 12:36:12 [285 ] App             - check client state
+INFO  2021/08/25 12:36:42 [285 ] App             - check client state
+INFO  2021/08/25 12:37:12 [285 ] App             - check client state
+INFO  2021/08/25 12:37:42 [285 ] App             - check client state
+INFO  2021/08/25 12:38:12 [285 ] App             - check client state
+INFO  2021/08/25 12:38:42 [285 ] App             - check client state
+INFO  2021/08/25 12:39:12 [285 ] App             - check client state
+INFO  2021/08/25 12:39:43 [285 ] App             - check client state
+INFO  2021/08/25 12:40:13 [285 ] App             - check client state
+INFO  2021/08/25 12:40:43 [285 ] App             - check client state
+INFO  2021/08/25 12:41:13 [285 ] App             - check client state
+INFO  2021/08/25 12:41:43 [285 ] App             - check client state
+INFO  2021/08/25 12:42:13 [285 ] App             - check client state
+INFO  2021/08/25 12:42:43 [285 ] App             - check client state
+INFO  2021/08/25 12:43:13 [285 ] App             - check client state
+INFO  2021/08/25 12:43:43 [285 ] App             - check client state
+INFO  2021/08/25 12:44:13 [285 ] App             - check client state
+INFO  2021/08/25 12:44:43 [285 ] App             - check client state
+INFO  2021/08/25 12:45:13 [285 ] App             - check client state
+INFO  2021/08/25 12:45:43 [285 ] App             - check client state
+INFO  2021/08/25 12:46:13 [285 ] App             - check client state
+INFO  2021/08/25 12:46:43 [285 ] App             - check client state
+INFO  2021/08/25 12:47:13 [285 ] App             - check client state
+INFO  2021/08/25 12:47:43 [285 ] App             - check client state
+INFO  2021/08/25 12:48:13 [285 ] App             - check client state
+INFO  2021/08/25 12:48:43 [285 ] App             - check client state
+INFO  2021/08/25 12:49:13 [285 ] App             - check client state
+INFO  2021/08/25 12:49:43 [285 ] App             - check client state
+INFO  2021/08/25 12:50:13 [285 ] App             - check client state
+INFO  2021/08/25 12:50:43 [285 ] App             - check client state
+INFO  2021/08/25 12:51:13 [285 ] App             - check client state
+INFO  2021/08/25 12:51:43 [285 ] App             - check client state
+INFO  2021/08/25 12:52:13 [285 ] App             - check client state
+INFO  2021/08/25 12:52:43 [285 ] App             - check client state
+INFO  2021/08/25 12:53:13 [285 ] App             - check client state
+INFO  2021/08/25 12:53:43 [285 ] App             - check client state
+INFO  2021/08/25 12:54:13 [285 ] App             - check client state
+INFO  2021/08/25 12:54:43 [285 ] App             - check client state
+INFO  2021/08/25 12:55:13 [285 ] App             - check client state
+INFO  2021/08/25 12:55:43 [285 ] App             - check client state
+INFO  2021/08/25 12:56:13 [285 ] App             - check client state
+INFO  2021/08/25 12:56:43 [285 ] App             - check client state
+INFO  2021/08/25 12:57:13 [285 ] App             - check client state
+INFO  2021/08/25 12:57:43 [285 ] App             - check client state
+INFO  2021/08/25 12:58:13 [285 ] App             - check client state
+INFO  2021/08/25 12:58:43 [285 ] App             - check client state
+INFO  2021/08/25 12:59:13 [285 ] App             - check client state
+INFO  2021/08/25 12:59:43 [285 ] App             - check client state
+INFO  2021/08/25 13:00:13 [285 ] App             - check client state
+INFO  2021/08/25 13:00:43 [285 ] App             - check client state
+INFO  2021/08/25 13:01:13 [285 ] App             - check client state
+INFO  2021/08/25 13:01:43 [285 ] App             - check client state
+INFO  2021/08/25 13:02:13 [285 ] App             - check client state
+INFO  2021/08/25 13:02:43 [285 ] App             - check client state
+INFO  2021/08/25 13:03:13 [285 ] App             - check client state
+INFO  2021/08/25 13:03:43 [285 ] App             - check client state
+INFO  2021/08/25 13:04:14 [285 ] App             - check client state
+INFO  2021/08/25 13:04:44 [285 ] App             - check client state
+INFO  2021/08/25 13:05:14 [285 ] App             - check client state
+INFO  2021/08/25 13:05:44 [285 ] App             - check client state
+INFO  2021/08/25 13:06:14 [285 ] App             - check client state
+INFO  2021/08/25 13:06:44 [285 ] App             - check client state
+INFO  2021/08/25 13:07:14 [285 ] App             - check client state
+INFO  2021/08/25 13:07:44 [285 ] App             - check client state
+INFO  2021/08/25 13:08:14 [285 ] App             - check client state
+INFO  2021/08/25 13:08:44 [285 ] App             - check client state
+INFO  2021/08/25 13:09:14 [285 ] App             - check client state
+INFO  2021/08/25 13:09:44 [285 ] App             - check client state
+INFO  2021/08/25 13:10:14 [285 ] App             - check client state
+INFO  2021/08/25 13:10:44 [285 ] App             - check client state
+INFO  2021/08/25 13:11:14 [285 ] App             - check client state
+INFO  2021/08/25 13:11:44 [285 ] App             - check client state
+INFO  2021/08/25 13:12:14 [285 ] App             - check client state
+INFO  2021/08/25 13:12:44 [285 ] App             - check client state
+INFO  2021/08/25 13:13:14 [285 ] App             - check client state
+INFO  2021/08/25 13:13:44 [285 ] App             - check client state
+INFO  2021/08/25 13:14:14 [285 ] App             - check client state
+INFO  2021/08/25 13:14:44 [285 ] App             - check client state
+INFO  2021/08/25 13:15:14 [285 ] App             - check client state
+INFO  2021/08/25 13:15:44 [285 ] App             - check client state
+INFO  2021/08/25 13:16:14 [285 ] App             - check client state
+INFO  2021/08/25 13:16:44 [285 ] App             - check client state
+INFO  2021/08/25 13:17:14 [285 ] App             - check client state
+INFO  2021/08/25 13:17:44 [285 ] App             - check client state
+INFO  2021/08/25 13:18:14 [285 ] App             - check client state
+INFO  2021/08/25 13:18:44 [285 ] App             - check client state
+INFO  2021/08/25 13:19:14 [285 ] App             - check client state
+INFO  2021/08/25 13:19:44 [285 ] App             - check client state
+INFO  2021/08/25 13:20:14 [285 ] App             - check client state
+INFO  2021/08/25 13:20:44 [285 ] App             - check client state
+INFO  2021/08/25 13:21:14 [285 ] App             - check client state
+INFO  2021/08/25 13:21:44 [285 ] App             - check client state
+INFO  2021/08/25 13:22:14 [285 ] App             - check client state
+INFO  2021/08/25 13:22:44 [285 ] App             - check client state
+INFO  2021/08/25 13:23:14 [285 ] App             - check client state
+INFO  2021/08/25 13:23:44 [285 ] App             - check client state
+INFO  2021/08/25 13:24:14 [285 ] App             - check client state
+INFO  2021/08/25 13:24:44 [285 ] App             - check client state
+INFO  2021/08/25 13:25:14 [285 ] App             - check client state
+INFO  2021/08/25 13:25:44 [285 ] App             - check client state
+INFO  2021/08/25 13:26:14 [285 ] App             - check client state
+INFO  2021/08/25 13:26:44 [285 ] App             - check client state
+INFO  2021/08/25 13:27:14 [285 ] App             - check client state
+INFO  2021/08/25 13:27:44 [285 ] App             - check client state
+INFO  2021/08/25 13:28:14 [285 ] App             - check client state
+INFO  2021/08/25 13:28:44 [285 ] App             - check client state
+INFO  2021/08/25 13:29:15 [285 ] App             - check client state
+INFO  2021/08/25 13:29:45 [285 ] App             - check client state
+INFO  2021/08/25 13:30:15 [285 ] App             - check client state
+INFO  2021/08/25 13:30:45 [285 ] App             - check client state
+INFO  2021/08/25 13:31:15 [285 ] App             - check client state
+INFO  2021/08/25 13:31:45 [285 ] App             - check client state
+INFO  2021/08/25 13:32:15 [285 ] App             - check client state
+INFO  2021/08/25 13:32:45 [285 ] App             - check client state
+INFO  2021/08/25 13:33:18 [285 ] App             - check client state
+INFO  2021/08/25 13:33:48 [285 ] App             - check client state
+INFO  2021/08/25 13:34:18 [285 ] App             - check client state
+INFO  2021/08/25 13:34:48 [285 ] App             - check client state
+INFO  2021/08/25 13:35:18 [285 ] App             - check client state
+INFO  2021/08/25 13:35:48 [285 ] App             - check client state
+INFO  2021/08/25 13:36:18 [285 ] App             - check client state
+INFO  2021/08/25 13:36:48 [285 ] App             - check client state
+INFO  2021/08/25 13:37:18 [285 ] App             - check client state
+INFO  2021/08/25 13:37:48 [285 ] App             - check client state
+INFO  2021/08/25 13:38:18 [285 ] App             - check client state
+INFO  2021/08/25 13:38:48 [285 ] App             - check client state
+INFO  2021/08/25 13:39:18 [285 ] App             - check client state
+INFO  2021/08/25 13:39:48 [285 ] App             - check client state
+INFO  2021/08/25 13:40:18 [285 ] App             - check client state
+INFO  2021/08/25 13:40:48 [285 ] App             - check client state
+INFO  2021/08/25 13:41:18 [285 ] App             - check client state
+INFO  2021/08/25 13:41:48 [285 ] App             - check client state
+INFO  2021/08/25 13:42:18 [285 ] App             - check client state
+INFO  2021/08/25 13:42:48 [285 ] App             - check client state
+INFO  2021/08/25 13:43:18 [285 ] App             - check client state
+INFO  2021/08/25 13:43:48 [285 ] App             - check client state
+INFO  2021/08/25 13:44:18 [285 ] App             - check client state
+INFO  2021/08/25 13:44:48 [285 ] App             - check client state
+INFO  2021/08/25 13:45:18 [285 ] App             - check client state
+INFO  2021/08/25 13:45:48 [285 ] App             - check client state
+INFO  2021/08/25 13:46:18 [285 ] App             - check client state
+INFO  2021/08/25 13:46:48 [285 ] App             - check client state
+INFO  2021/08/25 13:47:19 [285 ] App             - check client state
+INFO  2021/08/25 13:47:49 [285 ] App             - check client state
+INFO  2021/08/25 13:48:19 [285 ] App             - check client state
+INFO  2021/08/25 13:48:49 [285 ] App             - check client state
+INFO  2021/08/25 13:49:19 [285 ] App             - check client state
+INFO  2021/08/25 13:49:49 [285 ] App             - check client state
+INFO  2021/08/25 13:50:19 [285 ] App             - check client state
+INFO  2021/08/25 13:50:49 [285 ] App             - check client state
+INFO  2021/08/25 13:51:19 [285 ] App             - check client state
+INFO  2021/08/25 13:51:49 [285 ] App             - check client state
+INFO  2021/08/25 13:52:19 [285 ] App             - check client state
+INFO  2021/08/25 13:52:49 [285 ] App             - check client state
+INFO  2021/08/25 13:53:19 [285 ] App             - check client state
+INFO  2021/08/25 13:53:49 [285 ] App             - check client state
+INFO  2021/08/25 13:54:19 [285 ] App             - check client state
+INFO  2021/08/25 13:54:49 [285 ] App             - check client state
+INFO  2021/08/25 13:55:19 [285 ] App             - check client state
+INFO  2021/08/25 13:55:49 [285 ] App             - check client state
+INFO  2021/08/25 13:56:19 [285 ] App             - check client state
+INFO  2021/08/25 13:56:49 [285 ] App             - check client state
+INFO  2021/08/25 13:57:19 [285 ] App             - check client state
+INFO  2021/08/25 13:57:49 [285 ] App             - check client state
+INFO  2021/08/25 13:58:19 [285 ] App             - check client state
+INFO  2021/08/25 13:58:49 [285 ] App             - check client state
+INFO  2021/08/25 13:59:19 [285 ] App             - check client state
+INFO  2021/08/25 13:59:49 [285 ] App             - check client state
+INFO  2021/08/25 14:00:19 [285 ] App             - check client state
+INFO  2021/08/25 14:00:49 [285 ] App             - check client state
+INFO  2021/08/25 14:01:19 [285 ] App             - check client state
+INFO  2021/08/25 14:01:49 [285 ] App             - check client state
+INFO  2021/08/25 14:02:19 [285 ] App             - check client state
+INFO  2021/08/25 14:02:49 [285 ] App             - check client state
+INFO  2021/08/25 14:03:19 [285 ] App             - check client state
+INFO  2021/08/25 14:03:49 [285 ] App             - check client state
+INFO  2021/08/25 14:04:19 [285 ] App             - check client state
+INFO  2021/08/25 14:04:49 [285 ] App             - check client state
+INFO  2021/08/25 14:05:19 [285 ] App             - check client state
+INFO  2021/08/25 14:05:49 [285 ] App             - check client state
+INFO  2021/08/25 14:06:19 [285 ] App             - check client state
+INFO  2021/08/25 14:06:49 [285 ] App             - check client state
+INFO  2021/08/25 14:07:19 [285 ] App             - check client state
+INFO  2021/08/25 14:07:49 [285 ] App             - check client state
+INFO  2021/08/25 14:08:19 [285 ] App             - check client state
+INFO  2021/08/25 14:08:49 [285 ] App             - check client state
+INFO  2021/08/25 14:09:20 [285 ] App             - check client state
+INFO  2021/08/25 14:09:50 [285 ] App             - check client state
+INFO  2021/08/25 14:10:20 [285 ] App             - check client state
+INFO  2021/08/25 14:10:50 [285 ] App             - check client state
+INFO  2021/08/25 14:11:20 [285 ] App             - check client state
+INFO  2021/08/25 14:11:50 [285 ] App             - check client state
+INFO  2021/08/25 14:12:20 [285 ] App             - check client state
+INFO  2021/08/25 14:12:50 [285 ] App             - check client state
+INFO  2021/08/25 14:13:20 [285 ] App             - check client state
+INFO  2021/08/25 14:13:50 [285 ] App             - check client state
+INFO  2021/08/25 14:14:20 [285 ] App             - check client state
+INFO  2021/08/25 14:14:50 [285 ] App             - check client state
+INFO  2021/08/25 14:15:20 [285 ] App             - check client state
+INFO  2021/08/25 14:15:50 [285 ] App             - check client state
+INFO  2021/08/25 14:16:20 [285 ] App             - check client state
+INFO  2021/08/25 14:16:50 [285 ] App             - check client state
+INFO  2021/08/25 14:17:20 [285 ] App             - check client state
+INFO  2021/08/25 14:17:50 [285 ] App             - check client state
+INFO  2021/08/25 14:18:20 [285 ] App             - check client state
+INFO  2021/08/25 14:18:50 [285 ] App             - check client state
+INFO  2021/08/25 14:19:20 [285 ] App             - check client state
+INFO  2021/08/25 14:19:50 [285 ] App             - check client state
+INFO  2021/08/25 14:20:20 [285 ] App             - check client state
+INFO  2021/08/25 14:20:50 [285 ] App             - check client state
+INFO  2021/08/25 14:21:20 [285 ] App             - check client state
+INFO  2021/08/25 14:21:50 [285 ] App             - check client state
+INFO  2021/08/25 14:22:20 [285 ] App             - check client state
+INFO  2021/08/25 14:22:50 [285 ] App             - check client state
+INFO  2021/08/25 14:23:20 [285 ] App             - check client state
+INFO  2021/08/25 14:23:50 [285 ] App             - check client state
+INFO  2021/08/25 14:24:20 [285 ] App             - check client state
+INFO  2021/08/25 14:24:57 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:24:57 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:24:59 [285 ] App             - check client state
+INFO  2021/08/25 14:25:29 [285 ] App             - check client state
+INFO  2021/08/25 14:28:48 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:28:48 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:28:51 [285 ] App             - check client state
+INFO  2021/08/25 14:29:21 [285 ] App             - check client state
+INFO  2021/08/25 14:29:37 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:29:40 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:29:52 [285 ] App             - check client state
+INFO  2021/08/25 14:30:22 [285 ] App             - check client state
+INFO  2021/08/25 14:30:52 [285 ] App             - check client state
+INFO  2021/08/25 14:31:22 [285 ] App             - check client state
+INFO  2021/08/25 14:31:52 [285 ] App             - check client state
+INFO  2021/08/25 14:32:22 [285 ] App             - check client state
+INFO  2021/08/25 14:32:52 [285 ] App             - check client state
+INFO  2021/08/25 14:33:22 [285 ] App             - check client state
+INFO  2021/08/25 14:33:52 [285 ] App             - check client state
+INFO  2021/08/25 14:34:22 [285 ] App             - check client state
+INFO  2021/08/25 14:34:52 [285 ] App             - check client state
+INFO  2021/08/25 14:35:22 [285 ] App             - check client state
+INFO  2021/08/25 14:35:52 [285 ] App             - check client state
+INFO  2021/08/25 14:36:22 [285 ] App             - check client state
+INFO  2021/08/25 14:36:52 [285 ] App             - check client state
+INFO  2021/08/25 14:37:22 [285 ] App             - check client state
+INFO  2021/08/25 14:37:52 [285 ] App             - check client state
+INFO  2021/08/25 14:38:22 [285 ] App             - check client state
+INFO  2021/08/25 14:38:52 [285 ] App             - check client state
+INFO  2021/08/25 14:39:22 [285 ] App             - check client state
+INFO  2021/08/25 14:39:52 [285 ] App             - check client state
+INFO  2021/08/25 14:40:22 [285 ] App             - check client state
+INFO  2021/08/25 14:41:00 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:41:01 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:41:02 [285 ] App             - check client state
+INFO  2021/08/25 14:41:33 [285 ] App             - check client state
+INFO  2021/08/25 14:42:03 [285 ] App             - check client state
+INFO  2021/08/25 14:42:25 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:42:25 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:42:27 [285 ] App             - check client state
+INFO  2021/08/25 14:42:57 [285 ] App             - check client state
+INFO  2021/08/25 14:43:27 [285 ] App             - check client state
+INFO  2021/08/25 14:43:57 [285 ] App             - check client state
+INFO  2021/08/25 14:44:28 [336 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:44:28 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:44:30 [285 ] App             - check client state
+INFO  2021/08/25 14:45:00 [285 ] App             - check client state
+INFO  2021/08/25 14:45:29 [77  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:45:30 [285 ] App             - check client state
+INFO  2021/08/25 14:46:00 [285 ] App             - check client state
+INFO  2021/08/25 14:46:30 [285 ] App             - check client state
+INFO  2021/08/25 14:47:00 [285 ] App             - check client state
+INFO  2021/08/25 14:47:30 [285 ] App             - check client state
+INFO  2021/08/25 14:48:00 [285 ] App             - check client state
+INFO  2021/08/25 14:48:30 [285 ] App             - check client state
+INFO  2021/08/25 14:48:57 [218 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:48:58 [81  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:48:59 [167 ] App             - check client state
+INFO  2021/08/25 14:49:01 [81  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:49:29 [167 ] App             - check client state
+INFO  2021/08/25 14:49:59 [167 ] App             - check client state
+INFO  2021/08/25 14:50:29 [167 ] App             - check client state
+INFO  2021/08/25 14:50:59 [167 ] App             - check client state
+INFO  2021/08/25 14:51:29 [167 ] App             - check client state
+INFO  2021/08/25 14:51:59 [167 ] App             - check client state
+INFO  2021/08/25 14:52:29 [167 ] App             - check client state
+INFO  2021/08/25 14:52:59 [167 ] App             - check client state
+INFO  2021/08/25 14:53:30 [167 ] App             - check client state
+INFO  2021/08/25 14:54:00 [167 ] App             - check client state
+INFO  2021/08/25 14:54:30 [167 ] App             - check client state
+INFO  2021/08/25 14:54:56 [198 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:54:57 [94  ] HomeController  - 生成客户端UI
+WARN  2021/08/25 14:54:57 [76  ] App             - 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml
+
+javafx.fxml.LoadException: 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2625)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2603)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.initialize(App.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2591)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.start(App.java:107)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at controllers.HomeController.initialize(HomeController.java:125)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2573)
+	... 36 more
+INFO  2021/08/25 14:54:58 [147 ] App             - check client state
+INFO  2021/08/25 14:55:28 [147 ] App             - check client state
+INFO  2021/08/25 14:55:58 [147 ] App             - check client state
+INFO  2021/08/25 14:56:28 [147 ] App             - check client state
+INFO  2021/08/25 14:56:58 [147 ] App             - check client state
+INFO  2021/08/25 14:57:28 [147 ] App             - check client state
+INFO  2021/08/25 14:57:58 [147 ] App             - check client state
+INFO  2021/08/25 14:58:28 [147 ] App             - check client state
+INFO  2021/08/25 14:58:55 [198 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:58:55 [94  ] HomeController  - 生成客户端UI
+WARN  2021/08/25 14:58:55 [76  ] App             - 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml
+
+javafx.fxml.LoadException: 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2625)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2603)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.initialize(App.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2591)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.start(App.java:107)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at controllers.HomeController.initialize(HomeController.java:125)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2573)
+	... 36 more
+INFO  2021/08/25 14:58:56 [147 ] App             - check client state
+INFO  2021/08/25 14:59:26 [147 ] App             - check client state
+INFO  2021/08/25 14:59:33 [198 ] App             - IP:192.168.0.103
+INFO  2021/08/25 14:59:34 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 14:59:35 [147 ] App             - check client state
+INFO  2021/08/25 14:59:40 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:00:05 [147 ] App             - check client state
+INFO  2021/08/25 15:00:35 [147 ] App             - check client state
+INFO  2021/08/25 15:01:05 [147 ] App             - check client state
+INFO  2021/08/25 15:01:15 [198 ] App             - IP:192.168.0.103
+INFO  2021/08/25 15:01:16 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:01:17 [147 ] App             - check client state
+INFO  2021/08/25 15:01:47 [147 ] App             - check client state
+INFO  2021/08/25 15:02:17 [147 ] App             - check client state
+INFO  2021/08/25 15:02:53 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 15:02:54 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:02:55 [143 ] App             - check client state
+INFO  2021/08/25 15:03:25 [143 ] App             - check client state
+INFO  2021/08/25 15:03:55 [143 ] App             - check client state
+INFO  2021/08/25 15:04:13 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 15:04:13 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:04:15 [143 ] App             - check client state
+INFO  2021/08/25 15:04:38 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 15:04:39 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:04:40 [143 ] App             - check client state
+INFO  2021/08/25 15:05:10 [143 ] App             - check client state
+INFO  2021/08/25 15:05:39 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:05:40 [143 ] App             - check client state
+INFO  2021/08/25 15:13:03 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 15:13:05 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:13:10 [143 ] App             - check client state
+INFO  2021/08/25 15:13:38 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:13:40 [143 ] App             - check client state
+INFO  2021/08/25 15:14:02 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:14:05 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 15:14:11 [143 ] App             - check client state
+INFO  2021/08/25 18:10:02 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:10:02 [94  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:10:04 [143 ] App             - check client state
+INFO  2021/08/25 18:10:34 [143 ] App             - check client state
+INFO  2021/08/25 18:11:04 [143 ] App             - check client state
+INFO  2021/08/25 18:11:34 [143 ] App             - check client state
+INFO  2021/08/25 18:12:04 [143 ] App             - check client state
+INFO  2021/08/25 18:12:34 [143 ] App             - check client state
+INFO  2021/08/25 18:13:04 [143 ] App             - check client state
+INFO  2021/08/25 18:13:34 [143 ] App             - check client state
+INFO  2021/08/25 18:14:04 [143 ] App             - check client state
+INFO  2021/08/25 18:14:34 [143 ] App             - check client state
+INFO  2021/08/25 18:15:04 [143 ] App             - check client state
+INFO  2021/08/25 18:15:34 [143 ] App             - check client state
+INFO  2021/08/25 18:16:04 [143 ] App             - check client state
+INFO  2021/08/25 18:16:34 [143 ] App             - check client state
+INFO  2021/08/25 18:17:04 [143 ] App             - check client state
+INFO  2021/08/25 18:17:34 [143 ] App             - check client state
+INFO  2021/08/25 18:18:04 [143 ] App             - check client state
+INFO  2021/08/25 18:18:34 [143 ] App             - check client state
+INFO  2021/08/25 18:19:04 [143 ] App             - check client state
+INFO  2021/08/25 18:19:34 [143 ] App             - check client state
+INFO  2021/08/25 18:20:04 [143 ] App             - check client state
+INFO  2021/08/25 18:20:34 [143 ] App             - check client state
+INFO  2021/08/25 18:21:04 [143 ] App             - check client state
+INFO  2021/08/25 18:21:35 [143 ] App             - check client state
+INFO  2021/08/25 18:22:05 [143 ] App             - check client state
+INFO  2021/08/25 18:22:35 [143 ] App             - check client state
+INFO  2021/08/25 18:22:49 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:22:49 [96  ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:22:51 [143 ] App             - check client state
+INFO  2021/08/25 18:23:21 [143 ] App             - check client state
+INFO  2021/08/25 18:23:51 [143 ] App             - check client state
+INFO  2021/08/25 18:24:21 [143 ] App             - check client state
+INFO  2021/08/25 18:24:51 [143 ] App             - check client state
+INFO  2021/08/25 18:25:21 [143 ] App             - check client state
+INFO  2021/08/25 18:25:51 [143 ] App             - check client state
+INFO  2021/08/25 18:26:21 [143 ] App             - check client state
+INFO  2021/08/25 18:26:53 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:26:54 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:26:55 [143 ] App             - check client state
+INFO  2021/08/25 18:27:25 [143 ] App             - check client state
+INFO  2021/08/25 18:27:55 [143 ] App             - check client state
+INFO  2021/08/25 18:28:25 [143 ] App             - check client state
+INFO  2021/08/25 18:28:55 [143 ] App             - check client state
+INFO  2021/08/25 18:29:25 [143 ] App             - check client state
+INFO  2021/08/25 18:29:56 [143 ] App             - check client state
+INFO  2021/08/25 18:30:26 [143 ] App             - check client state
+INFO  2021/08/25 18:30:56 [143 ] App             - check client state
+INFO  2021/08/25 18:31:26 [143 ] App             - check client state
+INFO  2021/08/25 18:31:56 [143 ] App             - check client state
+INFO  2021/08/25 18:32:26 [143 ] App             - check client state
+INFO  2021/08/25 18:32:56 [143 ] App             - check client state
+INFO  2021/08/25 18:33:26 [143 ] App             - check client state
+INFO  2021/08/25 18:33:56 [143 ] App             - check client state
+INFO  2021/08/25 18:34:26 [143 ] App             - check client state
+INFO  2021/08/25 18:34:56 [143 ] App             - check client state
+INFO  2021/08/25 18:35:26 [143 ] App             - check client state
+INFO  2021/08/25 18:35:56 [143 ] App             - check client state
+INFO  2021/08/25 18:36:26 [143 ] App             - check client state
+INFO  2021/08/25 18:36:56 [143 ] App             - check client state
+INFO  2021/08/25 18:37:26 [143 ] App             - check client state
+INFO  2021/08/25 18:37:56 [143 ] App             - check client state
+INFO  2021/08/25 18:38:26 [143 ] App             - check client state
+INFO  2021/08/25 18:38:56 [143 ] App             - check client state
+INFO  2021/08/25 18:39:26 [143 ] App             - check client state
+INFO  2021/08/25 18:39:56 [143 ] App             - check client state
+INFO  2021/08/25 18:40:26 [143 ] App             - check client state
+INFO  2021/08/25 18:40:56 [143 ] App             - check client state
+INFO  2021/08/25 18:41:26 [143 ] App             - check client state
+INFO  2021/08/25 18:41:56 [143 ] App             - check client state
+INFO  2021/08/25 18:42:26 [143 ] App             - check client state
+INFO  2021/08/25 18:42:56 [143 ] App             - check client state
+INFO  2021/08/25 18:43:21 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:43:22 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:43:23 [143 ] App             - check client state
+INFO  2021/08/25 18:43:54 [143 ] App             - check client state
+INFO  2021/08/25 18:44:12 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:44:12 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:44:14 [143 ] App             - check client state
+INFO  2021/08/25 18:44:44 [143 ] App             - check client state
+INFO  2021/08/25 18:45:02 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:45:03 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:45:04 [143 ] App             - check client state
+INFO  2021/08/25 18:45:35 [143 ] App             - check client state
+INFO  2021/08/25 18:46:05 [143 ] App             - check client state
+INFO  2021/08/25 18:46:35 [143 ] App             - check client state
+INFO  2021/08/25 18:47:05 [143 ] App             - check client state
+INFO  2021/08/25 18:47:35 [143 ] App             - check client state
+INFO  2021/08/25 18:48:05 [143 ] App             - check client state
+INFO  2021/08/25 18:48:35 [143 ] App             - check client state
+INFO  2021/08/25 18:49:05 [143 ] App             - check client state
+INFO  2021/08/25 18:49:35 [143 ] App             - check client state
+INFO  2021/08/25 18:50:05 [143 ] App             - check client state
+INFO  2021/08/25 18:50:35 [143 ] App             - check client state
+INFO  2021/08/25 18:51:05 [143 ] App             - check client state
+INFO  2021/08/25 18:51:35 [143 ] App             - check client state
+INFO  2021/08/25 18:52:05 [143 ] App             - check client state
+INFO  2021/08/25 18:52:18 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:52:19 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:52:21 [143 ] App             - check client state
+INFO  2021/08/25 18:52:51 [143 ] App             - check client state
+INFO  2021/08/25 18:53:09 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:53:10 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:53:11 [143 ] App             - check client state
+INFO  2021/08/25 18:53:41 [143 ] App             - check client state
+INFO  2021/08/25 18:54:02 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 18:54:02 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 18:54:04 [143 ] App             - check client state
+INFO  2021/08/25 18:54:34 [143 ] App             - check client state
+INFO  2021/08/25 18:55:04 [143 ] App             - check client state
+INFO  2021/08/25 18:55:34 [143 ] App             - check client state
+INFO  2021/08/25 18:56:04 [143 ] App             - check client state
+INFO  2021/08/25 18:56:34 [143 ] App             - check client state
+INFO  2021/08/25 18:57:04 [143 ] App             - check client state
+INFO  2021/08/25 18:57:34 [143 ] App             - check client state
+INFO  2021/08/25 18:58:04 [143 ] App             - check client state
+INFO  2021/08/25 18:58:34 [143 ] App             - check client state
+INFO  2021/08/25 18:59:04 [143 ] App             - check client state
+INFO  2021/08/25 18:59:34 [143 ] App             - check client state
+INFO  2021/08/25 19:00:04 [143 ] App             - check client state
+INFO  2021/08/25 19:00:34 [143 ] App             - check client state
+INFO  2021/08/25 19:01:04 [143 ] App             - check client state
+INFO  2021/08/25 19:01:24 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 19:01:24 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 19:01:26 [143 ] App             - check client state
+INFO  2021/08/25 19:01:56 [143 ] App             - check client state
+INFO  2021/08/25 19:02:26 [143 ] App             - check client state
+INFO  2021/08/25 19:02:56 [143 ] App             - check client state
+INFO  2021/08/25 19:03:26 [143 ] App             - check client state
+INFO  2021/08/25 19:03:56 [143 ] App             - check client state
+INFO  2021/08/25 19:04:26 [143 ] App             - check client state
+INFO  2021/08/25 19:04:57 [143 ] App             - check client state
+INFO  2021/08/25 19:05:27 [143 ] App             - check client state
+INFO  2021/08/25 19:05:57 [143 ] App             - check client state
+INFO  2021/08/25 19:06:27 [143 ] App             - check client state
+INFO  2021/08/25 19:06:57 [143 ] App             - check client state
+INFO  2021/08/25 19:07:27 [143 ] App             - check client state
+INFO  2021/08/25 19:07:57 [143 ] App             - check client state
+INFO  2021/08/25 19:08:27 [143 ] App             - check client state
+INFO  2021/08/25 19:08:57 [143 ] App             - check client state
+INFO  2021/08/25 19:09:27 [143 ] App             - check client state
+INFO  2021/08/25 19:09:57 [143 ] App             - check client state
+INFO  2021/08/25 19:10:27 [143 ] App             - check client state
+INFO  2021/08/25 19:10:57 [143 ] App             - check client state
+INFO  2021/08/25 19:11:27 [143 ] App             - check client state
+INFO  2021/08/25 19:11:57 [143 ] App             - check client state
+INFO  2021/08/25 19:12:27 [143 ] App             - check client state
+INFO  2021/08/25 19:12:57 [143 ] App             - check client state
+INFO  2021/08/25 19:13:27 [143 ] App             - check client state
+INFO  2021/08/25 19:13:57 [143 ] App             - check client state
+INFO  2021/08/25 19:14:27 [143 ] App             - check client state
+INFO  2021/08/25 19:14:57 [143 ] App             - check client state
+INFO  2021/08/25 19:15:27 [143 ] App             - check client state
+INFO  2021/08/25 19:15:57 [143 ] App             - check client state
+INFO  2021/08/25 19:16:27 [143 ] App             - check client state
+INFO  2021/08/25 19:16:57 [143 ] App             - check client state
+INFO  2021/08/25 19:17:27 [143 ] App             - check client state
+INFO  2021/08/25 19:17:57 [143 ] App             - check client state
+INFO  2021/08/25 19:18:27 [143 ] App             - check client state
+INFO  2021/08/25 19:18:57 [143 ] App             - check client state
+INFO  2021/08/25 19:19:27 [143 ] App             - check client state
+INFO  2021/08/25 19:19:58 [143 ] App             - check client state
+INFO  2021/08/25 19:20:28 [143 ] App             - check client state
+INFO  2021/08/25 19:20:58 [143 ] App             - check client state
+INFO  2021/08/25 19:21:28 [143 ] App             - check client state
+INFO  2021/08/25 19:21:58 [143 ] App             - check client state
+INFO  2021/08/25 19:22:28 [143 ] App             - check client state
+INFO  2021/08/25 19:22:58 [143 ] App             - check client state
+INFO  2021/08/25 19:23:28 [143 ] App             - check client state
+INFO  2021/08/25 19:23:58 [143 ] App             - check client state
+INFO  2021/08/25 19:24:28 [143 ] App             - check client state
+INFO  2021/08/25 19:24:58 [143 ] App             - check client state
+INFO  2021/08/25 19:25:28 [143 ] App             - check client state
+INFO  2021/08/25 19:25:58 [143 ] App             - check client state
+INFO  2021/08/25 19:26:28 [143 ] App             - check client state
+INFO  2021/08/25 19:26:58 [143 ] App             - check client state
+INFO  2021/08/25 19:27:05 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 19:27:05 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 19:27:07 [143 ] App             - check client state
+INFO  2021/08/25 19:27:37 [143 ] App             - check client state
+INFO  2021/08/25 19:28:07 [143 ] App             - check client state
+INFO  2021/08/25 19:28:37 [143 ] App             - check client state
+INFO  2021/08/25 19:29:07 [143 ] App             - check client state
+INFO  2021/08/25 19:29:18 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 19:29:19 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 19:29:20 [143 ] App             - check client state
+INFO  2021/08/25 19:29:50 [143 ] App             - check client state
+INFO  2021/08/25 19:30:20 [143 ] App             - check client state
+INFO  2021/08/25 19:30:50 [143 ] App             - check client state
+INFO  2021/08/25 19:31:20 [143 ] App             - check client state
+INFO  2021/08/25 19:31:50 [143 ] App             - check client state
+INFO  2021/08/25 19:32:20 [143 ] App             - check client state
+INFO  2021/08/25 19:32:50 [143 ] App             - check client state
+INFO  2021/08/25 19:33:20 [143 ] App             - check client state
+INFO  2021/08/25 19:33:51 [143 ] App             - check client state
+INFO  2021/08/25 19:34:21 [143 ] App             - check client state
+INFO  2021/08/25 19:34:51 [143 ] App             - check client state
+INFO  2021/08/25 19:35:21 [143 ] App             - check client state
+INFO  2021/08/25 19:35:51 [143 ] App             - check client state
+INFO  2021/08/25 19:36:21 [143 ] App             - check client state
+INFO  2021/08/25 19:36:51 [143 ] App             - check client state
+INFO  2021/08/25 19:37:21 [143 ] App             - check client state
+INFO  2021/08/25 19:37:51 [143 ] App             - check client state
+INFO  2021/08/25 19:38:21 [143 ] App             - check client state
+INFO  2021/08/25 19:38:51 [143 ] App             - check client state
+INFO  2021/08/25 19:39:21 [143 ] App             - check client state
+INFO  2021/08/25 19:39:51 [143 ] App             - check client state
+INFO  2021/08/25 19:40:21 [143 ] App             - check client state
+INFO  2021/08/25 19:40:51 [143 ] App             - check client state
+INFO  2021/08/25 19:41:21 [143 ] App             - check client state
+INFO  2021/08/25 19:41:51 [143 ] App             - check client state
+INFO  2021/08/25 19:42:21 [143 ] App             - check client state
+INFO  2021/08/25 19:42:51 [143 ] App             - check client state
+INFO  2021/08/25 19:43:21 [143 ] App             - check client state
+INFO  2021/08/25 19:43:51 [143 ] App             - check client state
+INFO  2021/08/25 19:44:21 [143 ] App             - check client state
+INFO  2021/08/25 19:44:51 [143 ] App             - check client state
+INFO  2021/08/25 19:45:21 [143 ] App             - check client state
+INFO  2021/08/25 19:45:52 [143 ] App             - check client state
+INFO  2021/08/25 19:46:22 [143 ] App             - check client state
+INFO  2021/08/25 19:46:52 [143 ] App             - check client state
+INFO  2021/08/25 19:47:22 [143 ] App             - check client state
+INFO  2021/08/25 19:47:52 [143 ] App             - check client state
+INFO  2021/08/25 19:48:22 [143 ] App             - check client state
+INFO  2021/08/25 19:48:52 [143 ] App             - check client state
+INFO  2021/08/25 19:49:22 [143 ] App             - check client state
+INFO  2021/08/25 19:49:52 [143 ] App             - check client state
+INFO  2021/08/25 19:50:22 [143 ] App             - check client state
+INFO  2021/08/25 19:50:52 [143 ] App             - check client state
+INFO  2021/08/25 19:51:22 [143 ] App             - check client state
+INFO  2021/08/25 19:51:52 [143 ] App             - check client state
+INFO  2021/08/25 19:52:22 [143 ] App             - check client state
+INFO  2021/08/25 19:52:52 [143 ] App             - check client state
+INFO  2021/08/25 19:53:22 [143 ] App             - check client state
+INFO  2021/08/25 19:53:52 [143 ] App             - check client state
+INFO  2021/08/25 19:54:22 [143 ] App             - check client state
+INFO  2021/08/25 19:54:52 [143 ] App             - check client state
+INFO  2021/08/25 19:55:22 [143 ] App             - check client state
+INFO  2021/08/25 19:55:52 [143 ] App             - check client state
+INFO  2021/08/25 19:56:22 [143 ] App             - check client state
+INFO  2021/08/25 19:56:52 [143 ] App             - check client state
+INFO  2021/08/25 19:57:22 [143 ] App             - check client state
+INFO  2021/08/25 19:57:52 [143 ] App             - check client state
+INFO  2021/08/25 19:58:22 [143 ] App             - check client state
+INFO  2021/08/25 19:58:52 [143 ] App             - check client state
+INFO  2021/08/25 19:59:23 [143 ] App             - check client state
+INFO  2021/08/25 19:59:53 [143 ] App             - check client state
+INFO  2021/08/25 20:00:23 [143 ] App             - check client state
+INFO  2021/08/25 20:00:53 [143 ] App             - check client state
+INFO  2021/08/25 20:01:23 [143 ] App             - check client state
+INFO  2021/08/25 20:01:53 [143 ] App             - check client state
+INFO  2021/08/25 20:02:23 [143 ] App             - check client state
+INFO  2021/08/25 20:02:53 [143 ] App             - check client state
+INFO  2021/08/25 20:03:23 [143 ] App             - check client state
+INFO  2021/08/25 20:03:53 [143 ] App             - check client state
+INFO  2021/08/25 20:04:23 [143 ] App             - check client state
+INFO  2021/08/25 20:04:53 [143 ] App             - check client state
+INFO  2021/08/25 20:05:23 [143 ] App             - check client state
+INFO  2021/08/25 20:05:53 [143 ] App             - check client state
+INFO  2021/08/25 20:06:23 [143 ] App             - check client state
+INFO  2021/08/25 20:06:53 [143 ] App             - check client state
+INFO  2021/08/25 20:07:23 [143 ] App             - check client state
+INFO  2021/08/25 20:07:53 [143 ] App             - check client state
+INFO  2021/08/25 20:08:23 [143 ] App             - check client state
+INFO  2021/08/25 20:08:53 [143 ] App             - check client state
+INFO  2021/08/25 20:09:23 [143 ] App             - check client state
+INFO  2021/08/25 20:09:53 [143 ] App             - check client state
+INFO  2021/08/25 20:10:23 [143 ] App             - check client state
+INFO  2021/08/25 20:10:53 [143 ] App             - check client state
+INFO  2021/08/25 20:11:23 [143 ] App             - check client state
+INFO  2021/08/25 20:11:53 [143 ] App             - check client state
+INFO  2021/08/25 20:12:23 [143 ] App             - check client state
+INFO  2021/08/25 20:12:53 [143 ] App             - check client state
+INFO  2021/08/25 20:13:23 [143 ] App             - check client state
+INFO  2021/08/25 20:13:53 [143 ] App             - check client state
+INFO  2021/08/25 20:14:23 [143 ] App             - check client state
+INFO  2021/08/25 20:14:53 [143 ] App             - check client state
+INFO  2021/08/25 20:15:23 [143 ] App             - check client state
+INFO  2021/08/25 20:15:53 [143 ] App             - check client state
+INFO  2021/08/25 20:16:23 [143 ] App             - check client state
+INFO  2021/08/25 20:16:53 [143 ] App             - check client state
+INFO  2021/08/25 20:17:23 [143 ] App             - check client state
+INFO  2021/08/25 20:17:53 [143 ] App             - check client state
+INFO  2021/08/25 20:18:23 [143 ] App             - check client state
+INFO  2021/08/25 20:18:53 [143 ] App             - check client state
+INFO  2021/08/25 20:19:23 [143 ] App             - check client state
+INFO  2021/08/25 20:19:53 [143 ] App             - check client state
+INFO  2021/08/25 20:20:23 [143 ] App             - check client state
+INFO  2021/08/25 20:20:53 [143 ] App             - check client state
+INFO  2021/08/25 20:21:23 [143 ] App             - check client state
+INFO  2021/08/25 20:21:53 [143 ] App             - check client state
+INFO  2021/08/25 20:22:23 [143 ] App             - check client state
+INFO  2021/08/25 20:22:53 [143 ] App             - check client state
+INFO  2021/08/25 20:23:23 [143 ] App             - check client state
+INFO  2021/08/25 20:23:53 [143 ] App             - check client state
+INFO  2021/08/25 20:24:23 [143 ] App             - check client state
+INFO  2021/08/25 20:24:53 [143 ] App             - check client state
+INFO  2021/08/25 20:25:23 [143 ] App             - check client state
+INFO  2021/08/25 20:25:53 [143 ] App             - check client state
+INFO  2021/08/25 20:26:23 [143 ] App             - check client state
+INFO  2021/08/25 20:26:53 [143 ] App             - check client state
+INFO  2021/08/25 20:27:23 [143 ] App             - check client state
+INFO  2021/08/25 20:27:54 [143 ] App             - check client state
+INFO  2021/08/25 20:28:24 [143 ] App             - check client state
+INFO  2021/08/25 20:28:54 [143 ] App             - check client state
+INFO  2021/08/25 20:29:24 [143 ] App             - check client state
+INFO  2021/08/25 20:29:38 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:29:38 [101 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:29:40 [143 ] App             - check client state
+INFO  2021/08/25 20:30:10 [143 ] App             - check client state
+INFO  2021/08/25 20:30:47 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:30:47 [101 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:30:49 [143 ] App             - check client state
+INFO  2021/08/25 20:31:19 [143 ] App             - check client state
+INFO  2021/08/25 20:31:49 [143 ] App             - check client state
+INFO  2021/08/25 20:32:19 [143 ] App             - check client state
+INFO  2021/08/25 20:32:49 [143 ] App             - check client state
+INFO  2021/08/25 20:33:19 [143 ] App             - check client state
+INFO  2021/08/25 20:33:49 [143 ] App             - check client state
+INFO  2021/08/25 20:34:19 [143 ] App             - check client state
+INFO  2021/08/25 20:34:49 [143 ] App             - check client state
+INFO  2021/08/25 20:35:19 [143 ] App             - check client state
+INFO  2021/08/25 20:35:49 [143 ] App             - check client state
+INFO  2021/08/25 20:36:19 [143 ] App             - check client state
+INFO  2021/08/25 20:36:50 [143 ] App             - check client state
+INFO  2021/08/25 20:37:20 [143 ] App             - check client state
+INFO  2021/08/25 20:37:50 [143 ] App             - check client state
+INFO  2021/08/25 20:38:20 [143 ] App             - check client state
+INFO  2021/08/25 20:38:50 [143 ] App             - check client state
+INFO  2021/08/25 20:39:20 [143 ] App             - check client state
+INFO  2021/08/25 20:39:50 [143 ] App             - check client state
+INFO  2021/08/25 20:40:20 [143 ] App             - check client state
+INFO  2021/08/25 20:40:50 [143 ] App             - check client state
+INFO  2021/08/25 20:41:20 [143 ] App             - check client state
+INFO  2021/08/25 20:41:50 [143 ] App             - check client state
+INFO  2021/08/25 20:42:20 [143 ] App             - check client state
+INFO  2021/08/25 20:42:50 [143 ] App             - check client state
+INFO  2021/08/25 20:43:20 [143 ] App             - check client state
+INFO  2021/08/25 20:43:50 [143 ] App             - check client state
+INFO  2021/08/25 20:44:20 [143 ] App             - check client state
+INFO  2021/08/25 20:44:29 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:44:30 [102 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:44:31 [143 ] App             - check client state
+INFO  2021/08/25 20:45:07 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:45:07 [102 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:45:09 [143 ] App             - check client state
+INFO  2021/08/25 20:45:39 [143 ] App             - check client state
+INFO  2021/08/25 20:46:09 [143 ] App             - check client state
+INFO  2021/08/25 20:46:39 [143 ] App             - check client state
+INFO  2021/08/25 20:47:09 [143 ] App             - check client state
+INFO  2021/08/25 20:47:39 [143 ] App             - check client state
+INFO  2021/08/25 20:47:54 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:47:55 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:47:57 [143 ] App             - check client state
+INFO  2021/08/25 20:48:27 [143 ] App             - check client state
+INFO  2021/08/25 20:48:45 [194 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:48:45 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:48:47 [143 ] App             - check client state
+INFO  2021/08/25 20:49:17 [143 ] App             - check client state
+INFO  2021/08/25 20:49:47 [143 ] App             - check client state
+INFO  2021/08/25 20:50:17 [143 ] App             - check client state
+INFO  2021/08/25 20:50:47 [143 ] App             - check client state
+INFO  2021/08/25 20:51:17 [143 ] App             - check client state
+INFO  2021/08/25 20:51:47 [143 ] App             - check client state
+INFO  2021/08/25 20:52:17 [143 ] App             - check client state
+INFO  2021/08/25 20:52:28 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:52:29 [103 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:52:30 [148 ] App             - check client state
+INFO  2021/08/25 20:53:00 [148 ] App             - check client state
+INFO  2021/08/25 20:53:30 [148 ] App             - check client state
+INFO  2021/08/25 20:54:00 [148 ] App             - check client state
+INFO  2021/08/25 20:54:30 [148 ] App             - check client state
+INFO  2021/08/25 20:55:01 [148 ] App             - check client state
+INFO  2021/08/25 20:55:32 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:55:32 [101 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:55:34 [148 ] App             - check client state
+INFO  2021/08/25 20:56:04 [148 ] App             - check client state
+INFO  2021/08/25 20:56:34 [148 ] App             - check client state
+INFO  2021/08/25 20:57:04 [148 ] App             - check client state
+INFO  2021/08/25 20:57:34 [148 ] App             - check client state
+INFO  2021/08/25 20:58:00 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:58:00 [101 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:58:02 [148 ] App             - check client state
+INFO  2021/08/25 20:58:32 [148 ] App             - check client state
+INFO  2021/08/25 20:59:02 [148 ] App             - check client state
+INFO  2021/08/25 20:59:25 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 20:59:25 [101 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 20:59:27 [148 ] App             - check client state
+INFO  2021/08/25 20:59:57 [148 ] App             - check client state
+INFO  2021/08/25 21:00:27 [148 ] App             - check client state
+INFO  2021/08/25 21:00:57 [148 ] App             - check client state
+INFO  2021/08/25 21:01:27 [148 ] App             - check client state
+INFO  2021/08/25 21:01:57 [148 ] App             - check client state
+INFO  2021/08/25 21:02:28 [148 ] App             - check client state
+INFO  2021/08/25 21:02:58 [148 ] App             - check client state
+INFO  2021/08/25 21:03:28 [148 ] App             - check client state
+INFO  2021/08/25 21:03:58 [148 ] App             - check client state
+INFO  2021/08/25 21:04:28 [148 ] App             - check client state
+INFO  2021/08/25 21:04:58 [148 ] App             - check client state
+INFO  2021/08/25 21:05:28 [148 ] App             - check client state
+INFO  2021/08/25 21:05:58 [148 ] App             - check client state
+INFO  2021/08/25 21:06:28 [148 ] App             - check client state
+INFO  2021/08/25 21:06:58 [148 ] App             - check client state
+INFO  2021/08/25 21:07:28 [148 ] App             - check client state
+INFO  2021/08/25 21:07:58 [148 ] App             - check client state
+INFO  2021/08/25 21:08:28 [148 ] App             - check client state
+INFO  2021/08/25 21:08:58 [148 ] App             - check client state
+INFO  2021/08/25 21:09:28 [148 ] App             - check client state
+INFO  2021/08/25 21:09:58 [148 ] App             - check client state
+INFO  2021/08/25 21:10:28 [148 ] App             - check client state
+INFO  2021/08/25 21:10:58 [148 ] App             - check client state
+INFO  2021/08/25 21:11:28 [148 ] App             - check client state
+INFO  2021/08/25 21:11:58 [148 ] App             - check client state
+INFO  2021/08/25 21:12:28 [148 ] App             - check client state
+INFO  2021/08/25 21:12:58 [148 ] App             - check client state
+INFO  2021/08/25 21:13:28 [148 ] App             - check client state
+INFO  2021/08/25 21:13:58 [148 ] App             - check client state
+INFO  2021/08/25 21:14:28 [148 ] App             - check client state
+INFO  2021/08/25 21:14:58 [148 ] App             - check client state
+INFO  2021/08/25 21:15:28 [148 ] App             - check client state
+INFO  2021/08/25 21:15:58 [148 ] App             - check client state
+INFO  2021/08/25 21:16:28 [148 ] App             - check client state
+INFO  2021/08/25 21:16:58 [148 ] App             - check client state
+INFO  2021/08/25 21:17:15 [203 ] App             - IP:192.168.0.103
+WARN  2021/08/25 21:17:15 [77  ] App             - 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:110
+
+javafx.fxml.LoadException: 
+/E:/IdeaProjects/AutoServer/target/classes/fxml/home.fxml:110
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2625)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2603)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.initialize(App.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2591)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2466)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3237)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3194)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3163)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3136)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3113)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3106)
+	at application.App.start(App.java:108)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Invalid URL: Invalid URL or resource not found
+	at javafx.graphics/javafx.scene.image.Image.validateUrl(Image.java:1107)
+	at javafx.graphics/javafx.scene.image.Image.<init>(Image.java:688)
+	at javafx.fxml/com.sun.javafx.fxml.builder.JavaFXImageBuilder.build(JavaFXImageBuilder.java:47)
+	at javafx.fxml/com.sun.javafx.fxml.builder.JavaFXImageBuilder.build(JavaFXImageBuilder.java:37)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ValueElement.processEndElement(FXMLLoader.java:771)
+	at javafx.fxml/javafx.fxml.FXMLLoader.processEndElement(FXMLLoader.java:2838)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2557)
+	... 36 more
+Caused by: java.lang.IllegalArgumentException: Invalid URL or resource not found
+	at javafx.graphics/javafx.scene.image.Image.validateUrl(Image.java:1099)
+	... 42 more
+INFO  2021/08/25 21:17:16 [148 ] App             - check client state
+INFO  2021/08/25 21:17:32 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 21:17:33 [101 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 21:17:34 [148 ] App             - check client state
+INFO  2021/08/25 21:18:04 [148 ] App             - check client state
+INFO  2021/08/25 21:18:34 [148 ] App             - check client state
+INFO  2021/08/25 21:19:04 [148 ] App             - check client state
+INFO  2021/08/25 21:19:35 [148 ] App             - check client state
+INFO  2021/08/25 21:20:05 [148 ] App             - check client state
+INFO  2021/08/25 21:20:35 [148 ] App             - check client state
+INFO  2021/08/25 21:21:05 [148 ] App             - check client state
+INFO  2021/08/25 21:21:35 [148 ] App             - check client state
+INFO  2021/08/25 21:22:05 [148 ] App             - check client state
+INFO  2021/08/25 21:22:35 [148 ] App             - check client state
+INFO  2021/08/25 21:23:05 [148 ] App             - check client state
+INFO  2021/08/25 21:23:35 [148 ] App             - check client state
+INFO  2021/08/25 21:24:05 [148 ] App             - check client state
+INFO  2021/08/25 21:24:35 [148 ] App             - check client state
+INFO  2021/08/25 21:25:08 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 21:25:08 [105 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 21:25:10 [148 ] App             - check client state
+INFO  2021/08/25 21:25:40 [148 ] App             - check client state
+INFO  2021/08/25 21:26:10 [148 ] App             - check client state
+INFO  2021/08/25 21:26:40 [148 ] App             - check client state
+INFO  2021/08/25 21:27:10 [148 ] App             - check client state
+INFO  2021/08/25 21:27:40 [148 ] App             - check client state
+INFO  2021/08/25 21:28:10 [148 ] App             - check client state
+INFO  2021/08/25 21:28:40 [148 ] App             - check client state
+INFO  2021/08/25 21:28:52 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 21:28:53 [105 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 21:28:54 [148 ] App             - check client state
+INFO  2021/08/25 21:29:32 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/25 21:29:32 [105 ] HomeController  - 生成客户端UI
+INFO  2021/08/25 21:29:34 [148 ] App             - check client state
+INFO  2021/08/26 10:06:20 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/26 10:06:21 [105 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 10:06:23 [148 ] App             - check client state
+INFO  2021/08/26 10:06:49 [105 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 10:06:53 [148 ] App             - check client state
+INFO  2021/08/26 10:07:23 [148 ] App             - check client state
+INFO  2021/08/26 10:07:53 [148 ] App             - check client state
+INFO  2021/08/26 10:08:23 [148 ] App             - check client state
+INFO  2021/08/26 10:08:53 [148 ] App             - check client state
+INFO  2021/08/26 10:09:23 [148 ] App             - check client state
+INFO  2021/08/26 10:09:53 [148 ] App             - check client state
+INFO  2021/08/26 10:10:23 [148 ] App             - check client state
+INFO  2021/08/26 10:10:53 [148 ] App             - check client state
+INFO  2021/08/26 10:11:23 [148 ] App             - check client state
+INFO  2021/08/26 10:11:53 [148 ] App             - check client state
+INFO  2021/08/26 10:12:23 [148 ] App             - check client state
+INFO  2021/08/26 10:12:53 [148 ] App             - check client state
+INFO  2021/08/26 10:13:23 [148 ] App             - check client state
+INFO  2021/08/26 10:13:53 [148 ] App             - check client state
+INFO  2021/08/26 10:14:23 [148 ] App             - check client state
+INFO  2021/08/26 10:14:53 [148 ] App             - check client state
+INFO  2021/08/26 10:15:23 [148 ] App             - check client state
+INFO  2021/08/26 10:15:53 [148 ] App             - check client state
+INFO  2021/08/26 10:16:23 [148 ] App             - check client state
+INFO  2021/08/26 10:16:54 [148 ] App             - check client state
+INFO  2021/08/26 10:17:24 [148 ] App             - check client state
+INFO  2021/08/26 10:17:54 [148 ] App             - check client state
+INFO  2021/08/26 10:18:24 [148 ] App             - check client state
+INFO  2021/08/26 10:18:54 [148 ] App             - check client state
+INFO  2021/08/26 10:19:24 [148 ] App             - check client state
+INFO  2021/08/26 10:19:54 [148 ] App             - check client state
+INFO  2021/08/26 10:20:24 [148 ] App             - check client state
+INFO  2021/08/26 10:20:54 [148 ] App             - check client state
+INFO  2021/08/26 10:21:24 [148 ] App             - check client state
+INFO  2021/08/26 10:21:54 [148 ] App             - check client state
+INFO  2021/08/26 10:22:24 [148 ] App             - check client state
+INFO  2021/08/26 10:22:54 [148 ] App             - check client state
+INFO  2021/08/26 10:23:24 [148 ] App             - check client state
+INFO  2021/08/26 10:23:54 [148 ] App             - check client state
+INFO  2021/08/26 10:24:24 [148 ] App             - check client state
+INFO  2021/08/26 10:24:54 [148 ] App             - check client state
+INFO  2021/08/26 10:25:24 [148 ] App             - check client state
+INFO  2021/08/26 10:25:54 [148 ] App             - check client state
+INFO  2021/08/26 10:26:24 [148 ] App             - check client state
+INFO  2021/08/26 10:26:54 [148 ] App             - check client state
+INFO  2021/08/26 10:27:24 [148 ] App             - check client state
+INFO  2021/08/26 10:27:54 [148 ] App             - check client state
+INFO  2021/08/26 10:28:24 [148 ] App             - check client state
+INFO  2021/08/26 10:28:54 [148 ] App             - check client state
+INFO  2021/08/26 10:29:24 [148 ] App             - check client state
+INFO  2021/08/26 10:29:54 [148 ] App             - check client state
+INFO  2021/08/26 10:30:24 [148 ] App             - check client state
+INFO  2021/08/26 10:30:54 [148 ] App             - check client state
+INFO  2021/08/26 10:31:24 [148 ] App             - check client state
+INFO  2021/08/26 10:31:55 [148 ] App             - check client state
+INFO  2021/08/26 10:32:25 [148 ] App             - check client state
+INFO  2021/08/26 10:32:55 [148 ] App             - check client state
+INFO  2021/08/26 10:33:25 [148 ] App             - check client state
+INFO  2021/08/26 10:33:55 [148 ] App             - check client state
+INFO  2021/08/26 10:34:25 [148 ] App             - check client state
+INFO  2021/08/26 10:34:55 [148 ] App             - check client state
+INFO  2021/08/26 10:35:25 [148 ] App             - check client state
+INFO  2021/08/26 10:35:55 [148 ] App             - check client state
+INFO  2021/08/26 10:36:25 [148 ] App             - check client state
+INFO  2021/08/26 10:36:55 [148 ] App             - check client state
+INFO  2021/08/26 10:37:25 [148 ] App             - check client state
+INFO  2021/08/26 10:37:55 [148 ] App             - check client state
+INFO  2021/08/26 10:38:25 [148 ] App             - check client state
+INFO  2021/08/26 10:38:55 [148 ] App             - check client state
+INFO  2021/08/26 10:39:25 [148 ] App             - check client state
+INFO  2021/08/26 10:39:55 [148 ] App             - check client state
+INFO  2021/08/26 10:40:25 [148 ] App             - check client state
+INFO  2021/08/26 10:40:55 [148 ] App             - check client state
+INFO  2021/08/26 10:41:25 [148 ] App             - check client state
+INFO  2021/08/26 10:41:55 [148 ] App             - check client state
+INFO  2021/08/26 10:42:25 [148 ] App             - check client state
+INFO  2021/08/26 10:42:55 [148 ] App             - check client state
+INFO  2021/08/26 10:43:25 [148 ] App             - check client state
+INFO  2021/08/26 10:43:55 [148 ] App             - check client state
+INFO  2021/08/26 10:44:25 [148 ] App             - check client state
+INFO  2021/08/26 10:44:55 [148 ] App             - check client state
+INFO  2021/08/26 10:45:25 [148 ] App             - check client state
+INFO  2021/08/26 10:45:55 [148 ] App             - check client state
+INFO  2021/08/26 10:46:25 [148 ] App             - check client state
+INFO  2021/08/26 10:46:55 [148 ] App             - check client state
+INFO  2021/08/26 10:47:25 [148 ] App             - check client state
+INFO  2021/08/26 10:47:55 [148 ] App             - check client state
+INFO  2021/08/26 10:48:25 [148 ] App             - check client state
+INFO  2021/08/26 10:48:55 [148 ] App             - check client state
+INFO  2021/08/26 10:49:25 [148 ] App             - check client state
+INFO  2021/08/26 10:49:55 [148 ] App             - check client state
+INFO  2021/08/26 10:50:25 [148 ] App             - check client state
+INFO  2021/08/26 10:50:55 [148 ] App             - check client state
+INFO  2021/08/26 10:51:25 [148 ] App             - check client state
+INFO  2021/08/26 10:51:55 [148 ] App             - check client state
+INFO  2021/08/26 10:52:26 [148 ] App             - check client state
+INFO  2021/08/26 10:52:56 [148 ] App             - check client state
+INFO  2021/08/26 10:53:26 [148 ] App             - check client state
+INFO  2021/08/26 10:53:56 [148 ] App             - check client state
+INFO  2021/08/26 10:54:26 [148 ] App             - check client state
+INFO  2021/08/26 10:54:56 [148 ] App             - check client state
+INFO  2021/08/26 10:55:26 [148 ] App             - check client state
+INFO  2021/08/26 10:55:56 [148 ] App             - check client state
+INFO  2021/08/26 10:56:26 [148 ] App             - check client state
+INFO  2021/08/26 10:56:56 [148 ] App             - check client state
+INFO  2021/08/26 10:57:26 [148 ] App             - check client state
+INFO  2021/08/26 10:57:56 [148 ] App             - check client state
+INFO  2021/08/26 10:58:26 [148 ] App             - check client state
+INFO  2021/08/26 10:58:56 [148 ] App             - check client state
+INFO  2021/08/26 10:59:26 [148 ] App             - check client state
+INFO  2021/08/26 10:59:56 [148 ] App             - check client state
+INFO  2021/08/26 11:00:26 [148 ] App             - check client state
+INFO  2021/08/26 11:00:56 [148 ] App             - check client state
+INFO  2021/08/26 11:01:26 [148 ] App             - check client state
+INFO  2021/08/26 11:01:56 [148 ] App             - check client state
+INFO  2021/08/26 11:02:26 [148 ] App             - check client state
+INFO  2021/08/26 11:02:57 [148 ] App             - check client state
+INFO  2021/08/26 11:03:27 [148 ] App             - check client state
+INFO  2021/08/26 11:03:57 [148 ] App             - check client state
+INFO  2021/08/26 11:04:27 [148 ] App             - check client state
+INFO  2021/08/26 11:04:57 [148 ] App             - check client state
+INFO  2021/08/26 11:05:27 [148 ] App             - check client state
+INFO  2021/08/26 11:05:57 [148 ] App             - check client state
+INFO  2021/08/26 11:06:27 [148 ] App             - check client state
+INFO  2021/08/26 11:06:47 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/26 11:06:47 [111 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 11:06:49 [148 ] App             - check client state
+INFO  2021/08/26 11:07:19 [148 ] App             - check client state
+INFO  2021/08/26 11:07:49 [148 ] App             - check client state
+INFO  2021/08/26 11:08:19 [148 ] App             - check client state
+INFO  2021/08/26 11:08:43 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/26 11:08:44 [111 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 11:08:45 [148 ] App             - check client state
+INFO  2021/08/26 11:09:17 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/26 11:09:18 [111 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 11:09:19 [148 ] App             - check client state
+INFO  2021/08/26 11:09:49 [148 ] App             - check client state
+INFO  2021/08/26 11:10:18 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/26 11:10:18 [111 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 11:10:20 [148 ] App             - check client state
+INFO  2021/08/26 11:10:50 [148 ] App             - check client state
+INFO  2021/08/26 11:11:20 [148 ] App             - check client state
+INFO  2021/08/26 11:11:50 [148 ] App             - check client state
+INFO  2021/08/26 11:12:20 [148 ] App             - check client state
+INFO  2021/08/26 11:12:50 [148 ] App             - check client state
+INFO  2021/08/26 11:13:20 [148 ] App             - check client state
+INFO  2021/08/26 11:13:50 [148 ] App             - check client state
+INFO  2021/08/26 11:14:20 [148 ] App             - check client state
+INFO  2021/08/26 11:14:50 [148 ] App             - check client state
+INFO  2021/08/26 11:15:20 [148 ] App             - check client state
+INFO  2021/08/26 11:15:50 [148 ] App             - check client state
+INFO  2021/08/26 11:16:21 [148 ] App             - check client state
+INFO  2021/08/26 11:16:40 [203 ] App             - IP:192.168.0.103
+INFO  2021/08/26 11:16:40 [111 ] HomeController  - 生成客户端UI
+INFO  2021/08/26 11:16:42 [148 ] App             - check client state
+INFO  2021/08/26 11:17:12 [148 ] App             - check client state
+INFO  2021/08/26 11:17:42 [148 ] App             - check client state

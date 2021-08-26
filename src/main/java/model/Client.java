@@ -8,7 +8,7 @@ import com.alibaba.excel.annotation.write.style.ContentStyle;
 import com.alibaba.excel.annotation.write.style.HeadStyle;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.annotation.JSONField;
-import com.sun.media.jfxmedia.events.NewFrameEvent;
+import dto.Notify;
 import dto.Status;
 import enums.State;
 import javafx.application.Platform;
@@ -16,6 +16,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
+import org.apache.http.client.utils.URIBuilder;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
@@ -25,10 +26,10 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.file.Path;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 
 @ContentStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
 @HeadStyle(verticalAlignment = VerticalAlignment.CENTER, horizontalAlignment = HorizontalAlignment.CENTER)
@@ -115,8 +116,86 @@ public class Client {
         return future;
     }
 
+    //发送通知
+    public CompletableFuture<Status> sendNotify(Notify notify) {
+        CompletableFuture<Status> future = new CompletableFuture<>();
+        URI build;
 
-    //关闭
+        try {
+            String uri = "http://" + getIp() + ":9000/" + "client/notify";
+            build = new URIBuilder(uri).build();
+
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(build)
+                    .POST(HttpRequest.BodyPublishers.ofString(JSON.toJSONString(notify)))
+                    .timeout(Duration.ofSeconds(5))
+                    .build();
+
+            httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                    .whenComplete((resp, err) -> {
+                        if (null != err) {
+                            //请求失败
+                            future.complete(new Status(0, "客户端离线"));
+
+                            if (this.getState() == State.OFFLINE) return;
+
+                            //变为OFFLINE
+                            this.changeState(State.OFFLINE);
+                            return;
+                        }
+                    }).thenApply(HttpResponse::body)
+                    .thenAccept(response -> {
+                        //请求成功
+                        logger.info(response);
+                        Status status = JSON.parseObject(String.valueOf(response), Status.class);
+                        future.complete(status);
+                    });
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+        }
+        return future;
+    }
+
+    //传输文件
+    public CompletableFuture<Status> uploadFile(Path path) {
+        CompletableFuture<Status> future = new CompletableFuture<>();
+        URI build;
+
+        try {
+            String uri = "http://" + getIp() + ":9000/" + "client/upload";
+            build = new URIBuilder(uri).build();
+
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(build)
+                    .timeout(Duration.ofSeconds(5))
+                    .PUT(HttpRequest.BodyPublishers.ofFile(path))
+                    .build();
+
+            httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                    .whenComplete((resp, err) -> {
+                        if (null != err) {
+                            //请求失败
+                            future.complete(new Status(0, "客户端离线"));
+
+                            if (this.getState() == State.OFFLINE) return;
+
+                            //变为OFFLINE
+                            this.changeState(State.OFFLINE);
+                            return;
+                        }
+                    }).thenApply(HttpResponse::body)
+                    .thenAccept(response -> {
+                        //请求成功
+                        Status status = JSON.parseObject(String.valueOf(response), Status.class);
+                        future.complete(status);
+                    });
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+        }
+        return future;
+    }
+
+    //关闭EAP
     public boolean close() {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("http://" + getIp() + ":9000/" + "client/close"))
@@ -137,7 +216,7 @@ public class Client {
         return true;
     }
 
-    //开启
+    //开启EAP
     public boolean start() {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("http://" + getIp() + ":9000/" + "client/start"))
@@ -188,6 +267,9 @@ public class Client {
             }
         });
     }
+
+
+
 
     public boolean deleteFile() {
 
@@ -288,4 +370,6 @@ public class Client {
                 ", state=" + state +
                 '}';
     }
+
+
 }
